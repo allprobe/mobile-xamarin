@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AllProbe1.Views.EventsViewPage" 
+             Title="Events">
+  
+    <Label x:Name="lblErrorEvents" HorizontalOptions="Center"  HeightRequest="30" Margin="20" IsVisible="False"></Label>
+    <StackLayout Orientation="Vertical">
+        <ListView ItemsSource="{Binding events}" 
+            ItemTapped="Handle_ItemTapped"
+            ItemSelected="Handle_ItemSelected"
+            HasUnevenRows="true"
+            GroupDisplayBinding="{Binding Title}"
+            GroupShortNameBinding="{Binding Title}"
+            IsGroupingEnabled="true"
+            IsPullToRefreshEnabled="false"
+            CachingStrategy="RecycleElement"
+            BackgroundColor="White"
+            HorizontalOptions="Fill"
+            x:Name="eventsList">
+            <ListView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <ViewCell Height="30">
+                        <Label Text="{Binding Title}" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="30" Margin="5"/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.GroupHeaderTemplate>
+            <ListView.Header>
+                <StackLayout Padding="5" 
+                   Orientation="Horizontal"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="#dadada">
+                    <Label  HorizontalOptions="Start" Margin="5"  WidthRequest="20" HeightRequest="14"></Label>
+                    <Label Text="Event"
+                   HorizontalTextAlignment="Start"
+                   HorizontalOptions="StartAndExpand"
+                   TextColor="#6a6a6a"
+                   FontAttributes="Bold" 
+                   WidthRequest="155"/>
+
+                    <Label Text="Type"
+                   HorizontalTextAlignment="Start"
+                   HorizontalOptions="End"
+                   TextColor="#6a6a6a"
+                   FontAttributes="Bold"
+                           WidthRequest="55"/>
+
+                    <Label Text="Elapsed" 
+                   HorizontalTextAlignment="Start"
+                   HorizontalOptions="End"
+                   TextColor="#6a6a6a"
+                   FontAttributes="Bold"
+                           WidthRequest="71"/>
+
+                </StackLayout>
+            </ListView.Header>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>;
+                    <ViewCell>
+                        <StackLayout BackgroundColor="#fff" Padding="4" Orientation="Vertical"  HeightRequest="32">
+                            <StackLayout Orientation="Horizontal">
+                                <Label HorizontalOptions="Start" BackgroundColor="{Binding SeverityColor}" WidthRequest="20" HeightRequest="15" 
+                                       Margin="4"/>
+                                <Label Text="{Binding EventName}" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" FontSize="13" LineBreakMode="WordWrap"
+                                        Margin="4" TextColor="#84c4d3" />
+                                <Label Text="{Binding ProbeType}" HorizontalOptions="End" HorizontalTextAlignment="Start"  
+                                       Margin="4" TextColor="#84c4d3"  FontSize="13" WidthRequest="45"/>
+                                <Label Text="{Binding ElapsedTime}" HorizontalOptions="End" HorizontalTextAlignment="Start" Margin="4"
+                                       TextColor="#84c4d3" FontSize="13" WidthRequest="65"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
+ 

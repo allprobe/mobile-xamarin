@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{a81f4ba4-2ecb-4804-9ce5-0564295580cf}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>AllProbe1</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\BaseDataObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SessionState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\AlarmReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\CacheService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\GlobalServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ICacheService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Services.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\EventViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SlaViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\WebSitesResultViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\WebSitesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\EmailPopup.xaml.cs">
+      <DependentUpon>EmailPopup.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\EventsAndWebsites.xaml.cs">
+      <DependentUpon>EventsAndWebsites.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\EventsViewPage.xaml.cs">
+      <DependentUpon>EventsViewPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObservableObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObservableRangeCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\MessengingCenterAlert.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\WebPages.xaml.cs">
+      <DependentUpon>WebPages.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\WebSiteInfo.xaml.cs">
+      <DependentUpon>WebSiteInfo.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Helpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\LoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\EventsViewPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\WebPages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\WebSiteInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\EmailPopup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\EventsAndWebsites.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

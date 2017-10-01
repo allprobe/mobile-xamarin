@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AllProbe1.Views.Settings" Title="Settings">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="10">
+            <Label BackgroundColor="#dadada" TextColor="White"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HeightRequest="30" Text="Select the severity of the events to show"></Label>
+            <Picker x:Name="pkSeverity" SelectedIndexChanged="SelectedItem_handler"  Title="Select a severity alert from"></Picker>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

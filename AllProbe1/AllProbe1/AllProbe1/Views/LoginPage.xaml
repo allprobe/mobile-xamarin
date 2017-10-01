@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AllProbe1.Views.LoginPage"
+             Title="Login page"
+             Padding="25, 40, 25, 10">
+  
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Start">
+            <Image Source="@drawable/logo.png" Aspect="AspectFit"/>
+             
+                <Entry x:Name="emailEntry" Placeholder="User name" 
+                   IsVisible="true"
+                    FontSize="Medium"
+                    TextColor="#5b5b5b"
+                    FontAttributes="None"/>
+                <Entry x:Name="passwordEntry" IsPassword="true" Placeholder="Password" 
+                   IsVisible="true"
+                    FontSize="Medium"
+                    TextColor="#5b5b5b" 
+                    FontAttributes="None"/>
+            <Label x:Name="messageLabel" 
+                    IsVisible="true"
+                    FontSize="Small"
+                    TextColor="Red"
+                    FontAttributes="None" />
+            <Button Text="Login" Clicked="ClickLogin" 
+                    IsVisible="true" 
+                    FontSize="Medium"
+                    TextColor="#fff"
+                    BackgroundColor="#84c4d3"
+                    FontAttributes="Bold" 
+                    BorderRadius="20" WidthRequest="210" HorizontalOptions="Center" HeightRequest="46"
+                    />
+
+            <Button Clicked="ClickLoginWithFacebook" 
+                    IsVisible="true" 
+                    Margin="15"
+                    WidthRequest="210" HeightRequest="46"
+                    Image="@drawable/loginWithFacebook.png"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Center"
+                    BorderColor="Transparent"
+                    BackgroundColor="Transparent"
+                 
+                  
+                    />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

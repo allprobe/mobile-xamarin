@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AllProbe1.Views.WebPages"
+             Title="Web Sites">
+
+    <Label x:Name="lblError" HorizontalOptions="Center"  HeightRequest="30" Margin="20" IsVisible="False"></Label>
+    <StackLayout Orientation="Vertical" >
+        <ListView ItemsSource="{Binding webSitesStatus}" 
+            ItemTapped="Handle_ItemTapped"
+            ItemSelected="Handle_ItemSelected"
+            HasUnevenRows="true"
+            IsGroupingEnabled="False"
+            IsPullToRefreshEnabled="false"
+            CachingStrategy="RecycleElement"
+            BackgroundColor="White"
+            HorizontalOptions="Fill"
+            x:Name="webSitesList">
+            <ListView.Header>
+                <StackLayout Padding="5, 3, 10, 3" 
+                   Orientation="Horizontal"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="#dadada">
+                    <Label x:Name="lblColorTitle" HorizontalOptions="Start"  WidthRequest="20" HeightRequest="20" Margin="4"></Label>
+                    <Label Text="Web site"
+                   HorizontalTextAlignment="Start"
+                   HorizontalOptions="StartAndExpand"
+                   TextColor="#6a6a6a"
+                   FontAttributes="Bold"  Margin="4"/>
+                </StackLayout>
+            </ListView.Header>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>;
+                    <ViewCell>
+                        <StackLayout BackgroundColor="#fff"  HeightRequest="30"  Padding="3"
+                        Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                                <BoxView  HorizontalOptions="Start" BackgroundColor="{Binding StatusColor}" WidthRequest="20" HeightRequest="15" Margin="6"/>
+                                <Label Text="{Binding WebSiteShort}" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start"
+                                        FontSize="13" HeightRequest="20" Margin="6" TextColor="#84c4d3" x:Name="lblWebSite"/>
+                                <Button Text="Send report" Clicked="ClickSendReport"
+                                    IsVisible="true" 
+                                    FontSize="9"
+                                    TextColor="#fff"
+                                    BackgroundColor="#84c4d3"
+                                    FontAttributes="None" 
+                                    WidthRequest="100" HorizontalOptions="Center" HeightRequest="33"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

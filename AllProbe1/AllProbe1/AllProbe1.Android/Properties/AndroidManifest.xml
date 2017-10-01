@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adcd.AllProbe" android:versionCode="1" android:versionName="1.0" android:installLocation="preferExternal">
+	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21" />
+	<uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+	<uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:label="AllProbe" android:icon="@drawable/allProbe">
+        <activity android:name="com.adcd.AllProbe" android:label="AllProbe" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="475278706153922"/>    
+  </application>
+</manifest>
