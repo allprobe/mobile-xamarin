@@ -11,8 +11,8 @@
 namespace AllProbe1.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\oren\\Documents\\Visual Studio 2017\\Projects\\AllProbe1\\AllProbe1\\AllProbe1" +
-        "\\AllProbe1\\Views\\WebPages.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Magshimim\\Documents\\AllProbe\\AllProbe1\\AllProbe1\\AllProbe1\\Views\\WebPage" +
+        "s.xaml")]
     public partial class WebPages : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

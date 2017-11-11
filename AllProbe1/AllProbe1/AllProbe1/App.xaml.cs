@@ -3,6 +3,7 @@ using AllProbe1.Models;
 using AllProbe1.Services;
 using AllProbe1.Views;
 using Android.Content;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -31,7 +32,7 @@ namespace AllProbe1
             if (cacheService.GetCache(Android.App.Application.Context.Resources.GetString(Resource.String.sessionId)) != null)
             {
                 sessionState.SessionId = cacheService.GetCache(Android.App.Application.Context.Resources.GetString(Resource.String.sessionId)).ToString();
-                MainPage = new MainPage();
+                MainPage = new NavigationPage(new MainPage() { Title = "AllProbe" });
             }
             else
                 MainPage = new LoginPage(error);

@@ -17,110 +17,91 @@ namespace AllProbe1.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class WebSiteInfo : ContentPage
     {
-        string sessionId;
         private string webSite;
-        private IList<WebSitesResultViewModel> webSitesList;
-        private Dictionary<string, List<SlaViewModel>> issues;
+        private List<WebSitesResultViewModel> webSiteResult;
         private Dictionary<string, SlaViewModel> slaSummary;
-        private IList<SlaViewModel> slaSelected;
 
-        public WebSiteInfo(string webSite, List<WebSitesResultViewModel> webSitesList)
+        public WebSiteInfo(string webSite, List<WebSitesResultViewModel> webSiteResult)
         {
             InitializeComponent();
-            ICacheService cacheService = new CacheService();
-            sessionId = cacheService.GetCache(Android.App.Application.Context.Resources.GetString(Resource.String.sessionId)).ToString();
+            webSites.ItemsSource = webSiteResult;
 
-            this.webSitesList = webSitesList;
+            this.webSiteResult = webSiteResult;
             this.webSite = webSite;
 
-            webSites.ItemsSource = webSitesList;
-            lblWebSite.Text = webSite;
+            ///URL (page header) title:
+            lblURL.Text = webSite;
+            
+            ///lblStatus styling:
+            lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.String.allGood));
+            lblStatus.Text = "ONLINE";
+            int errorCount = webSiteResult.Count(w => w.Status != 3);
+            if (webSiteResult.Count(w => w.Status == 3) == webSiteResult.Count)
+            {
+                lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.String.allGood));
+                lblStatus.Text = "ONLINE";
+            }
+            else if (errorCount < webSiteResult.Count && errorCount > 0)
+            {
+                lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.String.partialError));
+                lblStatus.Text = "PROBLEM";
+            }
+            else if (errorCount == webSiteResult.Count)
+            {
+                lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.String.error));
+                lblStatus.Text = "OFFLINE";
+            }
 
+            ///SLA average logic:
+            List<double> AverageItems = new List<double>();
+            ICacheService cacheService = new CacheService();
+            string sessionId = cacheService.GetCache(Android.App.Application.Context.Resources.GetString(Resource.String.sessionId)).ToString();
             IServices services = new Services.Services();
-            JObject slaJson = services.GetSlaList(sessionId, webSitesList);
-            slaSummary = new Dictionary<string, SlaViewModel>();
-            issues = new Dictionary<string, List<SlaViewModel>>();
+            JObject slaJson = services.GetSlaList(sessionId, webSiteResult);
 
-            foreach (JProperty prop in slaJson["summary"])
+
+            foreach (JProperty DataCenter in slaJson["summary"])
             {
-                SlaViewModel item = null;
-                if (prop.Value.ToString().IndexOf("[]") > -1)
-                {
-                    item = new SlaViewModel()
-                    {
-                        Average = "NA",
-                        Range = "NA",
-                        FromTime = "",
-                        ToTime = "",
-                    };
-                }
-                else
-                {
-                    item = new SlaViewModel()
-                    {
-                        Average = prop.Value["avg_sla"].ToString() + "%",
-                        Range = prop.Value["sla_range"].ToString(),
-                        FromTime = prop.Value["from_time"].ToString(),
-                        ToTime = prop.Value["to_time"].ToString(),
-                    };
+                if (DataCenter.Value.ToString().IndexOf("[]") == -1) {
+                    AverageItems.Add(DataCenter.Value["avg_sla"].ToObject<double>());
+                    //Console.WriteLine("Data Center: {0}%.", DataCenter.Value["avg_sla"].ToString());
                 }
 
-                slaSummary.Add(prop.Name, item);
+                //SlaViewModel item = null;
+                //if (DataCenter.Value.ToString().IndexOf("[]") > -1)
+                //{
+                //    item = new SlaViewModel()
+                //    {
+                //        Average = "NA",
+                //        Range = "NA",
+                //        FromTime = "",
+                //        ToTime = "",
+                //    };
+                //}
+                //else
+                //{
+                //    item = new SlaViewModel()
+                //    {
+                //        Average = DataCenter.Value["avg_sla"].ToString() + "%",
+                //        Range = DataCenter.Value["sla_range"].ToString(),
+                //        FromTime = DataCenter.Value["from_time"].ToString(),
+                //        ToTime = DataCenter.Value["to_time"].ToString(),
+                //    };
+                //}
+
+                //slaSummary.Add(DataCenter.Name, item);
             }
-
-            foreach (JProperty prop in slaJson["issues"])
-            {
-                List<SlaViewModel> slas = new List<SlaViewModel>();
-                foreach (JToken token in prop.Value)
-                {
-                    SlaViewModel item = new SlaViewModel()
-                    {
-                        Average = token["sla"].ToString() + "%",
-                        FromTime = token["from"].ToString(),
-                        ToTime = token["to"].ToString(),
-                    };
-                    slas.Add(item);
-                }
-
-
-                issues.Add(prop.Name, slas);
-            }
-           
-            SelectDataCenter(webSitesList[0].DataCenter);
+            lblSLA.Text = "Daily SLA: " + AverageItems.Average() + "%";
         }
 
-        void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
-           => ((ListView)sender).SelectedItem = null;
-
-        async void Handle_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        private void ClickCode(object sender, EventArgs e)
         {
-            if (e.SelectedItem == null)
-                return;
-
-            var selectedItem = (WebSitesResultViewModel)e.SelectedItem;
-           
-            string dataCenter = selectedItem.DataCenter;
-            SelectDataCenter(dataCenter);
-
-            //Deselect Item
-            ((ListView)sender).SelectedItem = null;
+            Navigation.PushAsync(new CodeAnalyze() { Title = "AllProbe" });
         }
 
-        private void SelectDataCenter(string dataCenter)
+        private void ClickSLA(object sender, EventArgs e)
         {
-            slaSelected = issues[dataCenter];
-            lvSlaSelected.ItemsSource = slaSelected;
-
-            SlaViewModel summary = slaSummary[dataCenter];
-            lblSlaSummaryTitle.Text = "SLA(Daily): " + summary.Average;
-        }
-
-        private void ClickSendReport(object sender, EventArgs e)
-        {
-            string webSite = lblWebSite.Text;
-            var popupPage = new EmailPopup(webSite);
-
-            Navigation.PushModalAsync(popupPage);
+            Navigation.PushAsync(new SLA(webSite, webSiteResult) { Title = "AllProbe" });
         }
     }
 }

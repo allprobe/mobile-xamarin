@@ -120,7 +120,7 @@ namespace AllProbe1.Views
             string webSite = ((WebSitesViewModel)e.SelectedItem).WebSite;
             List<WebSitesResultViewModel> webSiteResult = webSites[webSite];
 
-            await Navigation.PushModalAsync(new WebSiteInfo(webSite, webSiteResult));
+            await Navigation.PushAsync(new WebSiteInfo(webSite, webSiteResult) { Title="AllProbe" });
 
             //Deselect Item
             ((ListView)sender).SelectedItem = null;

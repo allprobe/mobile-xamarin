@@ -1,45 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AllProbe1.Views.MainPage"
              xmlns:pages="clr-namespace:AllProbe1.Views"
-             Title="All probe" MasterBehavior="Popover" BackgroundColor="#dadada" Icon="@drawable/allProbe" BackgroundImage="@drawable/allProbe">
+             Title="All probe"
+             BackgroundColor="#dadada" Icon="@drawable/allProbe" BackgroundImage="@drawable/allProbe">
 
-    <ContentView x:Name="overlay" AbsoluteLayout.LayoutBounds="0, 0, 1, 1"  AbsoluteLayout.LayoutFlags="All" IsVisible="True" BackgroundColor="#C08080" Padding="10, 0">
-        <ActivityIndicator  WidthRequest="110" HeightRequest="70" IsRunning="True" IsVisible="True" Color="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
-    </ContentView>
+    <pages:EventsViewPage/>
+    <pages:WebPages/>
+    <pages:Settings/>
     
-    <MasterDetailPage.Master>
-        <ContentPage BackgroundColor="White" Title="Master">
-            <ContentPage.Content >
-                <StackLayout Padding="18" 
-                   Orientation="Vertical"
-                   HorizontalOptions="FillAndExpand"
-                   BackgroundColor="White" VerticalOptions="Start">
-                    <StackLayout 
-                       Orientation="Horizontal"
-                       HorizontalOptions="FillAndExpand" VerticalOptions="Start">
-
-                        <Image x:Name="lblSettings" VerticalOptions="Start" HorizontalOptions="Start"   BackgroundColor="Transparent"  Source="@drawable/settings.png"/>
-                        <!--<Image Source="@drawable/logo.png" Aspect="AspectFit" HorizontalOptions="Center"/>-->
-                        <Image x:Name="lblLogout"  VerticalOptions="Start" HorizontalOptions="EndAndExpand"  Source="@drawable/logout.png" />
-
-                    </StackLayout>
-                    <StackLayout 
-                       Orientation="Vertical"
-                       HorizontalOptions="FillAndExpand" VerticalOptions="Start" Padding="0,20,0,15">
-                        <Label Text="Events" HorizontalOptions="Start" x:Name="lblEvents" FontSize="Medium" 
-                            BackgroundColor="White" Margin="0,0,0,6"></Label>
-                        <Label Text="Web sites" HorizontalOptions="Start" BackgroundColor="White"  x:Name="lblWebSites" FontSize="Medium"></Label>
-                    </StackLayout>
-
-                </StackLayout>
-            </ContentPage.Content>
-        </ContentPage>
-
-    </MasterDetailPage.Master>
-
-    <MasterDetailPage.Detail >
-    </MasterDetailPage.Detail>
-
-</MasterDetailPage>
+</TabbedPage>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AllProbe1.Views.SLA"
+             Title="SLA">
+
+    <StackLayout Orientation="Vertical" >
+        <Label x:Name="lblWebSite"
+               HorizontalOptions="FillAndExpand"
+               BackgroundColor="{StaticResource Primary}" TextColor="White"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*" />
+                <ColumnDefinition Width="50*" />
+            </Grid.ColumnDefinitions>
+            <ContentView  Grid.Row="0" Grid.Column="0" >
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Status" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="30" Margin="5"/>
+
+                    <ListView ItemsSource="{Binding webSitesList}" 
+                        HasUnevenRows="true"
+                        IsGroupingEnabled="False"
+                        IsPullToRefreshEnabled="false"
+                        CachingStrategy="RecycleElement"
+                        BackgroundColor="White"
+                        HorizontalOptions="Fill"
+                        x:Name="webSites"
+                        ItemTapped="Handle_ItemTapped"
+                        ItemSelected="Handle_ItemSelected">
+                        <ListView.Header>
+                            <StackLayout Padding="5" 
+                                   Orientation="Horizontal"
+                                   HorizontalOptions="FillAndExpand"
+                                   BackgroundColor="#dadada"
+                                         x:Name="slWebSiteTitle" HeightRequest="33">
+                                <Label x:Name="lblColorTitle" HorizontalOptions="Start"  WidthRequest="20" HeightRequest="15" Margin="5"></Label>
+                                <Label Text="Data center"
+                                            HorizontalTextAlignment="Start"
+                                            HorizontalOptions="StartAndExpand"
+                                            TextColor="#6a6a6a"
+                                            FontAttributes="Bold"  />
+                                <Label Text="Response time"
+                                            HorizontalTextAlignment="Start"
+                                            HorizontalOptions="StartAndExpand"
+                                            TextColor="#6a6a6a"
+                                            FontAttributes="Bold"  />
+                            </StackLayout>
+                        </ListView.Header>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout BackgroundColor="#fff"
+                                        Orientation="Vertical">
+                                        <StackLayout Orientation="Horizontal"  HeightRequest="32" BackgroundColor="{Binding BackgroundColor}" Padding="5" >
+                                            <Label  HorizontalOptions="Start" BackgroundColor="{Binding StatusColor}" WidthRequest="20" HeightRequest="15" Margin="6"></Label>
+                                            <Image Source="{Binding Country}"   Margin="4" />
+                                            <Label Text="{Binding ResposeTime}"
+                                            HorizontalOptions="Center"
+                                            HorizontalTextAlignment="Center"
+                                            FontSize="13"
+                                            Margin="6"
+                                            WidthRequest="100"
+                                            TextColor="#84c4d3" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ContentView>
+            <ContentView Grid.Row="0"  Grid.Column="1" >
+                <StackLayout Orientation="Vertical">
+                    <Label x:Name="lblSlaSummaryTitle" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="30" Margin="5"/>
+                    <ListView ItemsSource="{Binding slaSelected}" 
+                        HasUnevenRows="true"
+                        IsGroupingEnabled="False"
+                        IsPullToRefreshEnabled="false"
+                        CachingStrategy="RecycleElement"
+                        BackgroundColor="White"
+                        HorizontalOptions="Fill"
+                        x:Name="lvSlaSelected">
+                        <ListView.Header>
+                            <StackLayout Padding="5" 
+                                   Orientation="Horizontal"
+                                   HorizontalOptions="FillAndExpand"
+                                   BackgroundColor="#dadada" x:Name="slSlaTitle" HeightRequest="35">
+                                <Label Text="From"
+                                            HorizontalTextAlignment="Start"
+                                            HorizontalOptions="StartAndExpand"
+                                            TextColor="#6a6a6a"
+                                            FontAttributes="Bold"  />
+                                <Label Text="To"
+                                            HorizontalTextAlignment="Start"
+                                            HorizontalOptions="StartAndExpand"
+                                            TextColor="#6a6a6a"
+                                            FontAttributes="Bold"  />
+                                <Label Text="SLA"
+                                            HorizontalTextAlignment="Start"
+                                            HorizontalOptions="StartAndExpand"
+                                            TextColor="#6a6a6a"
+                                            FontAttributes="Bold"  />
+                            </StackLayout>
+                        </ListView.Header>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>;
+                                <ViewCell>
+                                    <StackLayout BackgroundColor="#fff"
+                                        Orientation="Vertical">
+                                        <StackLayout Orientation="Horizontal"  HeightRequest="26">
+                                            <Label Text="{Binding FromTime}"
+                                            HorizontalOptions="Center"
+                                            HorizontalTextAlignment="Center"
+                                            FontSize="7"
+                                            Margin="3"
+                                            WidthRequest="100"
+                                            TextColor="#84c4d3" />
+                                            <Label Text="{Binding ToTime}"
+                                            HorizontalOptions="Center"
+                                            HorizontalTextAlignment="Center"
+                                            FontSize="7"
+                                            Margin="3"
+                                                   WidthRequest="100"
+                                            TextColor="#84c4d3" />
+                                            <Label Text="{Binding Average}"
+                                            HorizontalOptions="Center"
+                                            HorizontalTextAlignment="Center"
+                                            FontSize="7"
+                                            Margin="3"
+                                                   WidthRequest="100"
+                                            TextColor="#84c4d3" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ContentView>
+        </Grid>
+
+        <Button Text="Send report"  HorizontalOptions="Center" Clicked="ClickSendReport"></Button>
+    </StackLayout>
+</ContentPage>

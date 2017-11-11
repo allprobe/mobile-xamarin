@@ -27,12 +27,12 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SlaViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\WebSitesResultViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\WebSitesViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\EmailPopup.xaml.cs">
-      <DependentUpon>EmailPopup.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CodeAnalyze.xaml.cs">
+      <DependentUpon>CodeAnalyze.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Views\EventsAndWebsites.xaml.cs">
-      <DependentUpon>EventsAndWebsites.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\EmailPopup.xaml.cs">
+      <DependentUpon>EmailPopup.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\EventsViewPage.xaml.cs">
@@ -54,6 +54,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\SLA.xaml.cs">
+      <DependentUpon>SLA.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\WebPages.xaml.cs">
       <DependentUpon>WebPages.xaml</DependentUpon>
@@ -110,7 +113,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\EventsAndWebsites.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\SLA.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\CodeAnalyze.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

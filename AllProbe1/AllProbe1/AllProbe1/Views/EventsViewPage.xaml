@@ -27,32 +27,32 @@
                 </DataTemplate>
             </ListView.GroupHeaderTemplate>
             <ListView.Header>
-                <StackLayout Padding="5" 
-                   Orientation="Horizontal"
-                   HorizontalOptions="FillAndExpand"
-                   BackgroundColor="#dadada">
-                    <Label  HorizontalOptions="Start" Margin="5"  WidthRequest="20" HeightRequest="14"></Label>
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="FillAndExpand"
+                             Padding="5"
+                             BackgroundColor="#dadada">
+                    <Label  HorizontalOptions="Start"
+                            Margin="5"
+                            WidthRequest="20"
+                            HeightRequest="14"></Label>
                     <Label Text="Event"
-                   HorizontalTextAlignment="Start"
-                   HorizontalOptions="StartAndExpand"
-                   TextColor="#6a6a6a"
-                   FontAttributes="Bold" 
-                   WidthRequest="155"/>
-
+                           HorizontalTextAlignment="Start"
+                           HorizontalOptions="Start"
+                           TextColor="#6a6a6a"
+                           FontAttributes="Bold"
+                           WidthRequest="100"/>
                     <Label Text="Type"
-                   HorizontalTextAlignment="Start"
-                   HorizontalOptions="End"
-                   TextColor="#6a6a6a"
-                   FontAttributes="Bold"
-                           WidthRequest="55"/>
-
-                    <Label Text="Elapsed" 
-                   HorizontalTextAlignment="Start"
-                   HorizontalOptions="End"
-                   TextColor="#6a6a6a"
-                   FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           HorizontalOptions="Center"
+                           TextColor="#6a6a6a"
+                           FontAttributes="Bold"
+                           WidthRequest="100"/>
+                    <Label Text="Elapsed"
+                           HorizontalTextAlignment="End"
+                           HorizontalOptions="End"
+                           TextColor="#6a6a6a"
+                           FontAttributes="Bold"
                            WidthRequest="71"/>
-
                 </StackLayout>
             </ListView.Header>
 
@@ -61,14 +61,32 @@
                     <ViewCell>
                         <StackLayout BackgroundColor="#fff" Padding="4" Orientation="Vertical"  HeightRequest="32">
                             <StackLayout Orientation="Horizontal">
-                                <Label HorizontalOptions="Start" BackgroundColor="{Binding SeverityColor}" WidthRequest="20" HeightRequest="15" 
+                                <Label HorizontalOptions="Start"
+                                       BackgroundColor="{Binding SeverityColor}"
+                                       WidthRequest="20"
+                                       HeightRequest="15" 
                                        Margin="4"/>
-                                <Label Text="{Binding EventName}" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" FontSize="13" LineBreakMode="WordWrap"
-                                        Margin="4" TextColor="#84c4d3" />
-                                <Label Text="{Binding ProbeType}" HorizontalOptions="End" HorizontalTextAlignment="Start"  
-                                       Margin="4" TextColor="#84c4d3"  FontSize="13" WidthRequest="45"/>
-                                <Label Text="{Binding ElapsedTime}" HorizontalOptions="End" HorizontalTextAlignment="Start" Margin="4"
-                                       TextColor="#84c4d3" FontSize="13" WidthRequest="65"/>
+                                <Label Text="{Binding EventName}"
+                                       HorizontalOptions="StartAndExpand"
+                                       HorizontalTextAlignment="Start"
+                                       FontSize="13"
+                                       LineBreakMode="WordWrap"
+                                       Margin="4"
+                                       TextColor="#84c4d3" />
+                                <Label Text="{Binding ProbeType}"
+                                       HorizontalOptions="End"
+                                       HorizontalTextAlignment="Start"  
+                                       Margin="4"
+                                       TextColor="#84c4d3"
+                                       FontSize="13"
+                                       WidthRequest="45"/>
+                                <Label Text="{Binding ElapsedTime}"
+                                       HorizontalOptions="End"
+                                       HorizontalTextAlignment="Start"
+                                       Margin="4"
+                                       TextColor="#84c4d3"
+                                       FontSize="13"
+                                       WidthRequest="65"/>
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>
