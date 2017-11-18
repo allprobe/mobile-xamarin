@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AllProbe1", "AllProbe1\AllProbe1\AllProbe1.shproj", "{A81F4BA4-2ECB-4804-9CE5-0564295580CF}"
 EndProject
@@ -112,5 +112,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F9FFC9E-A214-499D-9623-8FE97A23A87D}
 	EndGlobalSection
 EndGlobal

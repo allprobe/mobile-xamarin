@@ -1,10 +1,6 @@
-﻿using AllProbe1.Droid;
-using AllProbe1.Models;
-using AllProbe1.Services;
-using AllProbe1.ViewModels;
-using Newtonsoft.Json.Linq;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,121 +8,108 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using Newtonsoft.Json.Linq;
+
+using AllProbe1.ViewModels;
+using AllProbe1.Services;
+using AllProbe1.Droid;
+
+
 namespace AllProbe1.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SLA : ContentPage
     {
-        string sessionId;
-        private string webSite;
-        private IList<WebSitesResultViewModel> webSitesList;
-        private Dictionary<string, List<SlaViewModel>> issues;
-        private Dictionary<string, SlaViewModel> slaSummary;
-        private IList<SlaViewModel> slaSelected;
-
-        public SLA(string webSite, List<WebSitesResultViewModel> webSitesList)
+        private List<WebSitesResultViewModel> List2show;
+        public SLA(string webSite, List<WebSitesResultViewModel> webSiteResult)
         {
             InitializeComponent();
+
+            ///URL (page header) title:
+            lblURL.Text = webSite;
+
+            ///SLA average logic:
+            List<double> AverageItems = new List<double>();
             ICacheService cacheService = new CacheService();
-            sessionId = cacheService.GetCache(Android.App.Application.Context.Resources.GetString(Resource.String.sessionId)).ToString();
-
-            this.webSitesList = webSitesList;
-            this.webSite = webSite;
-
-            lblWebSite.Text = webSite;
-            webSites.ItemsSource = webSitesList;
-
+            string sessionId = cacheService.GetCache(Android.App.Application.Context.Resources.GetString(Resource.String.sessionId)).ToString();
             IServices services = new Services.Services();
-            JObject slaJson = services.GetSlaList(sessionId, webSitesList);
-            slaSummary = new Dictionary<string, SlaViewModel>();
-            issues = new Dictionary<string, List<SlaViewModel>>();
+            JObject slaJson = services.GetSlaList(sessionId, webSiteResult);
 
-            foreach (JProperty prop in slaJson["summary"])
+            foreach (JProperty DataCenter in slaJson["summary"])
             {
-                SlaViewModel item = null;
-                if (prop.Value.ToString().IndexOf("[]") > -1)
+                if (DataCenter.Value.ToString().IndexOf("[]") == -1)
                 {
-                    item = new SlaViewModel()
-                    {
-                        Average = "NA",
-                        Range = "NA",
-                        FromTime = "",
-                        ToTime = "",
-                    };
+                    AverageItems.Add(DataCenter.Value["avg_sla"].ToObject<double>());
                 }
-                else
-                {
-                    item = new SlaViewModel()
-                    {
-                        Average = prop.Value["avg_sla"].ToString() + "%",
-                        Range = prop.Value["sla_range"].ToString(),
-                        FromTime = prop.Value["from_time"].ToString(),
-                        ToTime = prop.Value["to_time"].ToString(),
-                    };
-                }
-
-                slaSummary.Add(prop.Name, item);
             }
+            lblSLA.Text = "Daily SLA: " + AverageItems.Average() + "%";
 
-            foreach (JProperty prop in slaJson["issues"])
+            ///Deteailed SLA logic:
+            foreach (WebSitesResultViewModel DataCenter in webSiteResult)
             {
-                List<SlaViewModel> slas = new List<SlaViewModel>();
-                foreach (JToken token in prop.Value)
+                foreach (JProperty DataCenterSummery in slaJson["summary"])
                 {
-                    SlaViewModel item = new SlaViewModel()
+                    if (DataCenterSummery.Name == DataCenter.DataCenter)
                     {
-                        Average = token["sla"].ToString() + "%",
-                        FromTime = token["from"].ToString(),
-                        ToTime = token["to"].ToString(),
-                    };
-                    slas.Add(item);
+                        DataCenter.SLAaverage = DataCenterSummery.Value["avg_sla"].ToObject<double>();
+                    }
                 }
-
-
-                issues.Add(prop.Name, slas);
+                DataCenter.WebSiteIssues = new List<SlaViewModel>();
+                foreach (JProperty IssuedDataCenter in slaJson["issues"])
+                {
+                    if (IssuedDataCenter.Name == DataCenter.DataCenter)
+                    {
+                        if (IssuedDataCenter.Value.ToString() == "[]")
+                        {
+                            SlaViewModel IssueItem = new SlaViewModel()
+                            {
+                                FromTime = "No",
+                                ToTime = "issues",
+                                Average = "found",
+                            };
+                            DataCenter.WebSiteIssues.Add(IssueItem);
+                        }
+                        else
+                            foreach (JToken issue in IssuedDataCenter.Value)
+                            {
+                                SlaViewModel IssueItem = new SlaViewModel()
+                                {
+                                    Average = string.Format("{0:0.000%}", issue["sla"]),
+                                    FromTime = issue["from"].ToString(),
+                                    ToTime = issue["to"].ToString(),
+                                };
+                                DataCenter.WebSiteIssues.Add(IssueItem);
+                            }
+                    }
+                }
+                ///SLAdetails default view:
+                DataCenter.ShowAtView = true;
             }
-
-            SelectDataCenter(webSitesList[0].DataCenter);
+            List2show = webSiteResult;
+            webSites.ItemsSource = List2show;
         }
 
-        public SLA(string webSite, IList<WebSitesResultViewModel> webSitesList)
-        {
-            this.webSite = webSite;
-            this.webSitesList = webSitesList;
-        }
-
-        void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
-           => ((ListView)sender).SelectedItem = null;
-
-        async void Handle_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        private void ExpandAndCollapseDetails(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem == null)
                 return;
+            List2show[List2show.IndexOf((WebSitesResultViewModel)e.SelectedItem)].ShowAtView = false;
+            ///This is the same:
+            //((WebSitesResultViewModel)e.SelectedItem).ShowAtView = false;
 
-            var selectedItem = (WebSitesResultViewModel)e.SelectedItem;
+            ///This does nothing :(
+            webSites.ItemsSource = List2show;
 
-            string dataCenter = selectedItem.DataCenter;
-            SelectDataCenter(dataCenter);
+            ///This does nothing either :(
+            //Device.BeginInvokeOnMainThread(() =>
+            //{
+            //    webSites.ItemsSource = null;
+            //    webSites.ItemsSource = List2show;
+            //});
 
-            //Deselect Item
+            ///Deselect Item
             ((ListView)sender).SelectedItem = null;
         }
 
-        private void SelectDataCenter(string dataCenter)
-        {
-            slaSelected = issues[dataCenter];
-            lvSlaSelected.ItemsSource = slaSelected;
-
-            SlaViewModel summary = slaSummary[dataCenter];
-            lblSlaSummaryTitle.Text = "SLA(Daily): " + summary.Average;
-        }
-
-        private void ClickSendReport(object sender, EventArgs e)
-        {
-            string webSite = lblWebSite.Text;
-            var popupPage = new EmailPopup(webSite);
-
-            Navigation.PushModalAsync(popupPage);
-        }
     }
 }

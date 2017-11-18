@@ -12,7 +12,29 @@ namespace AllProbe1.ViewModels
         public string DataCenter { get; set; }
         public string Country { get; set; }
         public int? ResposeTime { get; set; }
+        public double SLAaverage {get; set;}
         public int Status { get; set; }
+        public List<SlaViewModel> WebSiteIssues { get; set; }
+        public bool ShowAtView { get; set; }
+
+        public string ResponseTimeString
+        {
+            get
+            {
+                if(ResposeTime>1000)
+                    return string.Format("{0:0.00} sec", (double)ResposeTime/1000);
+                else
+                    return string.Format("{0} ms", ResposeTime);
+            }
+        }
+
+        public string SLAString
+        {
+            get
+            {
+                return string.Format("{0}%", SLAaverage);
+            }
+        }
 
         public string StatusColor
         {

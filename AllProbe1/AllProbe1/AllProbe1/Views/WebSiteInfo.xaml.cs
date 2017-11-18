@@ -19,7 +19,6 @@ namespace AllProbe1.Views
     {
         private string webSite;
         private List<WebSitesResultViewModel> webSiteResult;
-        private Dictionary<string, SlaViewModel> slaSummary;
 
         public WebSiteInfo(string webSite, List<WebSitesResultViewModel> webSiteResult)
         {
@@ -102,6 +101,10 @@ namespace AllProbe1.Views
         private void ClickSLA(object sender, EventArgs e)
         {
             Navigation.PushAsync(new SLA(webSite, webSiteResult) { Title = "AllProbe" });
+        }
+        private void ClickOLD(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new oldSLA(webSite, webSiteResult) { Title = "AllProbe" });
         }
     }
 }
