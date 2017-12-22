@@ -6,79 +6,79 @@
     <members>
         <member name="T:PInvoke.BCrypt">
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.AlgorithmIdentifiers"/> nested class.
+            Contains the <see cref="T:PInvoke.BCrypt.AlgorithmIdentifiers"/> nested type.
             </content>
             <content>
             Contains the <see cref="T:PInvoke.BCrypt.AlgorithmOperations"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.AsymmetricKeyBlobTypes"/> nested class.
+            Contains the <see cref="T:PInvoke.BCrypt.AsymmetricKeyBlobTypes"/> nested type.
             </content>
             <content>
             Contains the <see cref="T:PInvoke.BCrypt.AuthModeFlags"/> nested type.
             </content>
             <content>
-            The <see cref="T:PInvoke.BCrypt.BCryptBuffer"/> nested class.
+            The <see cref="T:PInvoke.BCrypt.BCryptBuffer"/> nested type.
             </content>
             <content>
-            The <see cref="T:PInvoke.BCrypt.BCryptBufferDesc"/> nested class.
+            The <see cref="T:PInvoke.BCrypt.BCryptBufferDesc"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptCloseAlgorithmProviderFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptCloseAlgorithmProviderFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptCreateHashFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptCreateHashFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptDeriveKeyFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptDeriveKeyFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptEncryptFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptEncryptFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptEnumAlgorithmsFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptEnumAlgorithmsFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptExportKeyFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptExportKeyFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptFinalizeKeyPairFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptFinalizeKeyPairFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptFinishHashFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptFinishHashFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptGenerateKeyPairFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptGenerateKeyPairFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptGenRandomFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptGenRandomFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptGetPropertyFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptGetPropertyFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptHashDataFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptHashDataFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptImportKeyFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptImportKeyFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptImportKeyPairFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptImportKeyPairFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptSecretAgreementFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptSecretAgreementFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptSetPropertyFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptSetPropertyFlags"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCryptSignHashFlags"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BCryptSignHashFlags"/> nested type.
             </content>
             <content>
             Contains the <see cref="T:PInvoke.BCrypt.BCRYPT_ALGORITHM_IDENTIFIER"/> nested type.
@@ -108,7 +108,7 @@
             Contains the <see cref="T:PInvoke.BCrypt.BCRYPT_KEY_DATA_BLOB_HEADER"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BCRYPT_KEY_LENGTHS_STRUCT"/> nested struct.
+            Contains the <see cref="T:PInvoke.BCrypt.BCRYPT_KEY_LENGTHS_STRUCT"/> nested type.
             </content>
             <content>
             Contains the <see cref="T:PInvoke.BCrypt.BCRYPT_OAEP_PADDING_INFO"/> nested type.
@@ -123,19 +123,19 @@
             Contains the <see cref="T:PInvoke.BCrypt.BCRYPT_RSAKEY_BLOB"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.BufferType"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.BufferType"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.ChainingModes"/> nested class.
+            Contains the <see cref="T:PInvoke.BCrypt.ChainingModes"/> nested type.
             </content>
             <content>
             Contains the <see cref="T:PInvoke.BCrypt.DSAFIPSVERSION_ENUM"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.EccKeyBlob"/> nested struct.
+            Contains the <see cref="T:PInvoke.BCrypt.EccKeyBlob"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.EccKeyBlobMagicNumbers"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.EccKeyBlobMagicNumbers"/> nested type.
             </content>
             <content>
             Contains the <see cref="T:PInvoke.BCrypt.HASHALGORITHM_ENUM"/> nested type.
@@ -144,48 +144,141 @@
             Contains the <see cref="T:PInvoke.BCrypt.InterfaceIdentifiers"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.KeyDerivationFunctions"/> nested class.
+            Contains the <see cref="T:PInvoke.BCrypt.KeyDerivationFunctions"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.PaddingSchemes"/> nested enum.
+            Contains the <see cref="T:PInvoke.BCrypt.PaddingSchemes"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.PropertyNames"/> nested class.
+            Contains the <see cref="T:PInvoke.BCrypt.PropertyNames"/> nested type.
             </content>
             <content>
-            The <see cref="T:PInvoke.BCrypt.SafeAlgorithmHandle"/> nested class.
+            The <see cref="T:PInvoke.BCrypt.SafeAlgorithmHandle"/> nested type.
             </content>
             <content>
-            The <see cref="T:PInvoke.BCrypt.SafeHashHandle"/> nested class.
+            The <see cref="T:PInvoke.BCrypt.SafeHashHandle"/> nested type.
             </content>
             <content>
-            The <see cref="T:PInvoke.BCrypt.SafeKeyHandle"/> nested class.
+            The <see cref="T:PInvoke.BCrypt.SafeKeyHandle"/> nested type.
             </content>
             <content>
-            The <see cref="T:PInvoke.BCrypt.SafeSecretHandle"/> nested class.
+            The <see cref="T:PInvoke.BCrypt.SafeSecretHandle"/> nested type.
             </content>
             <content>
-            Contains the <see cref="T:PInvoke.BCrypt.SymmetricKeyBlobTypes"/> nested class.
-            </content>
-            <content>
-            Methods and nested types that are not strictly P/Invokes but provide
-            a slightly higher level of functionality to ease calling into native code.
+            Contains the <see cref="T:PInvoke.BCrypt.SymmetricKeyBlobTypes"/> nested type.
             </content>
             <summary>
             Exported functions from the BCrypt.dll Windows library
             that are available to Desktop and Store apps.
             </summary>
             <content>
-            The <see cref = "T:PInvoke.BCrypt.BCryptBuffer"/> nested class.
+            Methods and nested types that are not strictly P/Invokes but provide
+            a slightly higher level of functionality to ease calling into native code.
             </content>
             <content>
-            The <see cref = "T:PInvoke.BCrypt.BCryptBufferDesc"/> nested class.
+            Contains the <see cref = "T:PInvoke.BCrypt.AlgorithmIdentifiers"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.AlgorithmOperations"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.AsymmetricKeyBlobTypes"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.AuthModeFlags"/> nested type.
+            </content>
+            <content>
+            The <see cref = "T:PInvoke.BCrypt.BCryptBuffer"/> nested type.
+            </content>
+            <content>
+            The <see cref = "T:PInvoke.BCrypt.BCryptBufferDesc"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptCloseAlgorithmProviderFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptCreateHashFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptDeriveKeyFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptEncryptFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptEnumAlgorithmsFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptExportKeyFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptFinalizeKeyPairFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptFinishHashFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptGenerateKeyPairFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptGenRandomFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptGetPropertyFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptHashDataFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptImportKeyFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptImportKeyPairFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptSecretAgreementFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptSetPropertyFlags"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCryptSignHashFlags"/> nested type.
             </content>
             <content>
             Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_ALGORITHM_IDENTIFIER"/> nested type.
             </content>
             <content>
             Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_AUTH_TAG_LENGTHS_STRUCT"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_DH_KEY_BLOB"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_DSA_KEY_BLOB"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_DSA_KEY_BLOB_V2"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_KEY_BLOB"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_KEY_DATA_BLOB_HEADER"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_KEY_LENGTHS_STRUCT"/> nested type.
             </content>
             <content>
             Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_OAEP_PADDING_INFO"/> nested type.
@@ -197,16 +290,61 @@
             Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_PSS_PADDING_INFO"/> nested type.
             </content>
             <content>
-            Contains the <see cref = "T:PInvoke.BCrypt.SymmetricKeyBlobTypes"/> nested class.
+            Contains the <see cref = "T:PInvoke.BCrypt.BCRYPT_RSAKEY_BLOB"/> nested type.
             </content>
             <content>
-            Methods and nested types that are not strictly P/Invokes but provide
-            a slightly higher level of functionality to ease calling into native code.
+            Contains the <see cref = "T:PInvoke.BCrypt.BufferType"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.ChainingModes"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.DSAFIPSVERSION_ENUM"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.EccKeyBlob"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.EccKeyBlobMagicNumbers"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.HASHALGORITHM_ENUM"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.InterfaceIdentifiers"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.KeyDerivationFunctions"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.PaddingSchemes"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.PropertyNames"/> nested type.
+            </content>
+            <content>
+            The <see cref = "T:PInvoke.BCrypt.SafeAlgorithmHandle"/> nested type.
+            </content>
+            <content>
+            The <see cref = "T:PInvoke.BCrypt.SafeHashHandle"/> nested type.
+            </content>
+            <content>
+            The <see cref = "T:PInvoke.BCrypt.SafeKeyHandle"/> nested type.
+            </content>
+            <content>
+            The <see cref = "T:PInvoke.BCrypt.SafeSecretHandle"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref = "T:PInvoke.BCrypt.SymmetricKeyBlobTypes"/> nested type.
             </content>
             <summary>
             Exported functions from the BCrypt.dll Windows library
             that are available to Desktop and Store apps.
             </summary>
+            <content>
+            Methods and nested types that are not strictly P/Invokes but provide
+            a slightly higher level of functionality to ease calling into native code.
+            </content>
         </member>
         <member name="T:PInvoke.BCrypt.AlgorithmIdentifiers">
             <summary>
@@ -1909,404 +2047,6 @@
             Suppresses generation of a public default constructor.
             </remarks>
         </member>
-        <member name="F:PInvoke.BCrypt.NonEmptyArrayReplacesNull">
-            <summary>
-            An array that fills in for a null one.
-            </summary>
-        </member>
-        <member name="F:PInvoke.BCrypt.NonEmptyArrayReplacesEmpty">
-            <summary>
-            An array that fills in for one with no elements.
-            </summary>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptOpenAlgorithmProvider(System.String,System.String,PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags)">
-            <summary>
-            Loads and initializes a CNG provider.
-            </summary>
-            <param name="pszAlgId">
-            A pointer to a null-terminated Unicode string that identifies the requested
-            cryptographic algorithm. This can be one of the standard
-            CNG Algorithm Identifiers defined in <see cref="T:PInvoke.BCrypt.AlgorithmIdentifiers"/>
-            or the identifier for another registered algorithm.
-            </param>
-            <param name="pszImplementation">
-            <para>
-            A pointer to a null-terminated Unicode string that identifies the specific provider
-            to load. This is the registered alias of the cryptographic primitive provider.
-            This parameter is optional and can be NULL if it is not needed. If this parameter
-            is NULL, the default provider for the specified algorithm will be loaded.
-            </para>
-            <para>
-            Note If the <paramref name="pszImplementation"/> parameter value is NULL, CNG attempts to open each
-            registered provider, in order of priority, for the algorithm specified by the
-            <paramref name="pszAlgId"/> parameter and returns the handle of the first provider that is successfully
-            opened.For the lifetime of the handle, any BCrypt*** cryptographic APIs will use the
-            provider that was successfully opened.
-            </para>
-            </param>
-            <param name="dwFlags">Options for the function.</param>
-            <returns>
-            A pointer to a BCRYPT_ALG_HANDLE variable that receives the CNG provider handle.
-            When you have finished using this handle, release it by passing it to the
-            BCryptCloseAlgorithmProvider function.
-            </returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptCreateHash(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptCreateHashFlags)">
-            <summary>
-            Create a hash or Message Authentication Code (MAC) object.
-            </summary>
-            <param name="algorithm">
-            The handle of an algorithm provider created by using the <see cref="M:PInvoke.BCrypt.BCryptOpenAlgorithmProvider(System.String,System.String,PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags)"/> function. The algorithm that was specified when the provider was created must support the hash interface.
-            </param>
-            <param name="hashObject">
-            A pointer to a buffer that receives the hash or MAC object. The required size of this buffer can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the <see cref="F:PInvoke.BCrypt.PropertyNames.BCRYPT_OBJECT_LENGTH"/> property. This will provide the size of the hash or MAC object for the specified algorithm.
-            This memory can only be freed after the handle pointed to by the return value is destroyed.
-            If the value of this parameter is NULL, the memory for the hash object is allocated and freed by this function.
-            Windows 7:  This memory management functionality is available beginning with Windows 7.
-            </param>
-            <param name="secret">
-            A pointer to a buffer that contains the key to use for the hash or MAC. This key only applies to hash algorithms opened by the BCryptOpenAlgorithmProvider function by using the <see cref="F:PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags.AlgorithmHandleHmac"/> flag. Otherwise, set this parameter to NULL.
-            </param>
-            <param name="flags">Flags that modify the behavior of the function.</param>
-            <returns>
-            A pointer to a <see cref="T:PInvoke.BCrypt.SafeHashHandle"/> value that receives a handle that represents the hash or MAC object. This handle is used in subsequent hashing or MAC functions, such as the <see cref="M:PInvoke.BCrypt.BCryptHashData(PInvoke.BCrypt.SafeHashHandle,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptHashDataFlags)"/> function. When you have finished using this handle, release it by passing it to the <see cref="M:PInvoke.BCrypt.BCryptDestroyHash(System.IntPtr)"/> function.
-            </returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptExportKey(PInvoke.BCrypt.SafeKeyHandle,PInvoke.BCrypt.SafeKeyHandle,System.String)">
-            <summary>
-            Exports a key to a memory BLOB that can be persisted for later use.
-            </summary>
-            <param name="key">The handle of the key to export.</param>
-            <param name="exportKey">
-            The handle of the key with which to wrap the exported key. Use this parameter when exporting BLOBs of type BCRYPT_AES_WRAP_KEY_BLOB; otherwise, set it to NULL.
-            Note: The <paramref name="exportKey"/> handle must be supplied by the same provider that supplied the hKey handle, and hExportKey must be a handle to a symmetric key that can be used in the Advanced Encryption Standard(AES) key wrap algorithm.When the hKey handle is from the Microsoft provider, hExportKey must be an AES key handle.
-            </param>
-            <param name="blobType">
-            An identifier that specifies the type of BLOB to export. This can be one of the values
-            defined in the <see cref="T:PInvoke.BCrypt.AsymmetricKeyBlobTypes"/> or <see cref="T:PInvoke.BCrypt.SymmetricKeyBlobTypes"/> classes.
-            </param>
-            <returns>
-            A buffer with the key BLOB.
-            </returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)">
-            <summary>
-            Creates an empty public/private key pair.
-            </summary>
-            <param name="algorithm">The handle to the algorithm previously opened by <see cref="M:PInvoke.BCrypt.BCryptOpenAlgorithmProvider(System.String,System.String,PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags)"/></param>
-            <param name="keyLength">The length of the key, in bits.</param>
-            <returns>A handle to the generated key pair.</returns>
-            <remarks>
-            After you create a key by using this function, you can use the BCryptSetProperty
-            function to set its properties; however, the key cannot be used until the
-            BCryptFinalizeKeyPair function is called.
-            </remarks>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)">
-            <summary>
-            Creates a key object for use with a symmetrical key encryption algorithm from a supplied key.
-            </summary>
-            <param name="algorithm">
-            The handle of an algorithm provider created with the <see cref="M:PInvoke.BCrypt.BCryptOpenAlgorithmProvider(System.String,System.String,PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags)"/> function. The algorithm specified when the provider was created must support symmetric key encryption.
-            </param>
-            <param name="secret">
-            A buffer that contains the key from which to create the key object. This is normally a hash of a password or some other reproducible data. If the data passed in exceeds the target key size, the data will be truncated and the excess will be ignored.
-            Note: We strongly recommended that applications pass in the exact number of bytes required by the target key.
-            </param>
-            <param name="keyObject">
-            A pointer to a buffer that receives the key object. The required size of this buffer can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the BCRYPT_OBJECT_LENGTH property. This will provide the size of the key object for the specified algorithm.
-            This memory can only be freed after the returned key handle is destroyed.
-            If the value of this parameter is NULL, the memory for the key object is allocated and freed by this function.
-            </param>
-            <param name="flags">A set of flags that modify the behavior of this function. No flags are currently defined, so this parameter should be zero.</param>
-            <returns>A handle to the generated key.</returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptImportKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.BCryptImportKeyPairFlags)">
-            <summary>
-            Imports a public/private key pair from a key BLOB.
-            </summary>
-            <param name="algorithm">The handle of the algorithm provider to import the key. This handle is obtained by calling the BCryptOpenAlgorithmProvider function.</param>
-            <param name="blobType">An identifier that specifies the type of BLOB that is contained in the <paramref name="input"/> buffer. Supported formats are defined in <see cref="T:PInvoke.BCrypt.AsymmetricKeyBlobTypes"/>.</param>
-            <param name="input">The address of a buffer that contains the key BLOB to import. The <paramref name="blobType"/> parameter specifies the type of key BLOB this buffer contains.</param>
-            <param name="flags">A set of flags that modify the behavior of this function. This can be zero or the following value: BCRYPT_NO_KEY_VALIDATION</param>
-            <returns>Returns a status code that indicates the success or failure of the function.</returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)">
-            <summary>
-            Imports a symmetric key from a key BLOB. The BCryptImportKeyPair function is used to import a public/private key pair.
-            </summary>
-            <param name="hAlgorithm">
-            The handle of the algorithm provider to import the key. This handle is obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptOpenAlgorithmProvider(System.String,System.String,PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags)"/> function.
-            </param>
-            <param name="pszBlobType">
-            An identifier that specifies the type of BLOB that is contained in the pbInput buffer.
-            This can be one of the values defined in <see cref="T:PInvoke.BCrypt.SymmetricKeyBlobTypes"/>.
-            </param>
-            <param name="pbInput">
-            The address of a buffer that contains the key BLOB to import.
-            The <paramref name="pszBlobType"/> parameter specifies the type of key BLOB this buffer contains.
-            </param>
-            <param name="hImportKey">
-            The handle of the key encryption key needed to unwrap the key BLOB in the pbInput parameter.
-            Note The handle must be supplied by the same provider that supplied the key that is being imported.
-            </param>
-            <param name="pbKeyObject">
-            A pointer to a buffer that receives the imported key object.
-            The required size of this buffer can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/>
-            function to get the BCRYPT_OBJECT_LENGTH property. This will provide the size of the
-            key object for the specified algorithm.
-            This memory can only be freed after the phKey key handle is destroyed.
-            </param>
-            <param name="dwFlags">A set of flags that modify the behavior of this function.</param>
-            <returns>The imported key.</returns>
-            <exception cref="T:PInvoke.Win32Exception">If an error occurs.</exception>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)">
-            <summary>
-            Encrypts a block of data.
-            </summary>
-            <param name="hKey">
-            The handle of the key to use to encrypt the data. This handle is obtained from one of the key creation functions, such as <see cref="M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref="M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref="M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
-            </param>
-            <param name="pbInput">
-            The address of a buffer that contains the plaintext to be encrypted. The cbInput parameter contains the size of the plaintext to encrypt.
-            </param>
-            <param name="pPaddingInfo">
-            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the dwFlags parameter. Otherwise, the parameter must be set to NULL.
-            </param>
-            <param name="pbIV">
-            The address of a buffer that contains the initialization vector (IV) to use during encryption. The cbIV parameter contains the size of this buffer. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
-            This parameter is optional and can be NULL if no IV is used.
-            The required size of the IV can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the BCRYPT_BLOCK_LENGTH property.This will provide the size of a block for the algorithm, which is also the size of the IV.
-            </param>
-            <param name="dwFlags">
-            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the hKey parameter.
-            </param>
-            <returns>The encrypted ciphertext.</returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Nullable{System.ArraySegment{System.Byte}},System.Void*,System.Nullable{System.ArraySegment{System.Byte}},System.Nullable{System.ArraySegment{System.Byte}},System.Int32@,PInvoke.BCrypt.BCryptEncryptFlags)">
-            <summary>
-            Encrypts a block of data.
-            </summary>
-            <param name="key">
-            The handle of the key to use to encrypt the data. This handle is obtained from one of the key creation functions, such as <see cref="M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref="M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref="M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
-            </param>
-            <param name="input">
-            The address of a buffer that contains the plaintext to be encrypted. The cbInput parameter contains the size of the plaintext to encrypt.
-            </param>
-            <param name="paddingInfo">
-            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the dwFlags parameter. Otherwise, the parameter must be set to NULL.
-            </param>
-            <param name="iv">
-            The address of a buffer that contains the initialization vector (IV) to use during encryption. The cbIV parameter contains the size of this buffer. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
-            This parameter is optional and can be NULL if no IV is used.
-            The required size of the IV can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the BCRYPT_BLOCK_LENGTH property.This will provide the size of a block for the algorithm, which is also the size of the IV.
-            </param>
-            <param name="output">
-            The address of the buffer that receives the ciphertext produced by this function. For more information, see Remarks.
-            If this parameter is NULL, the <see cref="M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)"/> function calculates the size needed for the ciphertext of the data passed in the <paramref name="input"/> parameter. In this case, the location pointed to by the <paramref name="outputLength"/> parameter contains this size, and the function returns <see cref="F:PInvoke.NTSTATUS.Code.STATUS_SUCCESS"/>.The <paramref name="paddingInfo"/> parameter is not modified.
-            If the values of both the <paramref name="output"/> and <paramref name="input"/> parameters are NULL, an error is returned unless an authenticated encryption algorithm is in use.In the latter case, the call is treated as an authenticated encryption call with zero length data, and the authentication tag is returned in the <paramref name="paddingInfo"/> parameter.
-            </param>
-            <param name="outputLength">
-            Receives the number of bytes copied to the <paramref name="output"/> buffer. If <paramref name="output"/> is NULL, this receives the size, in bytes, required for the ciphertext.
-            </param>
-            <param name="flags">
-            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the hKey parameter.
-            </param>
-            <returns>The encrypted ciphertext.</returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)">
-            <summary>
-            Decrypts a block of data.
-            </summary>
-            <param name="hKey">
-            The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <see cref="M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref="M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref="M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
-            </param>
-            <param name="pbInput">
-            The address of a buffer that contains the ciphertext to be decrypted. For more information, see Remarks.
-            </param>
-            <param name="pPaddingInfo">
-            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the <paramref name="dwFlags"/> parameter. Otherwise, the parameter must be set to NULL.
-            </param>
-            <param name="pbIV">
-            The address of a buffer that contains the initialization vector (IV) to use during decryption. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
-            This parameter is optional and can be NULL if no IV is used.
-            The required size of the IV can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the <see cref="F:PInvoke.BCrypt.PropertyNames.BCRYPT_BLOCK_LENGTH"/> property. This will provide the size of a block for the algorithm, which is also the size of the IV.
-            </param>
-            <param name="dwFlags">
-            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name="hKey"/> parameter.
-            </param>
-            <returns>Returns a status code that indicates the success or failure of the function.</returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Nullable{System.ArraySegment{System.Byte}},System.Void*,System.Nullable{System.ArraySegment{System.Byte}},System.Nullable{System.ArraySegment{System.Byte}},System.Int32@,PInvoke.BCrypt.BCryptEncryptFlags)">
-            <summary>
-            Decrypts a block of data.
-            </summary>
-            <param name="key">
-            The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <see cref="M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref="M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref="M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
-            </param>
-            <param name="input">
-            The address of a buffer that contains the ciphertext to be decrypted. For more information, see Remarks.
-            </param>
-            <param name="paddingInfo">
-            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the <paramref name="flags"/> parameter. Otherwise, the parameter must be set to NULL.
-            </param>
-            <param name="iv">
-            The address of a buffer that contains the initialization vector (IV) to use during decryption. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
-            This parameter is optional and can be NULL if no IV is used.
-            The required size of the IV can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the <see cref="F:PInvoke.BCrypt.PropertyNames.BCRYPT_BLOCK_LENGTH"/> property. This will provide the size of a block for the algorithm, which is also the size of the IV.
-            </param>
-            <param name="output">
-            The address of a buffer to receive the plaintext produced by this function. The cbOutput parameter contains the size of this buffer. For more information, see Remarks.
-            If this parameter is NULL, the <see cref="M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)"/> function calculates the size required for the plaintext of the encrypted data passed in the <paramref name="input"/> parameter.In this case, the location pointed to by the <paramref name="outputLength"/> parameter contains this size, and the function returns <see cref="F:PInvoke.NTSTATUS.Code.STATUS_SUCCESS"/>.
-            If the values of both the <paramref name="output"/> and <paramref name="input" /> parameters are NULL, an error is returned unless an authenticated encryption algorithm is in use.In the latter case, the call is treated as an authenticated encryption call with zero length data, and the authentication tag, passed in the <paramref name="paddingInfo"/> parameter, is verified.
-            </param>
-            <param name="outputLength">
-            A pointer to a ULONG variable to receive the number of bytes copied to the <paramref name="output"/> buffer. If <paramref name="output"/> is NULL, this receives the size, in bytes, required for the plaintext.
-            </param>
-            <param name="flags">
-            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name="key"/> parameter.
-            </param>
-            <returns>Returns a status code that indicates the success or failure of the function.</returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptFinishHash(PInvoke.BCrypt.SafeHashHandle,PInvoke.BCrypt.BCryptFinishHashFlags)">
-            <summary>
-            Retrieves the hash or Message Authentication Code (MAC) value for the data accumulated from prior calls to <see cref="M:PInvoke.BCrypt.BCryptHashData(PInvoke.BCrypt.SafeHashHandle,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptHashDataFlags)"/>.
-            </summary>
-            <param name="hHash">
-            The handle of the hash or MAC object to use to compute the hash or MAC. This handle is obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptCreateHash(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptCreateHashFlags)"/> function. After this function has been called, the hash handle passed to this function cannot be used again except in a call to <see cref="M:PInvoke.BCrypt.BCryptDestroyHash(System.IntPtr)"/>.
-            </param>
-            <param name="flags">A set of flags that modify the behavior of this function.</param>
-            <returns>The hash or MAC value.</returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)">
-            <summary>
-            Creates a signature of a hash value.
-            </summary>
-            <param name="key">The handle of the key to use to sign the hash.</param>
-            <param name="hash">
-            A pointer to a buffer that contains the hash value to sign.
-            </param>
-            <param name="paddingInfo">
-            A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the <paramref name="flags"/> parameter. This parameter is only used with asymmetric keys and must be NULL otherwise.
-            </param>
-            <param name="flags">
-            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name="key"/> parameter.
-            </param>
-            <returns>
-            The signature produced by this function.
-            </returns>
-            <remarks>
-            To later verify that the signature is valid, call the <see cref="M:PInvoke.BCrypt.BCryptVerifySignature(PInvoke.BCrypt.SafeKeyHandle,System.Void*,System.Byte[],System.Int32,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptSignHashFlags)"/> function with an identical key and an identical hash of the original data.
-            </remarks>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptVerifySignature(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)">
-            <summary>
-            Verifies that the specified signature matches the specified hash.
-            </summary>
-            <param name="key">
-            The handle of the key to use to decrypt the signature. This must be an identical key or the public key portion of the key pair used to sign the data with the <see cref="M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)"/> function.
-            </param>
-            <param name="hash">
-            The address of a buffer that contains the hash of the data.
-            </param>
-            <param name="signature">
-            The address of a buffer that contains the signed hash of the data. The <see cref="M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)"/> function is used to create the signature.
-            </param>
-            <param name="paddingInfo">
-            A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the <paramref name="flags"/> parameter. This parameter is only used with asymmetric keys and must be NULL otherwise.
-            </param>
-            <param name="flags">
-            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the hKey parameter.
-            If the key is a symmetric key, this parameter is not used and should be zero.
-            If the key is an asymmetric key, this can be one of the following values.
-            </param>
-            <returns>
-            <c>true</c> if the signature is valid; <c>false</c> otherwise.
-            </returns>
-            <exception cref="T:PInvoke.Win32Exception">Thrown when any error occurs other than an invalid signature.</exception>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptSecretAgreement(PInvoke.BCrypt.SafeKeyHandle,PInvoke.BCrypt.SafeKeyHandle)">
-            <summary>
-            Creates a secret agreement value from a private and a public key.
-            </summary>
-            <param name="privateKey">
-            The handle of the private key to use to create the secret agreement value.
-            This key and the hPubKey key must come from the same CNG cryptographic algorithm provider.
-            </param>
-            <param name="publicKey">
-            The handle of the public key to use to create the secret agreement value.
-            This key and the hPrivKey key must come from the same CNG cryptographic algorithm provider.
-            </param>
-            <returns>
-            A handle to the shared secret.
-            </returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptSetProperty(System.Runtime.InteropServices.SafeHandle,System.String,System.String,PInvoke.BCrypt.BCryptSetPropertyFlags)">
-            <summary>
-            Sets the value of a named property for a CNG object.
-            </summary>
-            <param name="hObject">A handle that represents the CNG object to set the property value for.</param>
-            <param name="propertyName">
-            The name of the property to set. This can be one of the predefined <see cref="T:PInvoke.BCrypt.PropertyNames"/> or a custom property identifier.
-            </param>
-            <param name="propertyValue">The new property value.</param>
-            <param name="flags">Flags to pass to <see cref="M:PInvoke.BCrypt.BCryptSetProperty(System.Runtime.InteropServices.SafeHandle,System.String,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptSetPropertyFlags)"/></param>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptSetProperty``1(System.Runtime.InteropServices.SafeHandle,System.String,``0,PInvoke.BCrypt.BCryptSetPropertyFlags)">
-            <summary>
-            Sets the value of a named property for a CNG object.
-            </summary>
-            <typeparam name="T">The type of value being set.</typeparam>
-            <param name="hObject">A handle that represents the CNG object to set the property value for.</param>
-            <param name="propertyName">
-            The name of the property to set. This can be one of the predefined <see cref="T:PInvoke.BCrypt.PropertyNames"/> or a custom property identifier.
-            </param>
-            <param name="propertyValue">The new property value.</param>
-            <param name="flags">Flags to pass to <see cref="M:PInvoke.BCrypt.BCryptSetProperty(System.Runtime.InteropServices.SafeHandle,System.String,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptSetPropertyFlags)"/></param>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)">
-            <summary>
-            Retrieves the value of a named property for a CNG object.
-            </summary>
-            <param name="hObject">A handle that represents the CNG object to obtain the property value for.</param>
-            <param name="propertyName">A pointer to a null-terminated Unicode string that contains the name of the property to retrieve. This can be one of the predefined <see cref="T:PInvoke.BCrypt.PropertyNames"/> or a custom property identifier.</param>
-            <param name="flags">A set of flags that modify the behavior of this function. No flags are defined for this function.</param>
-            <returns>The property value.</returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.BCryptGetProperty``1(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)">
-            <summary>
-            Retrieves the value of a named property for a CNG object.
-            </summary>
-            <typeparam name="T">The type of struct to return the property value as.</typeparam>
-            <param name="hObject">A handle that represents the CNG object to obtain the property value for.</param>
-            <param name="propertyName">A pointer to a null-terminated Unicode string that contains the name of the property to retrieve. This can be one of the predefined <see cref="T:PInvoke.BCrypt.PropertyNames"/> or a custom property identifier.</param>
-            <param name="flags">A set of flags that modify the behavior of this function. No flags are defined for this function.</param>
-            <returns>The property value.</returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.EnsureNotNullOrEmpty(System.ArraySegment{System.Byte}@)">
-            <summary>
-            Ensures that the specified byte array is not null.
-            </summary>
-            <param name="buffer">The byte buffer to replace with a non-null buffer, if null.</param>
-        </member>
-        <member name="M:PInvoke.BCrypt.ArraySegmentFor(System.Byte[])">
-            <summary>
-            Returns an array segment for the specified array.
-            </summary>
-            <param name="buffer">The byte buffer to wrap as an ArraySegment.</param>
-            <returns>An array segment.</returns>
-        </member>
-        <member name="M:PInvoke.BCrypt.ArrayOrOriginalNull(System.ArraySegment{System.Byte},System.Byte*)">
-            <summary>
-            Returns the specified <paramref name="pointer"/>,
-            or null if <paramref name="buffer"/> was null before a call to
-            <see cref="M:PInvoke.BCrypt.EnsureNotNullOrEmpty(System.ArraySegment{System.Byte}@)"/>.
-            </summary>
-            <param name="buffer">The buffer which may have originally been null.</param>
-            <param name="pointer">The pointer to some element in the buffer.</param>
-            <returns>The <paramref name="pointer"/> or <c>null</c>.</returns>
-        </member>
         <member name="M:PInvoke.BCrypt.BCryptEnumAlgorithms(PInvoke.BCrypt.AlgorithmOperations,System.Int32@,PInvoke.BCrypt.BCRYPT_ALGORITHM_IDENTIFIER*@,PInvoke.BCrypt.BCryptEnumAlgorithmsFlags)">
             <summary>
             The BCryptEnumAlgorithms function gets a list of the registered algorithm identifiers.
@@ -2848,152 +2588,314 @@
             <param name="hSecret">The handle of the secret to destroy.</param>
             <returns>Returns a status code that indicates the success or failure of the function.</returns>
         </member>
-        <member name="M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.IntPtr,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)">
+        <member name="F:PInvoke.BCrypt.NonEmptyArrayReplacesNull">
+            <summary>
+            An array that fills in for a null one.
+            </summary>
+        </member>
+        <member name="F:PInvoke.BCrypt.NonEmptyArrayReplacesEmpty">
+            <summary>
+            An array that fills in for one with no elements.
+            </summary>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptOpenAlgorithmProvider(System.String,System.String,PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags)">
+            <summary>
+            Loads and initializes a CNG provider.
+            </summary>
+            <param name="pszAlgId">
+            A pointer to a null-terminated Unicode string that identifies the requested
+            cryptographic algorithm. This can be one of the standard
+            CNG Algorithm Identifiers defined in <see cref="T:PInvoke.BCrypt.AlgorithmIdentifiers"/>
+            or the identifier for another registered algorithm.
+            </param>
+            <param name="pszImplementation">
+            <para>
+            A pointer to a null-terminated Unicode string that identifies the specific provider
+            to load. This is the registered alias of the cryptographic primitive provider.
+            This parameter is optional and can be NULL if it is not needed. If this parameter
+            is NULL, the default provider for the specified algorithm will be loaded.
+            </para>
+            <para>
+            Note If the <paramref name="pszImplementation"/> parameter value is NULL, CNG attempts to open each
+            registered provider, in order of priority, for the algorithm specified by the
+            <paramref name="pszAlgId"/> parameter and returns the handle of the first provider that is successfully
+            opened.For the lifetime of the handle, any BCrypt*** cryptographic APIs will use the
+            provider that was successfully opened.
+            </para>
+            </param>
+            <param name="dwFlags">Options for the function.</param>
+            <returns>
+            A pointer to a BCRYPT_ALG_HANDLE variable that receives the CNG provider handle.
+            When you have finished using this handle, release it by passing it to the
+            BCryptCloseAlgorithmProvider function.
+            </returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptCreateHash(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptCreateHashFlags)">
+            <summary>
+            Create a hash or Message Authentication Code (MAC) object.
+            </summary>
+            <param name="algorithm">
+            The handle of an algorithm provider created by using the <see cref="M:PInvoke.BCrypt.BCryptOpenAlgorithmProvider(System.String,System.String,PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags)"/> function. The algorithm that was specified when the provider was created must support the hash interface.
+            </param>
+            <param name="hashObject">
+            A pointer to a buffer that receives the hash or MAC object. The required size of this buffer can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the <see cref="F:PInvoke.BCrypt.PropertyNames.BCRYPT_OBJECT_LENGTH"/> property. This will provide the size of the hash or MAC object for the specified algorithm.
+            This memory can only be freed after the handle pointed to by the return value is destroyed.
+            If the value of this parameter is NULL, the memory for the hash object is allocated and freed by this function.
+            Windows 7:  This memory management functionality is available beginning with Windows 7.
+            </param>
+            <param name="secret">
+            A pointer to a buffer that contains the key to use for the hash or MAC. This key only applies to hash algorithms opened by the BCryptOpenAlgorithmProvider function by using the <see cref="F:PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags.AlgorithmHandleHmac"/> flag. Otherwise, set this parameter to NULL.
+            </param>
+            <param name="flags">Flags that modify the behavior of the function.</param>
+            <returns>
+            A pointer to a <see cref="T:PInvoke.BCrypt.SafeHashHandle"/> value that receives a handle that represents the hash or MAC object. This handle is used in subsequent hashing or MAC functions, such as the <see cref="M:PInvoke.BCrypt.BCryptHashData(PInvoke.BCrypt.SafeHashHandle,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptHashDataFlags)"/> function. When you have finished using this handle, release it by passing it to the <see cref="M:PInvoke.BCrypt.BCryptDestroyHash(System.IntPtr)"/> function.
+            </returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptExportKey(PInvoke.BCrypt.SafeKeyHandle,PInvoke.BCrypt.SafeKeyHandle,System.String)">
+            <summary>
+            Exports a key to a memory BLOB that can be persisted for later use.
+            </summary>
+            <param name="key">The handle of the key to export.</param>
+            <param name="exportKey">
+            The handle of the key with which to wrap the exported key. Use this parameter when exporting BLOBs of type BCRYPT_AES_WRAP_KEY_BLOB; otherwise, set it to NULL.
+            Note: The <paramref name="exportKey"/> handle must be supplied by the same provider that supplied the hKey handle, and hExportKey must be a handle to a symmetric key that can be used in the Advanced Encryption Standard(AES) key wrap algorithm.When the hKey handle is from the Microsoft provider, hExportKey must be an AES key handle.
+            </param>
+            <param name="blobType">
+            An identifier that specifies the type of BLOB to export. This can be one of the values
+            defined in the <see cref="T:PInvoke.BCrypt.AsymmetricKeyBlobTypes"/> or <see cref="T:PInvoke.BCrypt.SymmetricKeyBlobTypes"/> classes.
+            </param>
+            <returns>
+            A buffer with the key BLOB.
+            </returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)">
+            <summary>
+            Creates an empty public/private key pair.
+            </summary>
+            <param name="algorithm">The handle to the algorithm previously opened by <see cref="M:PInvoke.BCrypt.BCryptOpenAlgorithmProvider(System.String,System.String,PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags)"/></param>
+            <param name="keyLength">The length of the key, in bits.</param>
+            <returns>A handle to the generated key pair.</returns>
+            <remarks>
+            After you create a key by using this function, you can use the BCryptSetProperty
+            function to set its properties; however, the key cannot be used until the
+            BCryptFinalizeKeyPair function is called.
+            </remarks>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)">
+            <summary>
+            Creates a key object for use with a symmetrical key encryption algorithm from a supplied key.
+            </summary>
+            <param name="algorithm">
+            The handle of an algorithm provider created with the <see cref="M:PInvoke.BCrypt.BCryptOpenAlgorithmProvider(System.String,System.String,PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags)"/> function. The algorithm specified when the provider was created must support symmetric key encryption.
+            </param>
+            <param name="secret">
+            A buffer that contains the key from which to create the key object. This is normally a hash of a password or some other reproducible data. If the data passed in exceeds the target key size, the data will be truncated and the excess will be ignored.
+            Note: We strongly recommended that applications pass in the exact number of bytes required by the target key.
+            </param>
+            <param name="keyObject">
+            A pointer to a buffer that receives the key object. The required size of this buffer can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the BCRYPT_OBJECT_LENGTH property. This will provide the size of the key object for the specified algorithm.
+            This memory can only be freed after the returned key handle is destroyed.
+            If the value of this parameter is NULL, the memory for the key object is allocated and freed by this function.
+            </param>
+            <param name="flags">A set of flags that modify the behavior of this function. No flags are currently defined, so this parameter should be zero.</param>
+            <returns>A handle to the generated key.</returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptImportKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.BCryptImportKeyPairFlags)">
+            <summary>
+            Imports a public/private key pair from a key BLOB.
+            </summary>
+            <param name="algorithm">The handle of the algorithm provider to import the key. This handle is obtained by calling the BCryptOpenAlgorithmProvider function.</param>
+            <param name="blobType">An identifier that specifies the type of BLOB that is contained in the <paramref name="input"/> buffer. Supported formats are defined in <see cref="T:PInvoke.BCrypt.AsymmetricKeyBlobTypes"/>.</param>
+            <param name="input">The address of a buffer that contains the key BLOB to import. The <paramref name="blobType"/> parameter specifies the type of key BLOB this buffer contains.</param>
+            <param name="flags">A set of flags that modify the behavior of this function. This can be zero or the following value: BCRYPT_NO_KEY_VALIDATION</param>
+            <returns>Returns a status code that indicates the success or failure of the function.</returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)">
+            <summary>
+            Imports a symmetric key from a key BLOB. The BCryptImportKeyPair function is used to import a public/private key pair.
+            </summary>
+            <param name="hAlgorithm">
+            The handle of the algorithm provider to import the key. This handle is obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptOpenAlgorithmProvider(System.String,System.String,PInvoke.BCrypt.BCryptOpenAlgorithmProviderFlags)"/> function.
+            </param>
+            <param name="pszBlobType">
+            An identifier that specifies the type of BLOB that is contained in the pbInput buffer.
+            This can be one of the values defined in <see cref="T:PInvoke.BCrypt.SymmetricKeyBlobTypes"/>.
+            </param>
+            <param name="pbInput">
+            The address of a buffer that contains the key BLOB to import.
+            The <paramref name="pszBlobType"/> parameter specifies the type of key BLOB this buffer contains.
+            </param>
+            <param name="hImportKey">
+            The handle of the key encryption key needed to unwrap the key BLOB in the pbInput parameter.
+            Note The handle must be supplied by the same provider that supplied the key that is being imported.
+            </param>
+            <param name="pbKeyObject">
+            A pointer to a buffer that receives the imported key object.
+            The required size of this buffer can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/>
+            function to get the BCRYPT_OBJECT_LENGTH property. This will provide the size of the
+            key object for the specified algorithm.
+            This memory can only be freed after the phKey key handle is destroyed.
+            </param>
+            <param name="dwFlags">A set of flags that modify the behavior of this function.</param>
+            <returns>The imported key.</returns>
+            <exception cref="T:PInvoke.Win32Exception">If an error occurs.</exception>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)">
             <summary>
             Encrypts a block of data.
             </summary>
-            <param name = "hKey">
-            The handle of the key to use to encrypt the data. This handle is obtained from one of the key creation functions, such as <see cref = "M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref = "M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref = "M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
+            <param name="hKey">
+            The handle of the key to use to encrypt the data. This handle is obtained from one of the key creation functions, such as <see cref="M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref="M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref="M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
             </param>
-            <param name = "pbInput">
+            <param name="pbInput">
             The address of a buffer that contains the plaintext to be encrypted. The cbInput parameter contains the size of the plaintext to encrypt.
             </param>
-            <param name = "pPaddingInfo">
+            <param name="pPaddingInfo">
             A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the dwFlags parameter. Otherwise, the parameter must be set to NULL.
             </param>
-            <param name = "pbIV">
+            <param name="pbIV">
             The address of a buffer that contains the initialization vector (IV) to use during encryption. The cbIV parameter contains the size of this buffer. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
             This parameter is optional and can be NULL if no IV is used.
-            The required size of the IV can be obtained by calling the <see cref = "M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the BCRYPT_BLOCK_LENGTH property.This will provide the size of a block for the algorithm, which is also the size of the IV.
+            The required size of the IV can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the BCRYPT_BLOCK_LENGTH property.This will provide the size of a block for the algorithm, which is also the size of the IV.
             </param>
-            <param name = "dwFlags">
+            <param name="dwFlags">
             A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the hKey parameter.
             </param>
             <returns>The encrypted ciphertext.</returns>
         </member>
-        <member name="M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Nullable{System.ArraySegment{System.Byte}},System.IntPtr,System.Nullable{System.ArraySegment{System.Byte}},System.Nullable{System.ArraySegment{System.Byte}},System.Int32@,PInvoke.BCrypt.BCryptEncryptFlags)">
+        <member name="M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Nullable{System.ArraySegment{System.Byte}},System.Void*,System.Nullable{System.ArraySegment{System.Byte}},System.Nullable{System.ArraySegment{System.Byte}},System.Int32@,PInvoke.BCrypt.BCryptEncryptFlags)">
             <summary>
             Encrypts a block of data.
             </summary>
-            <param name = "key">
-            The handle of the key to use to encrypt the data. This handle is obtained from one of the key creation functions, such as <see cref = "M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref = "M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref = "M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
+            <param name="key">
+            The handle of the key to use to encrypt the data. This handle is obtained from one of the key creation functions, such as <see cref="M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref="M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref="M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
             </param>
-            <param name = "input">
+            <param name="input">
             The address of a buffer that contains the plaintext to be encrypted. The cbInput parameter contains the size of the plaintext to encrypt.
             </param>
-            <param name = "paddingInfo">
+            <param name="paddingInfo">
             A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the dwFlags parameter. Otherwise, the parameter must be set to NULL.
             </param>
-            <param name = "iv">
+            <param name="iv">
             The address of a buffer that contains the initialization vector (IV) to use during encryption. The cbIV parameter contains the size of this buffer. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
             This parameter is optional and can be NULL if no IV is used.
-            The required size of the IV can be obtained by calling the <see cref = "M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the BCRYPT_BLOCK_LENGTH property.This will provide the size of a block for the algorithm, which is also the size of the IV.
+            The required size of the IV can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the BCRYPT_BLOCK_LENGTH property.This will provide the size of a block for the algorithm, which is also the size of the IV.
             </param>
-            <param name = "output">
+            <param name="output">
             The address of the buffer that receives the ciphertext produced by this function. For more information, see Remarks.
-            If this parameter is NULL, the <see cref = "M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)"/> function calculates the size needed for the ciphertext of the data passed in the <paramref name = "input"/> parameter. In this case, the location pointed to by the <paramref name = "outputLength"/> parameter contains this size, and the function returns <see cref = "F:PInvoke.NTSTATUS.Code.STATUS_SUCCESS"/>.The <paramref name = "paddingInfo"/> parameter is not modified.
-            If the values of both the <paramref name = "output"/> and <paramref name = "input"/> parameters are NULL, an error is returned unless an authenticated encryption algorithm is in use.In the latter case, the call is treated as an authenticated encryption call with zero length data, and the authentication tag is returned in the <paramref name = "paddingInfo"/> parameter.
+            If this parameter is NULL, the <see cref="M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)"/> function calculates the size needed for the ciphertext of the data passed in the <paramref name="input"/> parameter. In this case, the location pointed to by the <paramref name="outputLength"/> parameter contains this size, and the function returns <see cref="F:PInvoke.NTSTATUS.Code.STATUS_SUCCESS"/>.The <paramref name="paddingInfo"/> parameter is not modified.
+            If the values of both the <paramref name="output"/> and <paramref name="input"/> parameters are NULL, an error is returned unless an authenticated encryption algorithm is in use.In the latter case, the call is treated as an authenticated encryption call with zero length data, and the authentication tag is returned in the <paramref name="paddingInfo"/> parameter.
             </param>
-            <param name = "outputLength">
-            Receives the number of bytes copied to the <paramref name = "output"/> buffer. If <paramref name = "output"/> is NULL, this receives the size, in bytes, required for the ciphertext.
+            <param name="outputLength">
+            Receives the number of bytes copied to the <paramref name="output"/> buffer. If <paramref name="output"/> is NULL, this receives the size, in bytes, required for the ciphertext.
             </param>
-            <param name = "flags">
+            <param name="flags">
             A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the hKey parameter.
             </param>
             <returns>The encrypted ciphertext.</returns>
         </member>
-        <member name="M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.IntPtr,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)">
+        <member name="M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)">
             <summary>
             Decrypts a block of data.
             </summary>
-            <param name = "hKey">
-            The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <see cref = "M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref = "M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref = "M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
+            <param name="hKey">
+            The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <see cref="M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref="M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref="M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
             </param>
-            <param name = "pbInput">
+            <param name="pbInput">
             The address of a buffer that contains the ciphertext to be decrypted. For more information, see Remarks.
             </param>
-            <param name = "pPaddingInfo">
-            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the <paramref name = "dwFlags"/> parameter. Otherwise, the parameter must be set to NULL.
+            <param name="pPaddingInfo">
+            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the <paramref name="dwFlags"/> parameter. Otherwise, the parameter must be set to NULL.
             </param>
-            <param name = "pbIV">
+            <param name="pbIV">
             The address of a buffer that contains the initialization vector (IV) to use during decryption. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
             This parameter is optional and can be NULL if no IV is used.
-            The required size of the IV can be obtained by calling the <see cref = "M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the <see cref = "F:PInvoke.BCrypt.PropertyNames.BCRYPT_BLOCK_LENGTH"/> property. This will provide the size of a block for the algorithm, which is also the size of the IV.
+            The required size of the IV can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the <see cref="F:PInvoke.BCrypt.PropertyNames.BCRYPT_BLOCK_LENGTH"/> property. This will provide the size of a block for the algorithm, which is also the size of the IV.
             </param>
-            <param name = "dwFlags">
-            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name = "hKey"/> parameter.
+            <param name="dwFlags">
+            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name="hKey"/> parameter.
             </param>
             <returns>Returns a status code that indicates the success or failure of the function.</returns>
         </member>
-        <member name="M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Nullable{System.ArraySegment{System.Byte}},System.IntPtr,System.Nullable{System.ArraySegment{System.Byte}},System.Nullable{System.ArraySegment{System.Byte}},System.Int32@,PInvoke.BCrypt.BCryptEncryptFlags)">
+        <member name="M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Nullable{System.ArraySegment{System.Byte}},System.Void*,System.Nullable{System.ArraySegment{System.Byte}},System.Nullable{System.ArraySegment{System.Byte}},System.Int32@,PInvoke.BCrypt.BCryptEncryptFlags)">
             <summary>
             Decrypts a block of data.
             </summary>
-            <param name = "key">
-            The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <see cref = "M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref = "M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref = "M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
+            <param name="key">
+            The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <see cref="M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref="M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref="M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
             </param>
-            <param name = "input">
+            <param name="input">
             The address of a buffer that contains the ciphertext to be decrypted. For more information, see Remarks.
             </param>
-            <param name = "paddingInfo">
-            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the <paramref name = "flags"/> parameter. Otherwise, the parameter must be set to NULL.
+            <param name="paddingInfo">
+            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the <paramref name="flags"/> parameter. Otherwise, the parameter must be set to NULL.
             </param>
-            <param name = "iv">
+            <param name="iv">
             The address of a buffer that contains the initialization vector (IV) to use during decryption. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
             This parameter is optional and can be NULL if no IV is used.
-            The required size of the IV can be obtained by calling the <see cref = "M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the <see cref = "F:PInvoke.BCrypt.PropertyNames.BCRYPT_BLOCK_LENGTH"/> property. This will provide the size of a block for the algorithm, which is also the size of the IV.
+            The required size of the IV can be obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the <see cref="F:PInvoke.BCrypt.PropertyNames.BCRYPT_BLOCK_LENGTH"/> property. This will provide the size of a block for the algorithm, which is also the size of the IV.
             </param>
-            <param name = "output">
+            <param name="output">
             The address of a buffer to receive the plaintext produced by this function. The cbOutput parameter contains the size of this buffer. For more information, see Remarks.
-            If this parameter is NULL, the <see cref = "M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)"/> function calculates the size required for the plaintext of the encrypted data passed in the <paramref name = "input"/> parameter.In this case, the location pointed to by the <paramref name = "outputLength"/> parameter contains this size, and the function returns <see cref = "F:PInvoke.NTSTATUS.Code.STATUS_SUCCESS"/>.
-            If the values of both the <paramref name = "output"/> and <paramref name = "input"/> parameters are NULL, an error is returned unless an authenticated encryption algorithm is in use.In the latter case, the call is treated as an authenticated encryption call with zero length data, and the authentication tag, passed in the <paramref name = "paddingInfo"/> parameter, is verified.
+            If this parameter is NULL, the <see cref="M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)"/> function calculates the size required for the plaintext of the encrypted data passed in the <paramref name="input"/> parameter.In this case, the location pointed to by the <paramref name="outputLength"/> parameter contains this size, and the function returns <see cref="F:PInvoke.NTSTATUS.Code.STATUS_SUCCESS"/>.
+            If the values of both the <paramref name="output"/> and <paramref name="input" /> parameters are NULL, an error is returned unless an authenticated encryption algorithm is in use.In the latter case, the call is treated as an authenticated encryption call with zero length data, and the authentication tag, passed in the <paramref name="paddingInfo"/> parameter, is verified.
             </param>
-            <param name = "outputLength">
-            A pointer to a ULONG variable to receive the number of bytes copied to the <paramref name = "output"/> buffer. If <paramref name = "output"/> is NULL, this receives the size, in bytes, required for the plaintext.
+            <param name="outputLength">
+            A pointer to a ULONG variable to receive the number of bytes copied to the <paramref name="output"/> buffer. If <paramref name="output"/> is NULL, this receives the size, in bytes, required for the plaintext.
             </param>
-            <param name = "flags">
-            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name = "key"/> parameter.
+            <param name="flags">
+            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name="key"/> parameter.
             </param>
             <returns>Returns a status code that indicates the success or failure of the function.</returns>
         </member>
-        <member name="M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.IntPtr,PInvoke.BCrypt.BCryptSignHashFlags)">
+        <member name="M:PInvoke.BCrypt.BCryptFinishHash(PInvoke.BCrypt.SafeHashHandle,PInvoke.BCrypt.BCryptFinishHashFlags)">
+            <summary>
+            Retrieves the hash or Message Authentication Code (MAC) value for the data accumulated from prior calls to <see cref="M:PInvoke.BCrypt.BCryptHashData(PInvoke.BCrypt.SafeHashHandle,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptHashDataFlags)"/>.
+            </summary>
+            <param name="hHash">
+            The handle of the hash or MAC object to use to compute the hash or MAC. This handle is obtained by calling the <see cref="M:PInvoke.BCrypt.BCryptCreateHash(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptCreateHashFlags)"/> function. After this function has been called, the hash handle passed to this function cannot be used again except in a call to <see cref="M:PInvoke.BCrypt.BCryptDestroyHash(System.IntPtr)"/>.
+            </param>
+            <param name="flags">A set of flags that modify the behavior of this function.</param>
+            <returns>The hash or MAC value.</returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)">
             <summary>
             Creates a signature of a hash value.
             </summary>
-            <param name = "key">The handle of the key to use to sign the hash.</param>
-            <param name = "hash">
+            <param name="key">The handle of the key to use to sign the hash.</param>
+            <param name="hash">
             A pointer to a buffer that contains the hash value to sign.
             </param>
-            <param name = "paddingInfo">
-            A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the <paramref name = "flags"/> parameter. This parameter is only used with asymmetric keys and must be NULL otherwise.
+            <param name="paddingInfo">
+            A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the <paramref name="flags"/> parameter. This parameter is only used with asymmetric keys and must be NULL otherwise.
             </param>
-            <param name = "flags">
-            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name = "key"/> parameter.
+            <param name="flags">
+            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name="key"/> parameter.
             </param>
             <returns>
             The signature produced by this function.
             </returns>
             <remarks>
-            To later verify that the signature is valid, call the <see cref = "M:PInvoke.BCrypt.BCryptVerifySignature(PInvoke.BCrypt.SafeKeyHandle,System.Void*,System.Byte[],System.Int32,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptSignHashFlags)"/> function with an identical key and an identical hash of the original data.
+            To later verify that the signature is valid, call the <see cref="M:PInvoke.BCrypt.BCryptVerifySignature(PInvoke.BCrypt.SafeKeyHandle,System.Void*,System.Byte[],System.Int32,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptSignHashFlags)"/> function with an identical key and an identical hash of the original data.
             </remarks>
         </member>
-        <member name="M:PInvoke.BCrypt.BCryptVerifySignature(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Byte[],System.IntPtr,PInvoke.BCrypt.BCryptSignHashFlags)">
+        <member name="M:PInvoke.BCrypt.BCryptVerifySignature(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)">
             <summary>
             Verifies that the specified signature matches the specified hash.
             </summary>
-            <param name = "key">
-            The handle of the key to use to decrypt the signature. This must be an identical key or the public key portion of the key pair used to sign the data with the <see cref = "M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)"/> function.
+            <param name="key">
+            The handle of the key to use to decrypt the signature. This must be an identical key or the public key portion of the key pair used to sign the data with the <see cref="M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)"/> function.
             </param>
-            <param name = "hash">
+            <param name="hash">
             The address of a buffer that contains the hash of the data.
             </param>
-            <param name = "signature">
-            The address of a buffer that contains the signed hash of the data. The <see cref = "M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)"/> function is used to create the signature.
+            <param name="signature">
+            The address of a buffer that contains the signed hash of the data. The <see cref="M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)"/> function is used to create the signature.
             </param>
-            <param name = "paddingInfo">
-            A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the <paramref name = "flags"/> parameter. This parameter is only used with asymmetric keys and must be NULL otherwise.
+            <param name="paddingInfo">
+            A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the <paramref name="flags"/> parameter. This parameter is only used with asymmetric keys and must be NULL otherwise.
             </param>
-            <param name = "flags">
+            <param name="flags">
             A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the hKey parameter.
             If the key is a symmetric key, this parameter is not used and should be zero.
             If the key is an asymmetric key, this can be one of the following values.
@@ -3001,27 +2903,88 @@
             <returns>
             <c>true</c> if the signature is valid; <c>false</c> otherwise.
             </returns>
-            <exception cref = "T:PInvoke.Win32Exception">Thrown when any error occurs other than an invalid signature.</exception>
+            <exception cref="T:PInvoke.Win32Exception">Thrown when any error occurs other than an invalid signature.</exception>
         </member>
-        <member name="M:PInvoke.BCrypt.ArrayOrOriginalNull(System.ArraySegment{System.Byte},System.IntPtr)">
+        <member name="M:PInvoke.BCrypt.BCryptSecretAgreement(PInvoke.BCrypt.SafeKeyHandle,PInvoke.BCrypt.SafeKeyHandle)">
             <summary>
-            Returns the specified <paramref name = "pointer"/>,
-            or null if <paramref name = "buffer"/> was null before a call to
-            <see cref = "M:PInvoke.BCrypt.EnsureNotNullOrEmpty(System.ArraySegment{System.Byte}@)"/>.
+            Creates a secret agreement value from a private and a public key.
             </summary>
-            <param name = "buffer">The buffer which may have originally been null.</param>
-            <param name = "pointer">The pointer to some element in the buffer.</param>
-            <returns>The <paramref name = "pointer"/> or <c>null</c>.</returns>
+            <param name="privateKey">
+            The handle of the private key to use to create the secret agreement value.
+            This key and the hPubKey key must come from the same CNG cryptographic algorithm provider.
+            </param>
+            <param name="publicKey">
+            The handle of the public key to use to create the secret agreement value.
+            This key and the hPrivKey key must come from the same CNG cryptographic algorithm provider.
+            </param>
+            <returns>
+            A handle to the shared secret.
+            </returns>
         </member>
-        <member name="M:PInvoke.BCrypt.ArrayOrOriginalNull(System.ArraySegment{System.Byte},System.Byte[])">
+        <member name="M:PInvoke.BCrypt.BCryptSetProperty(System.Runtime.InteropServices.SafeHandle,System.String,System.String,PInvoke.BCrypt.BCryptSetPropertyFlags)">
             <summary>
-            Returns the specified <paramref name = "pointer"/>,
-            or null if <paramref name = "buffer"/> was null before a call to
-            <see cref = "M:PInvoke.BCrypt.EnsureNotNullOrEmpty(System.ArraySegment{System.Byte}@)"/>.
+            Sets the value of a named property for a CNG object.
             </summary>
-            <param name = "buffer">The buffer which may have originally been null.</param>
-            <param name = "pointer">The pointer to some element in the buffer.</param>
-            <returns>The <paramref name = "pointer"/> or <c>null</c>.</returns>
+            <param name="hObject">A handle that represents the CNG object to set the property value for.</param>
+            <param name="propertyName">
+            The name of the property to set. This can be one of the predefined <see cref="T:PInvoke.BCrypt.PropertyNames"/> or a custom property identifier.
+            </param>
+            <param name="propertyValue">The new property value.</param>
+            <param name="flags">Flags to pass to <see cref="M:PInvoke.BCrypt.BCryptSetProperty(System.Runtime.InteropServices.SafeHandle,System.String,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptSetPropertyFlags)"/></param>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptSetProperty``1(System.Runtime.InteropServices.SafeHandle,System.String,``0,PInvoke.BCrypt.BCryptSetPropertyFlags)">
+            <summary>
+            Sets the value of a named property for a CNG object.
+            </summary>
+            <typeparam name="T">The type of value being set.</typeparam>
+            <param name="hObject">A handle that represents the CNG object to set the property value for.</param>
+            <param name="propertyName">
+            The name of the property to set. This can be one of the predefined <see cref="T:PInvoke.BCrypt.PropertyNames"/> or a custom property identifier.
+            </param>
+            <param name="propertyValue">The new property value.</param>
+            <param name="flags">Flags to pass to <see cref="M:PInvoke.BCrypt.BCryptSetProperty(System.Runtime.InteropServices.SafeHandle,System.String,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptSetPropertyFlags)"/></param>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)">
+            <summary>
+            Retrieves the value of a named property for a CNG object.
+            </summary>
+            <param name="hObject">A handle that represents the CNG object to obtain the property value for.</param>
+            <param name="propertyName">A pointer to a null-terminated Unicode string that contains the name of the property to retrieve. This can be one of the predefined <see cref="T:PInvoke.BCrypt.PropertyNames"/> or a custom property identifier.</param>
+            <param name="flags">A set of flags that modify the behavior of this function. No flags are defined for this function.</param>
+            <returns>The property value.</returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptGetProperty``1(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)">
+            <summary>
+            Retrieves the value of a named property for a CNG object.
+            </summary>
+            <typeparam name="T">The type of struct to return the property value as.</typeparam>
+            <param name="hObject">A handle that represents the CNG object to obtain the property value for.</param>
+            <param name="propertyName">A pointer to a null-terminated Unicode string that contains the name of the property to retrieve. This can be one of the predefined <see cref="T:PInvoke.BCrypt.PropertyNames"/> or a custom property identifier.</param>
+            <param name="flags">A set of flags that modify the behavior of this function. No flags are defined for this function.</param>
+            <returns>The property value.</returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.EnsureNotNullOrEmpty(System.ArraySegment{System.Byte}@)">
+            <summary>
+            Ensures that the specified byte array is not null.
+            </summary>
+            <param name="buffer">The byte buffer to replace with a non-null buffer, if null.</param>
+        </member>
+        <member name="M:PInvoke.BCrypt.ArraySegmentFor(System.Byte[])">
+            <summary>
+            Returns an array segment for the specified array.
+            </summary>
+            <param name="buffer">The byte buffer to wrap as an ArraySegment.</param>
+            <returns>An array segment.</returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.ArrayOrOriginalNull(System.ArraySegment{System.Byte},System.Byte*)">
+            <summary>
+            Returns the specified <paramref name="pointer"/>,
+            or null if <paramref name="buffer"/> was null before a call to
+            <see cref="M:PInvoke.BCrypt.EnsureNotNullOrEmpty(System.ArraySegment{System.Byte}@)"/>.
+            </summary>
+            <param name="buffer">The buffer which may have originally been null.</param>
+            <param name="pointer">The pointer to some element in the buffer.</param>
+            <returns>The <paramref name="pointer"/> or <c>null</c>.</returns>
         </member>
         <member name="M:PInvoke.BCrypt.BCryptEnumAlgorithms(PInvoke.BCrypt.AlgorithmOperations,System.Int32@,System.IntPtr@,PInvoke.BCrypt.BCryptEnumAlgorithmsFlags)">
             <summary>
@@ -3374,6 +3337,181 @@
             The BCryptFreeBuffer function is used to free memory that was allocated by one of the CNG functions.
             </summary>
             <param name = "pvBuffer">A pointer to the memory buffer to be freed.</param>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.IntPtr,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)">
+            <summary>
+            Encrypts a block of data.
+            </summary>
+            <param name = "hKey">
+            The handle of the key to use to encrypt the data. This handle is obtained from one of the key creation functions, such as <see cref = "M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref = "M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref = "M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
+            </param>
+            <param name = "pbInput">
+            The address of a buffer that contains the plaintext to be encrypted. The cbInput parameter contains the size of the plaintext to encrypt.
+            </param>
+            <param name = "pPaddingInfo">
+            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the dwFlags parameter. Otherwise, the parameter must be set to NULL.
+            </param>
+            <param name = "pbIV">
+            The address of a buffer that contains the initialization vector (IV) to use during encryption. The cbIV parameter contains the size of this buffer. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
+            This parameter is optional and can be NULL if no IV is used.
+            The required size of the IV can be obtained by calling the <see cref = "M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the BCRYPT_BLOCK_LENGTH property.This will provide the size of a block for the algorithm, which is also the size of the IV.
+            </param>
+            <param name = "dwFlags">
+            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the hKey parameter.
+            </param>
+            <returns>The encrypted ciphertext.</returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Nullable{System.ArraySegment{System.Byte}},System.IntPtr,System.Nullable{System.ArraySegment{System.Byte}},System.Nullable{System.ArraySegment{System.Byte}},System.Int32@,PInvoke.BCrypt.BCryptEncryptFlags)">
+            <summary>
+            Encrypts a block of data.
+            </summary>
+            <param name = "key">
+            The handle of the key to use to encrypt the data. This handle is obtained from one of the key creation functions, such as <see cref = "M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref = "M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref = "M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
+            </param>
+            <param name = "input">
+            The address of a buffer that contains the plaintext to be encrypted. The cbInput parameter contains the size of the plaintext to encrypt.
+            </param>
+            <param name = "paddingInfo">
+            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the dwFlags parameter. Otherwise, the parameter must be set to NULL.
+            </param>
+            <param name = "iv">
+            The address of a buffer that contains the initialization vector (IV) to use during encryption. The cbIV parameter contains the size of this buffer. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
+            This parameter is optional and can be NULL if no IV is used.
+            The required size of the IV can be obtained by calling the <see cref = "M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the BCRYPT_BLOCK_LENGTH property.This will provide the size of a block for the algorithm, which is also the size of the IV.
+            </param>
+            <param name = "output">
+            The address of the buffer that receives the ciphertext produced by this function. For more information, see Remarks.
+            If this parameter is NULL, the <see cref = "M:PInvoke.BCrypt.BCryptEncrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)"/> function calculates the size needed for the ciphertext of the data passed in the <paramref name = "input"/> parameter. In this case, the location pointed to by the <paramref name = "outputLength"/> parameter contains this size, and the function returns <see cref = "F:PInvoke.NTSTATUS.Code.STATUS_SUCCESS"/>.The <paramref name = "paddingInfo"/> parameter is not modified.
+            If the values of both the <paramref name = "output"/> and <paramref name = "input"/> parameters are NULL, an error is returned unless an authenticated encryption algorithm is in use.In the latter case, the call is treated as an authenticated encryption call with zero length data, and the authentication tag is returned in the <paramref name = "paddingInfo"/> parameter.
+            </param>
+            <param name = "outputLength">
+            Receives the number of bytes copied to the <paramref name = "output"/> buffer. If <paramref name = "output"/> is NULL, this receives the size, in bytes, required for the ciphertext.
+            </param>
+            <param name = "flags">
+            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the hKey parameter.
+            </param>
+            <returns>The encrypted ciphertext.</returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.IntPtr,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)">
+            <summary>
+            Decrypts a block of data.
+            </summary>
+            <param name = "hKey">
+            The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <see cref = "M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref = "M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref = "M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
+            </param>
+            <param name = "pbInput">
+            The address of a buffer that contains the ciphertext to be decrypted. For more information, see Remarks.
+            </param>
+            <param name = "pPaddingInfo">
+            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the <paramref name = "dwFlags"/> parameter. Otherwise, the parameter must be set to NULL.
+            </param>
+            <param name = "pbIV">
+            The address of a buffer that contains the initialization vector (IV) to use during decryption. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
+            This parameter is optional and can be NULL if no IV is used.
+            The required size of the IV can be obtained by calling the <see cref = "M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the <see cref = "F:PInvoke.BCrypt.PropertyNames.BCRYPT_BLOCK_LENGTH"/> property. This will provide the size of a block for the algorithm, which is also the size of the IV.
+            </param>
+            <param name = "dwFlags">
+            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name = "hKey"/> parameter.
+            </param>
+            <returns>Returns a status code that indicates the success or failure of the function.</returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Nullable{System.ArraySegment{System.Byte}},System.IntPtr,System.Nullable{System.ArraySegment{System.Byte}},System.Nullable{System.ArraySegment{System.Byte}},System.Int32@,PInvoke.BCrypt.BCryptEncryptFlags)">
+            <summary>
+            Decrypts a block of data.
+            </summary>
+            <param name = "key">
+            The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <see cref = "M:PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.Byte[],System.Byte[],PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags)"/>, <see cref = "M:PInvoke.BCrypt.BCryptGenerateKeyPair(PInvoke.BCrypt.SafeAlgorithmHandle,System.Int32)"/>, or <see cref = "M:PInvoke.BCrypt.BCryptImportKey(PInvoke.BCrypt.SafeAlgorithmHandle,System.String,System.Byte[],PInvoke.BCrypt.SafeKeyHandle,System.Byte[],PInvoke.BCrypt.BCryptImportKeyFlags)"/>.
+            </param>
+            <param name = "input">
+            The address of a buffer that contains the ciphertext to be decrypted. For more information, see Remarks.
+            </param>
+            <param name = "paddingInfo">
+            A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an authenticated encryption mode is used, this parameter must point to a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the <paramref name = "flags"/> parameter. Otherwise, the parameter must be set to NULL.
+            </param>
+            <param name = "iv">
+            The address of a buffer that contains the initialization vector (IV) to use during decryption. This function will modify the contents of this buffer. If you need to reuse the IV later, make sure you make a copy of this buffer before calling this function.
+            This parameter is optional and can be NULL if no IV is used.
+            The required size of the IV can be obtained by calling the <see cref = "M:PInvoke.BCrypt.BCryptGetProperty(System.Runtime.InteropServices.SafeHandle,System.String,PInvoke.BCrypt.BCryptGetPropertyFlags)"/> function to get the <see cref = "F:PInvoke.BCrypt.PropertyNames.BCRYPT_BLOCK_LENGTH"/> property. This will provide the size of a block for the algorithm, which is also the size of the IV.
+            </param>
+            <param name = "output">
+            The address of a buffer to receive the plaintext produced by this function. The cbOutput parameter contains the size of this buffer. For more information, see Remarks.
+            If this parameter is NULL, the <see cref = "M:PInvoke.BCrypt.BCryptDecrypt(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,System.Byte[],PInvoke.BCrypt.BCryptEncryptFlags)"/> function calculates the size required for the plaintext of the encrypted data passed in the <paramref name = "input"/> parameter.In this case, the location pointed to by the <paramref name = "outputLength"/> parameter contains this size, and the function returns <see cref = "F:PInvoke.NTSTATUS.Code.STATUS_SUCCESS"/>.
+            If the values of both the <paramref name = "output"/> and <paramref name = "input"/> parameters are NULL, an error is returned unless an authenticated encryption algorithm is in use.In the latter case, the call is treated as an authenticated encryption call with zero length data, and the authentication tag, passed in the <paramref name = "paddingInfo"/> parameter, is verified.
+            </param>
+            <param name = "outputLength">
+            A pointer to a ULONG variable to receive the number of bytes copied to the <paramref name = "output"/> buffer. If <paramref name = "output"/> is NULL, this receives the size, in bytes, required for the plaintext.
+            </param>
+            <param name = "flags">
+            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name = "key"/> parameter.
+            </param>
+            <returns>Returns a status code that indicates the success or failure of the function.</returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.IntPtr,PInvoke.BCrypt.BCryptSignHashFlags)">
+            <summary>
+            Creates a signature of a hash value.
+            </summary>
+            <param name = "key">The handle of the key to use to sign the hash.</param>
+            <param name = "hash">
+            A pointer to a buffer that contains the hash value to sign.
+            </param>
+            <param name = "paddingInfo">
+            A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the <paramref name = "flags"/> parameter. This parameter is only used with asymmetric keys and must be NULL otherwise.
+            </param>
+            <param name = "flags">
+            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the <paramref name = "key"/> parameter.
+            </param>
+            <returns>
+            The signature produced by this function.
+            </returns>
+            <remarks>
+            To later verify that the signature is valid, call the <see cref = "M:PInvoke.BCrypt.BCryptVerifySignature(PInvoke.BCrypt.SafeKeyHandle,System.Void*,System.Byte[],System.Int32,System.Byte[],System.Int32,PInvoke.BCrypt.BCryptSignHashFlags)"/> function with an identical key and an identical hash of the original data.
+            </remarks>
+        </member>
+        <member name="M:PInvoke.BCrypt.BCryptVerifySignature(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Byte[],System.IntPtr,PInvoke.BCrypt.BCryptSignHashFlags)">
+            <summary>
+            Verifies that the specified signature matches the specified hash.
+            </summary>
+            <param name = "key">
+            The handle of the key to use to decrypt the signature. This must be an identical key or the public key portion of the key pair used to sign the data with the <see cref = "M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)"/> function.
+            </param>
+            <param name = "hash">
+            The address of a buffer that contains the hash of the data.
+            </param>
+            <param name = "signature">
+            The address of a buffer that contains the signed hash of the data. The <see cref = "M:PInvoke.BCrypt.BCryptSignHash(PInvoke.BCrypt.SafeKeyHandle,System.Byte[],System.Void*,PInvoke.BCrypt.BCryptSignHashFlags)"/> function is used to create the signature.
+            </param>
+            <param name = "paddingInfo">
+            A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the <paramref name = "flags"/> parameter. This parameter is only used with asymmetric keys and must be NULL otherwise.
+            </param>
+            <param name = "flags">
+            A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the hKey parameter.
+            If the key is a symmetric key, this parameter is not used and should be zero.
+            If the key is an asymmetric key, this can be one of the following values.
+            </param>
+            <returns>
+            <c>true</c> if the signature is valid; <c>false</c> otherwise.
+            </returns>
+            <exception cref = "T:PInvoke.Win32Exception">Thrown when any error occurs other than an invalid signature.</exception>
+        </member>
+        <member name="M:PInvoke.BCrypt.ArrayOrOriginalNull(System.ArraySegment{System.Byte},System.IntPtr)">
+            <summary>
+            Returns the specified <paramref name = "pointer"/>,
+            or null if <paramref name = "buffer"/> was null before a call to
+            <see cref = "M:PInvoke.BCrypt.EnsureNotNullOrEmpty(System.ArraySegment{System.Byte}@)"/>.
+            </summary>
+            <param name = "buffer">The buffer which may have originally been null.</param>
+            <param name = "pointer">The pointer to some element in the buffer.</param>
+            <returns>The <paramref name = "pointer"/> or <c>null</c>.</returns>
+        </member>
+        <member name="M:PInvoke.BCrypt.ArrayOrOriginalNull(System.ArraySegment{System.Byte},System.Byte[])">
+            <summary>
+            Returns the specified <paramref name = "pointer"/>,
+            or null if <paramref name = "buffer"/> was null before a call to
+            <see cref = "M:PInvoke.BCrypt.EnsureNotNullOrEmpty(System.ArraySegment{System.Byte}@)"/>.
+            </summary>
+            <param name = "buffer">The buffer which may have originally been null.</param>
+            <param name = "pointer">The pointer to some element in the buffer.</param>
+            <returns>The <paramref name = "pointer"/> or <c>null</c>.</returns>
         </member>
     </members>
 </doc>

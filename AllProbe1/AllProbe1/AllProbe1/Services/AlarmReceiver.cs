@@ -2,6 +2,7 @@
 using AllProbe1.Models;
 using AllProbe1.ViewModels;
 using Android.App;
+using Android.Support.V4.App;
 using Android.Content;
 using Android.Graphics;
 using Java.Lang;
@@ -9,7 +10,7 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using static AllProbe1.Views.EventsViewPageViewModel;
+using static EventsViewPageViewModel;
 using AllProbe1.Services;
 using Android.OS;
 
@@ -92,7 +93,7 @@ namespace AllProbe1.Services
             }
             catch (System.Exception ex)
             {
-                //CreateNotification("AllProbe", ex.Message, 10, 0);
+                CreateNotification("AllProbe", ex.Message, 10, 0);
             }
         }
 
@@ -110,12 +111,12 @@ namespace AllProbe1.Services
             if (newEvents.Count() > intersectedEvents.Count() && sessionState.OldEvents.Count() > intersectedEvents.Count())
             {
                 int newEventsCount = newEvents.Count() - intersectedEvents.Count() + sessionState.OldEvents.Count() - intersectedEvents.Count();
-                CreateNotification("Events changed", "New Events are detected and old events were canceled", 10, newEventsCount);
+                CreateNotification("Events changed", "New Events were detected and old events were canceled", 10, newEventsCount);
             }
             else if (newEvents.Count() > intersectedEvents.Count())
             {
                 int newEventsCount = newEvents.Count() - intersectedEvents.Count();
-                CreateNotification(newEventsCount.ToString() + (newEventsCount == 1 ? " New event" : " New events"), "New Events are detected", 10, newEventsCount);
+                CreateNotification(newEventsCount.ToString() + (newEventsCount == 1 ? " New event" : " New events"), "New Events were detected", 10, newEventsCount);
             }
             else if (sessionState.OldEvents.Count() > intersectedEvents.Count())
             {
@@ -203,32 +204,35 @@ namespace AllProbe1.Services
         {
             Intent intent = new Intent(Application.Context, typeof(MainActivity));
 
-            // Create a PendingIntent; we're only using one PendingIntent (ID = 0):
+            /// Create a PendingIntent; we're only using one PendingIntent (ID = 0):
             const int pendingIntentId = 0;
             PendingIntent pendingIntent =
                 PendingIntent.GetActivity(Application.Context, pendingIntentId, intent, PendingIntentFlags.OneShot);
 
-            Notification.Builder builder = new Notification.Builder(Application.Context)
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(Application.Context, "DEFAULT_CHANNEL_ID")
                             .SetContentIntent(pendingIntent)
                             .SetContentTitle(title)
                             .SetContentText(description)
-                            .SetDefaults(NotificationDefaults.Sound)
+                            .SetDefaults(NotificationCompat.DefaultAll)
                             .SetSmallIcon(Resource.Drawable.allProbe)
+                            .SetColor(Convert.ToInt32(0x00FFFFFF))//Background notification icon color = Transparent
+                            .SetOnlyAlertOnce(true)
                             .SetWhen(JavaSystem.CurrentTimeMillis())
-                            .SetLargeIcon(BitmapFactory.DecodeResource(Application.Context.Resources, Resource.Drawable.allProbe))
+                            //.SetLargeIcon(BitmapFactory.DecodeResource(Application.Context.Resources, Resource.Drawable.allProbe))
                             .SetShowWhen(true)
                             .SetAutoCancel(true)
-                            .SetNumber(number);
+                            .SetNumber(number)
+                            .SetBadgeIconType(NotificationCompat.BadgeIconNone);
 
 
-            // Build the notification:
+            /// Build the notification:
             Notification notification = builder.Build();
 
-            // Get the notification manager:
+            /// Get the notification manager:
             NotificationManager notificationManager =
                 Application.Context.GetSystemService(Context.NotificationService) as NotificationManager;
 
-            // Publish the notification:
+            /// Publish the notification:
             const int notificationId = 1095;
             notificationManager.Notify(notificationId, notification);
         }

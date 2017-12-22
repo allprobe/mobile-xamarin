@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AllProbe1.Views.SLA">
+             x:Class="AllProbe1.Views.SLA"
+             BackgroundColor="White">
 
     <RelativeLayout>
 
         <Label x:Name="lblURL"
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
-               BackgroundColor="{StaticResource Primary}" TextColor="White"
+               BackgroundColor="{StaticResource Primary}" TextColor="#ff00bfff" FontSize="Medium"
                HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
-        <Label x:Name="lblSLA"
+        <Label x:Name="lblSLA" BackgroundColor="White"
                HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblURL, Property=Y, Constant=40}"
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.75}"
@@ -92,17 +93,17 @@
                                                            HorizontalOptions="CenterAndExpand"
                                                            HorizontalTextAlignment="Center"
                                                            VerticalTextAlignment="Center"
-                                                           TextColor="#84c4d3" />
+                                                           TextColor="#757575" />
                                                     <Label Text="{Binding ToTime}"
                                                            HorizontalOptions="CenterAndExpand"
                                                            HorizontalTextAlignment="Center"
                                                            VerticalTextAlignment="Center"
-                                                           TextColor="#84c4d3" />
+                                                           TextColor="#757575" />
                                                     <Label Text="{Binding Average}"
                                                            HorizontalOptions="CenterAndExpand"
                                                            HorizontalTextAlignment="Center"
                                                            VerticalTextAlignment="Center"
-                                                           TextColor="#84c4d3" />
+                                                           TextColor="#757575" />
                                                 </StackLayout>
                                             </StackLayout>
                                         </ViewCell>

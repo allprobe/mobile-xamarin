@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Net;
 using System.Collections.Generic;
 using System.Linq;
-using static AllProbe1.Views.EventsViewPageViewModel;
+using static EventsViewPageViewModel;
 using System.Text;
 using AllProbe1.ViewModels;
 using AllProbe1.Models;

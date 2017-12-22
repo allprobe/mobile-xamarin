@@ -53,6 +53,16 @@
             The "api-ms-win-core-synch-l1-2-0.dll" constant.
             </summary>
         </member>
+        <member name="F:PInvoke.ApiSets.api_ms_win_core_sysinfo_l1_2_1">
+            <summary>
+            The "api-ms-win-core-sysinfo-l1-2-1.dll" constant.
+            </summary>
+        </member>
+        <member name="F:PInvoke.ApiSets.api_ms_win_core_sysinfo_l1_2_0">
+            <summary>
+            The "api-ms-win-core-sysinfo-l1-2-0.dll" constant.
+            </summary>
+        </member>
         <member name="F:PInvoke.ApiSets.api_ms_win_core_handle_l1_1_0">
             <summary>
             The "api-ms-win-core-handle-l1-1-0.dll" constant.
@@ -108,6 +118,21 @@
             The "api-ms-win-core-libraryloader-l1-1-1.dll" constant.
             </summary>
         </member>
+        <member name="F:PInvoke.ApiSets.api_ms_win_core_errorhandling_l1_1_1">
+            <summary>
+            The "api-ms-win-core-errorhandling-l1-1-1.dll" constant.
+            </summary>
+        </member>
+        <member name="F:PInvoke.ApiSets.api_ms_win_security_sddl_l1_1_0">
+            <summary>
+            The "api-ms-win-security-sddl-l1-1-0.dll" constant.
+            </summary>
+        </member>
+        <member name="F:PInvoke.ApiSets.api_ms_win_core_registry_l1_1_0">
+            <summary>
+            The "api-ms-win-core-registry-l1-1-0.dll" constant.
+            </summary>
+        </member>
         <member name="T:PInvoke.Constants">
             <summary>
             Constants defined by common C or Windows headers.
@@ -116,6 +141,21 @@
         <member name="F:PInvoke.Constants.INFINITE">
             <summary>
             An infinite timeout.
+            </summary>
+        </member>
+        <member name="T:PInvoke.COORD">
+            <summary>
+            The COORD structure defines the X- and Y- coordinates of a point.
+            </summary>
+        </member>
+        <member name="F:PInvoke.COORD.X">
+            <summary>
+             The x-coordinate of the point.
+            </summary>
+        </member>
+        <member name="F:PInvoke.COORD.Y">
+            <summary>
+            The x-coordinate of the point.
             </summary>
         </member>
         <member name="T:PInvoke.HResult">
@@ -638,6 +678,12 @@
             <content>
             Contains the <see cref="T:PInvoke.IMAGE_OPTIONAL_HEADER.DllCharacteristicsType"/> nested type.
             </content>
+            <content>
+            Contains the <see cref="T:PInvoke.IMAGE_OPTIONAL_HEADER.MagicType"/> nested type.
+            </content>
+            <content>
+            Contains the <see cref="T:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType"/> nested type.
+            </content>
             <summary>
             Represents the optional header format.
             </summary>
@@ -649,12 +695,6 @@
             </para>
             <para>The number of directories is not fixed. Check the NumberOfRvaAndSizes member before looking for a specific directory.</para>
             </remarks>
-            <content>
-            Contains the <see cref="T:PInvoke.IMAGE_OPTIONAL_HEADER.MagicType"/> nested type.
-            </content>
-            <content>
-            Contains the <see cref="T:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType"/> nested type.
-            </content>
         </member>
         <member name="T:PInvoke.IMAGE_OPTIONAL_HEADER.DllCharacteristicsType">
             <summary>
@@ -729,6 +769,96 @@
         <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.DllCharacteristicsType.IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE">
             <summary>
             The image is terminal server aware.
+            </summary>
+        </member>
+        <member name="T:PInvoke.IMAGE_OPTIONAL_HEADER.MagicType">
+            <summary>
+            Expected values for the <see cref="F:PInvoke.IMAGE_OPTIONAL_HEADER.Magic"/> field.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.MagicType.IMAGE_NT_OPTIONAL_HDR32_MAGIC">
+            <summary>
+            The file is a 32-bit executable image.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.MagicType.IMAGE_NT_OPTIONAL_HDR64_MAGIC">
+            <summary>
+            The file is a 64-bit executable image.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.MagicType.IMAGE_ROM_OPTIONAL_HDR_MAGIC">
+            <summary>
+            The file is a ROM image.
+            </summary>
+        </member>
+        <member name="T:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType">
+            <summary>
+            Describes expected values for the <see cref="F:PInvoke.IMAGE_OPTIONAL_HEADER.Subsystem"/> field.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_UNKNOWN">
+            <summary>
+            Unknown subsystem.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_NATIVE">
+            <summary>
+            No subsystem required (device drivers and native system processes).
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_WINDOWS_GUI">
+            <summary>
+            Windows graphical user interface (GUI) subsystem.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_WINDOWS_CUI">
+            <summary>
+            Windows character-mode user interface (CUI) subsystem.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_OS2_CUI">
+            <summary>
+            OS/2 CUI subsystem.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_POSIX_CUI">
+            <summary>
+            POSIX CUI subsystem.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_WINDOWS_CE_GUI">
+            <summary>
+            Windows CE system.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_EFI_APPLICATION">
+            <summary>
+            Extensible Firmware Interface (EFI) application.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER">
+            <summary>
+            EFI driver with boot services.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER">
+            <summary>
+            EFI driver with run-time services.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_EFI_ROM">
+            <summary>
+            EFI ROM image.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_XBOX">
+            <summary>
+            Xbox system.
+            </summary>
+        </member>
+        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_WINDOWS_BOOT_APPLICATION">
+            <summary>
+            Boot application.
             </summary>
         </member>
         <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.Magic">
@@ -893,96 +1023,6 @@
             A pointer to the first <see cref="T:PInvoke.IMAGE_DATA_DIRECTORY"/> structure in the data directory.
             </summary>
         </member>
-        <member name="T:PInvoke.IMAGE_OPTIONAL_HEADER.MagicType">
-            <summary>
-            Expected values for the <see cref="F:PInvoke.IMAGE_OPTIONAL_HEADER.Magic"/> field.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.MagicType.IMAGE_NT_OPTIONAL_HDR32_MAGIC">
-            <summary>
-            The file is a 32-bit executable image.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.MagicType.IMAGE_NT_OPTIONAL_HDR64_MAGIC">
-            <summary>
-            The file is a 64-bit executable image.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.MagicType.IMAGE_ROM_OPTIONAL_HDR_MAGIC">
-            <summary>
-            The file is a ROM image.
-            </summary>
-        </member>
-        <member name="T:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType">
-            <summary>
-            Describes expected values for the <see cref="F:PInvoke.IMAGE_OPTIONAL_HEADER.Subsystem"/> field.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_UNKNOWN">
-            <summary>
-            Unknown subsystem.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_NATIVE">
-            <summary>
-            No subsystem required (device drivers and native system processes).
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_WINDOWS_GUI">
-            <summary>
-            Windows graphical user interface (GUI) subsystem.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_WINDOWS_CUI">
-            <summary>
-            Windows character-mode user interface (CUI) subsystem.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_OS2_CUI">
-            <summary>
-            OS/2 CUI subsystem.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_POSIX_CUI">
-            <summary>
-            POSIX CUI subsystem.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_WINDOWS_CE_GUI">
-            <summary>
-            Windows CE system.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_EFI_APPLICATION">
-            <summary>
-            Extensible Firmware Interface (EFI) application.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER">
-            <summary>
-            EFI driver with boot services.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER">
-            <summary>
-            EFI driver with run-time services.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_EFI_ROM">
-            <summary>
-            EFI ROM image.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_XBOX">
-            <summary>
-            Xbox system.
-            </summary>
-        </member>
-        <member name="F:PInvoke.IMAGE_OPTIONAL_HEADER.SubsystemType.IMAGE_SUBSYSTEM_WINDOWS_BOOT_APPLICATION">
-            <summary>
-            Boot application.
-            </summary>
-        </member>
         <member name="T:PInvoke.IMAGE_OPTIONAL_HEADER_DIRECTORIES">
             <summary>
             Describes a fixed array of 16 <see cref="T:PInvoke.IMAGE_DATA_DIRECTORY"/> structures,
@@ -1066,10 +1106,10 @@
             Contains the <see cref="T:PInvoke.NTSTATUS.Code"/> nested type.
             </content>
             <content>
-            The <see cref="T:PInvoke.NTSTATUS.SeverityCode"/> nested type.
+            The <see cref="T:PInvoke.NTSTATUS.FacilityCode"/> nested type.
             </content>
             <content>
-            The <see cref="T:PInvoke.NTSTATUS.FacilityCode"/> nested type.
+            The <see cref="T:PInvoke.NTSTATUS.SeverityCode"/> nested type.
             </content>
              <summary>
              Win32 return error codes.
@@ -8165,14 +8205,14 @@
         <member name="F:PInvoke.NTSTATUS.Code.STATUS_VHD_SHARED">
             <summary>The requested operation cannot be performed on the virtual disk as it is currently used in shared mode.</summary>
         </member>
-        <member name="T:PInvoke.NTSTATUS.SeverityCode">
-            <summary>
-            The <see cref="T:PInvoke.NTSTATUS"/> severity codes.
-            </summary>
-        </member>
         <member name="T:PInvoke.NTSTATUS.FacilityCode">
             <summary>
             The <see cref="T:PInvoke.NTSTATUS"/> facility codes.
+            </summary>
+        </member>
+        <member name="T:PInvoke.NTSTATUS.SeverityCode">
+            <summary>
+            The <see cref="T:PInvoke.NTSTATUS"/> severity codes.
             </summary>
         </member>
         <member name="F:PInvoke.NTSTATUS.SeverityMask">
@@ -8360,12 +8400,30 @@
             <param name="value">The string to represent as a character array.</param>
             <returns>The character array with null terminator.</returns>
         </member>
+        <member name="T:PInvoke.POINT">
+            <summary>
+            The POINT structure defines the x- and y- coordinates of a point.
+            </summary>
+        </member>
+        <member name="F:PInvoke.POINT.x">
+            <summary>
+             The x-coordinate of the point.
+            </summary>
+        </member>
+        <member name="F:PInvoke.POINT.y">
+            <summary>
+            The x-coordinate of the point.
+            </summary>
+        </member>
         <member name="T:PInvoke.RECT">
             <summary>
             The RECT structure defines the coordinates of the upper-left and lower-right corners of a rectangle.
             </summary>
             <remarks>
-            By convention, the right and bottom edges of the rectangle are normally considered exclusive. In other words, the pixel whose coordinates are ( right, bottom ) lies immediately outside of the rectangle. For example, when RECT is passed to the FillRect function, the rectangle is filled up to, but not including, the right column and bottom row of pixels. This structure is identical to the RECTL structure.
+            By convention, the right and bottom edges of the rectangle are normally considered exclusive.
+            In other words, the pixel whose coordinates are ( right, bottom ) lies immediately outside of the rectangle.
+            For example, when RECT is passed to the FillRect function, the rectangle is filled up to, but not including,
+            the right column and bottom row of pixels. This structure is identical to the RECTL structure.
             </remarks>
         </member>
         <member name="F:PInvoke.RECT.left">
@@ -8384,6 +8442,35 @@
             </summary>
         </member>
         <member name="F:PInvoke.RECT.bottom">
+            <summary>
+            The y-coordinate of the lower-right corner of the rectangle.
+            </summary>
+        </member>
+        <member name="T:PInvoke.SMALL_RECT">
+            <summary>
+            The RECT structure defines the coordinates of the upper-left and lower-right corners of a rectangle.
+            </summary>
+            <remarks>
+            This structure is used by console functions to specify rectangular areas of console screen buffers,
+            where the coordinates specify the rows and columns of screen-buffer character cells.
+            </remarks>
+        </member>
+        <member name="F:PInvoke.SMALL_RECT.Left">
+            <summary>
+            The x-coordinate of the upper-left corner of the rectangle.
+            </summary>
+        </member>
+        <member name="F:PInvoke.SMALL_RECT.Top">
+            <summary>
+            The y-coordinate of the upper-left corner of the rectangle.
+            </summary>
+        </member>
+        <member name="F:PInvoke.SMALL_RECT.Right">
+            <summary>
+            The x-coordinate of the lower-right corner of the rectangle.
+            </summary>
+        </member>
+        <member name="F:PInvoke.SMALL_RECT.Bottom">
             <summary>
             The y-coordinate of the lower-right corner of the rectangle.
             </summary>
@@ -10336,7 +10423,7 @@
         <member name="F:PInvoke.Win32ErrorCode.ERROR_IMAGE_NOT_AT_BASE">
             <summary>
             {Image Relocated}
-            An image file could not be mapped at the address specified in the image file. Local fixups must be performed on this image.
+            An image file could not be mapped at the address specified in the image file. Local fixes must be performed on this image.
             </summary>
         </member>
         <member name="F:PInvoke.Win32ErrorCode.ERROR_RXACT_STATE_CREATED">
@@ -10804,7 +10891,7 @@
         <member name="F:PInvoke.Win32ErrorCode.ERROR_IMAGE_AT_DIFFERENT_BASE">
             <summary>
             {Image Relocated}
-            An image file was mapped at a different address from the one specified in the image file but fixups will still be automatically performed on the image.
+            An image file was mapped at a different address from the one specified in the image file but fixes will still be automatically performed on the image.
             </summary>
         </member>
         <member name="F:PInvoke.Win32ErrorCode.ERROR_ENCRYPTED_IO_NOT_POSSIBLE">
@@ -15342,7 +15429,7 @@
         </member>
         <member name="F:PInvoke.Win32ErrorCode.ERROR_CANNOT_ABORT_TRANSACTIONS">
             <summary>
-            The transactional resource manager had too many tranactions outstanding that could not be aborted. The transactional resource manger has been shut down.
+            The transactional resource manager had too many transactions outstanding that could not be aborted. The transactional resource manger has been shut down.
             </summary>
         </member>
         <member name="F:PInvoke.Win32ErrorCode.ERROR_BAD_CLUSTERS">
@@ -18856,7 +18943,7 @@
         </member>
         <member name="F:PInvoke.Win32ErrorCode.ERROR_EVT_FILTER_INVTEST">
             <summary>
-            A step operation must involve either a node test or, in the case of a predicate, an algebraic expression against which to test each node in the node set identified by the preceeding node set can be evaluated.
+            A step operation must involve either a node test or, in the case of a predicate, an algebraic expression against which to test each node in the node set identified by the preceding node set can be evaluated.
             </summary>
         </member>
         <member name="F:PInvoke.Win32ErrorCode.ERROR_EVT_FILTER_INVTYPE">
@@ -18876,7 +18963,7 @@
         </member>
         <member name="F:PInvoke.Win32ErrorCode.ERROR_EVT_FILTER_TOO_COMPLEX">
             <summary>
-            The xpath expression exceeded supported complexity. Please symplify it or split it into two or more simple expressions.
+            The xpath expression exceeded supported complexity. Please simplify it or split it into two or more simple expressions.
             </summary>
         </member>
         <member name="F:PInvoke.Win32ErrorCode.ERROR_EVT_MESSAGE_NOT_FOUND">
@@ -19061,7 +19148,7 @@
         </member>
         <member name="F:PInvoke.Win32ErrorCode.ERROR_GPIO_OPERATION_DENIED">
             <summary>
-            The requested operation is not suppported for the specified handle.
+            The requested operation is not supported for the specified handle.
             </summary>
         </member>
         <member name="F:PInvoke.Win32ErrorCode.ERROR_CANNOT_SWITCH_RUNLEVEL">
@@ -19251,6 +19338,990 @@
             <summary>
             The license has been revoked for this user.
             </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NetNotStarted">
+            <summary>The workstation driver is not installed.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UnknownServer">
+            <summary>The server could not be located.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ShareMem">
+            <summary>An internal error occurred.  The network cannot access a shared memory segment.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoNetworkResource">
+            <summary>A network resource shortage occurred .</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RemoteOnly">
+            <summary>This operation is not supported on workstations.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DevNotRedirected">
+            <summary>The device is not connected.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServerNotStarted">
+            <summary>The Server service is not started.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ItemNotFound">
+            <summary>The queue is empty.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UnknownDevDir">
+            <summary>The device or directory does not exist.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RedirectedPath">
+            <summary>The operation is invalid on a redirected resource.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DuplicateShare">
+            <summary>The name has already been shared.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoRoom">
+            <summary>The server is currently out of the requested resource.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TooManyItems">
+            <summary>Requested addition of items exceeds the maximum allowed.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidMaxUsers">
+            <summary>The Peer service supports only two simultaneous users.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BufTooSmall">
+            <summary>The API return buffer is too small.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RemoteErr">
+            <summary>A remote API error occurred. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LanmanIniError">
+            <summary>An error occurred when opening or reading the configuration file.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NetworkError">
+            <summary>A general network error occurred.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_WkstaInconsistentState">
+            <summary>The Workstation service is in an inconsistent state. Restart the computer before restarting the Workstation service. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_WkstaNotStarted">
+            <summary>The Workstation service has not been started.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BrowserNotStarted">
+            <summary>The requested information is not available.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InternalError">
+            <summary>An internal Windows error occurred.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadTransactConfig">
+            <summary>The server is not configured for transactions.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidAPI">
+            <summary>The requested API is not supported on the remote server.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadEventName">
+            <summary>The event name is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DupNameReboot">
+            <summary>The computer name already exists on the network. Change it and restart the computer.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CfgCompNotFound">
+            <summary>The specified component could not be found in the configuration information.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CfgParamNotFound">
+            <summary>The specified parameter could not be found in the configuration information.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LineTooLong">
+            <summary>A line in the configuration file is too long.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_QNotFound">
+            <summary>The printer does not exist.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_JobNotFound">
+            <summary>The print job does not exist.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DestNotFound">
+            <summary>The printer destination cannot be found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DestExists">
+            <summary>The printer destination already exists.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_QExists">
+            <summary>The printer queue already exists.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_QNoRoom">
+            <summary>No more printers can be added.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_JobNoRoom">
+            <summary>No more print jobs can be added. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DestNoRoom">
+            <summary>No more printer destinations can be added.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DestIdle">
+            <summary>This printer destination is idle and cannot accept control operations.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DestInvalidOp">
+            <summary>This printer destination request contains an invalid control function.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ProcNoRespond">
+            <summary>The print processor is not responding.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_SpoolerNotLoaded">
+            <summary>The spooler is not running.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DestInvalidState">
+            <summary>This operation cannot be performed on the print destination in its current state.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_QInvalidState">
+            <summary>This operation cannot be performed on the printer queue in its current state.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_JobInvalidState">
+            <summary>This operation cannot be performed on the print job in its current state.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_SpoolNoMemory">
+            <summary>A spooler memory allocation failure occurred.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DriverNotFound">
+            <summary>The device driver does not exist.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DataTypeInvalid">
+            <summary>The data type is not supported by the print processor.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ProcNotFound">
+            <summary>The print processor is not installed.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServiceTableLocked">
+            <summary>The service database is locked.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServiceTableFull">
+            <summary>The service table is full.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServiceInstalled">
+            <summary>The requested service has already been started.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServiceEntryLocked">
+            <summary>The service does not respond to control actions.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServiceNotInstalled">
+            <summary>The service has not been started.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadServiceName">
+            <summary>The service name is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServiceCtlTimeout">
+            <summary>The service is not responding to the control function.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServiceCtlBusy">
+            <summary>The service control is busy.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadServiceProgName">
+            <summary>The configuration file contains an invalid service program name.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServiceNotCtrl">
+            <summary>The service could not be controlled in its present state.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServiceKillProc">
+            <summary>The service ended abnormally.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServiceCtlNotValid">
+            <summary>The requested pause, continue, or stop is not valid for this service.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NotInDispatchTbl">
+            <summary>The service control dispatcher could not find the service name in the dispatch table.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadControlRecv">
+            <summary>The service control dispatcher pipe read failed.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ServiceNotStarting">
+            <summary>A thread for the new service could not be created.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_AlreadyLoggedOn">
+            <summary>This workstation is already logged on to the local-area network.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NotLoggedOn">
+            <summary>The workstation is not logged on to the local-area network.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadUsername">
+            <summary>The user name or group name parameter is invalid. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadPassword">
+            <summary>The password parameter is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UnableToAddName_W">
+            <summary>@W The logon processor did not add the message alias.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UnableToAddName_F">
+            <summary>The logon processor did not add the message alias.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UnableToDelName_W">
+            <summary>@W The logoff processor did not delete the message alias.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UnableToDelName_F">
+            <summary>The logoff processor did not delete the message alias.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LogonsPaused">
+            <summary>Network logons are paused.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LogonServerConflict">
+            <summary>A centralized logon-server conflict occurred. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LogonNoUserPath">
+            <summary>The server is configured without a valid user path.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LogonScriptError">
+            <summary>An error occurred while loading or running the logon script.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_StandaloneLogon">
+            <summary>The logon server was not specified.  Your computer will be logged on as STANDALONE.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LogonServerNotFound">
+            <summary>The logon server could not be found. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LogonDomainExists">
+            <summary>There is already a logon domain for this computer. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NonValidatedLogon">
+            <summary>The logon server could not validate the logon.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ACFNotFound">
+            <summary>The security database could not be found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_GroupNotFound">
+            <summary>The group name could not be found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UserNotFound">
+            <summary>The user name could not be found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ResourceNotFound">
+            <summary>The resource name could not be found. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_GroupExists">
+            <summary>The group already exists.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UserExists">
+            <summary>The account already exists.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ResourceExists">
+            <summary>The resource permission list already exists.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NotPrimary">
+            <summary>This operation is only allowed on the primary domain controller of the domain.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ACFNotLoaded">
+            <summary>The security database has not been started.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ACFNoRoom">
+            <summary>There are too many names in the user accounts database.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ACFFileIOFail">
+            <summary>A disk I/O failure occurred.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ACFTooManyLists">
+            <summary>The limit of 64 entries per resource was exceeded.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UserLogon">
+            <summary>Deleting a user with a session is not allowed.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ACFNoParent">
+            <summary>The parent directory could not be located.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CanNotGrowSegment">
+            <summary>Unable to add to the security database session cache segment.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_SpeGroupOp">
+            <summary>This operation is not allowed on this special group.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NotInCache">
+            <summary>This user is not cached in user accounts database session cache.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UserInGroup">
+            <summary>The user already belongs to this group.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UserNotInGroup">
+            <summary>The user does not belong to this group.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_AccountUndefined">
+            <summary>This user account is undefined.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_AccountExpired">
+            <summary>This user account has expired.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidWorkstation">
+            <summary>The user is not allowed to log on from this workstation.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidLogonHours">
+            <summary>The user is not allowed to log on at this time. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PasswordExpired">
+            <summary>The password of this user has expired.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PasswordCantChange">
+            <summary>The password of this user cannot change.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PasswordHistConflict">
+            <summary>This password cannot be used now.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PasswordTooShort">
+            <summary>The password does not meet the password policy requirements. Check the minimum password length, password complexity and password history requirements.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PasswordTooRecent">
+            <summary>The password of this user is too recent to change. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidDatabase">
+            <summary>The security database is corrupted.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DatabaseUpToDate">
+            <summary>No updates are necessary to this replicant network/local security database.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_SyncRequired">
+            <summary>This replicant database is outdated; synchronization is required.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UseNotFound">
+            <summary>The network connection could not be found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadAsgType">
+            <summary>This asg_type is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DeviceIsShared">
+            <summary>This device is currently being shared.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_SameAsComputerName">
+            <summary>The user name may not be same as computer name.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoComputerName">
+            <summary>The computer name could not be added as a message alias.  The name may already exist on the network.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_MsgAlreadyStarted">
+            <summary>The Messenger service is already started.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_MsgInitFailed">
+            <summary>The Messenger service failed to start. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NameNotFound">
+            <summary>The message alias could not be found on the network.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_AlreadyForwarded">
+            <summary>This message alias has already been forwarded.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_AddForwarded">
+            <summary>This message alias has been added but is still forwarded.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_AlreadyExists">
+            <summary>This message alias already exists locally.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TooManyNames">
+            <summary>The maximum number of added message aliases has been exceeded.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DelComputerName">
+            <summary>The computer name could not be deleted.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LocalForward">
+            <summary>Messages cannot be forwarded back to the same workstation.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_GrpMsgProcessor">
+            <summary>An error occurred in the domain message processor.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PausedRemote">
+            <summary>The message was sent, but the recipient has paused the Messenger service.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadReceive">
+            <summary>The message was sent but not received.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NameInUse">
+            <summary>The message alias is currently in use. Try again later.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_MsgNotStarted">
+            <summary>The Messenger service has not been started.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NotLocalName">
+            <summary>The name is not on the local computer.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoForwardName">
+            <summary>The forwarded message alias could not be found on the network.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RemoteFull">
+            <summary>The message alias table on the remote station is full.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NameNotForwarded">
+            <summary>Messages for this alias are not currently being forwarded.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TruncatedBroadcast">
+            <summary>The broadcast message was truncated.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidDevice">
+            <summary>This is an invalid device name.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_WriteFault">
+            <summary>A write fault occurred.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DuplicateName">
+            <summary>A duplicate message alias exists on the network.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DeleteLater">
+            <summary>@W This message alias will be deleted later.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_IncompleteDel">
+            <summary>The message alias was not successfully deleted from all networks.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_MultipleNets">
+            <summary>This operation is not supported on computers with multiple networks.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NetNameNotFound">
+            <summary>This shared resource does not exist.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DeviceNotShared">
+            <summary>This device is not shared.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ClientNameNotFound">
+            <summary>A session does not exist with that computer name.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_FileIdNotFound">
+            <summary>There is not an open file with that identification number.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ExecFailure">
+            <summary>A failure occurred when executing a remote administration command.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TmpFile">
+            <summary>A failure occurred when opening a remote temporary file.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TooMuchData">
+            <summary>The data returned from a remote administration command has been truncated to 64K.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DeviceShareConflict">
+            <summary>This device cannot be shared as both a spooled and a non-spooled resource.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BrowserTableIncomplete">
+            <summary>The information in the list of servers may be incorrect.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NotLocalDomain">
+            <summary>The computer is not active in this domain.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_IsDfsShare">
+            <summary>The share must be removed from the Distributed File System before it can be deleted.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DevInvalidOpCode">
+            <summary>The operation is invalid for this device.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DevNotFound">
+            <summary>This device cannot be shared.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DevNotOpen">
+            <summary>This device was not open.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadQueueDevString">
+            <summary>This device name list is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadQueuePriority">
+            <summary>The queue priority is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoCommDevs">
+            <summary>There are no shared communication devices.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_QueueNotFound">
+            <summary>The queue you specified does not exist.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadDevString">
+            <summary>This list of devices is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadDev">
+            <summary>The requested device is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InUseBySpooler">
+            <summary>This device is already in use by the spooler.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CommDevInUse">
+            <summary>This device is already in use as a communication device.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidComputer">
+            <summary>This computer name is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_MaxLenExceeded">
+            <summary>The string and prefix specified are too long.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadComponent">
+            <summary>This path component is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CantType">
+            <summary>Could not determine the type of input.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TooManyEntries">
+            <summary>The buffer for types is not big enough.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ProfileFileTooBig">
+            <summary>Profile files cannot exceed 64K.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ProfileOffset">
+            <summary>The start offset is out of range.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ProfileCleanup">
+            <summary>The system cannot delete current connections to network resources.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ProfileUnknownCmd">
+            <summary>The system was unable to parse the command line in this file.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ProfileLoadErr">
+            <summary>An error occurred while loading the profile file.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ProfileSaveErr">
+            <summary>@W Errors occurred while saving the profile file.  The profile was partially saved.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LogOverflow">
+            <summary>Log file %1 is full.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LogFileChanged">
+            <summary>This log file has changed between reads.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LogFileCorrupt">
+            <summary>Log file %1 is corrupt.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_SourceIsDir">
+            <summary>The source path cannot be a directory.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadSource">
+            <summary>The source path is illegal.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadDest">
+            <summary>The destination path is illegal.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DifferentServers">
+            <summary>The source and destination paths are on different servers.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RunSrvPaused">
+            <summary>The Run server you requested is paused.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ErrCommRunSrv">
+            <summary>An error occurred when communicating with a Run server.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ErrorExecingGhost">
+            <summary>An error occurred when starting a background process.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ShareNotFound">
+            <summary>The shared resource you are connected to could not be found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidLana">
+            <summary>The LAN adapter number is invalid. </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_OpenFiles">
+            <summary>There are open files on the connection.   </summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ActiveConns">
+            <summary>Active connections still exist.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadPasswordCore">
+            <summary>This share name or password is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DevInUse">
+            <summary>The device is being accessed by an active process.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LocalDrive">
+            <summary>The drive letter is in use locally.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_AlertExists">
+            <summary>The specified client is already registered for the specified event.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TooManyAlerts">
+            <summary>The alert table is full.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoSuchAlert">
+            <summary>An invalid or nonexistent alert name was raised.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadRecipient">
+            <summary>The alert recipient is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_AcctLimitExceeded">
+            <summary>A user's session with this server has been deleted because the user's logon hours are no longer valid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidLogSeek">
+            <summary>The log file does not contain the requested record number.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadUasConfig">
+            <summary>The user accounts database is not configured correctly.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidUASOp">
+            <summary>This operation is not permitted when the Netlogon service is running.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LastAdmin">
+            <summary>This operation is not allowed on the last administrative account.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DCNotFound">
+            <summary>Could not find domain controller for this domain.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LogonTrackingError">
+            <summary>Could not set logon information for this user.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NetlogonNotStarted">
+            <summary>The Netlogon service has not been started.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CanNotGrowUASFile">
+            <summary>Unable to add to the user accounts database.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TimeDiffAtDC">
+            <summary>This server's clock is not synchronized with the primary domain controller's clock.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PasswordMismatch">
+            <summary>A password mismatch has been detected.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoSuchServer">
+            <summary>The server identification does not specify a valid server.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoSuchSession">
+            <summary>The session identification does not specify a valid session.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoSuchConnection">
+            <summary>The connection identification does not specify a valid connection.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TooManyServers">
+            <summary>There is no space for another entry in the table of available servers.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TooManySessions">
+            <summary>The server has reached the maximum number of sessions it supports.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TooManyConnections">
+            <summary>The server has reached the maximum number of connections it supports.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TooManyFiles">
+            <summary>The server cannot open more files because it has reached its maximum number.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoAlternateServers">
+            <summary>There are no alternate servers registered on this server.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TryDownLevel">
+            <summary>Try down-level (remote admin protocol) version of API instead.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UPSDriverNotStarted">
+            <summary>The UPS driver could not be accessed by the UPS service.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UPSInvalidConfig">
+            <summary>The UPS service is not configured correctly.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UPSInvalidCommPort">
+            <summary>The UPS service could not access the specified Comm Port.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UPSSignalAsserted">
+            <summary>The UPS indicated a line fail or low battery situation. Service not started.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_UPSShutdownFailed">
+            <summary>The UPS service failed to perform a system shut down.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadDosRetCode">
+            <summary>The program below returned an MS-DOS error code:</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ProgNeedsExtraMem">
+            <summary>The program below needs more memory:</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadDosFunction">
+            <summary>The program below called an unsupported MS-DOS function:</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RemoteBootFailed">
+            <summary>The workstation failed to boot.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadFileCheckSum">
+            <summary>The file below is corrupt.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoRplBootSystem">
+            <summary>No loader is specified in the boot-block definition file.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplLoadrNetBiosErr">
+            <summary>NetBIOS returned an error: The NCB and SMB are dumped above.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplLoadrDiskErr">
+            <summary>A disk I/O error occurred.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ImageParamErr">
+            <summary>Image parameter substitution failed.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TooManyImageParams">
+            <summary>Too many image parameters cross disk sector boundaries.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NonDosFloppyUsed">
+            <summary>The image was not generated from an MS-DOS diskette formatted with /S.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplBootRestart">
+            <summary>Remote boot will be restarted later.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplSrvrCallFailed">
+            <summary>The call to the Remoteboot server failed.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CantConnectRplSrvr">
+            <summary>Cannot connect to the Remoteboot server.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CantOpenImageFile">
+            <summary>Cannot open image file on the Remoteboot server.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CallingRplSrvr">
+            <summary>Connecting to the Remoteboot server...</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_StartingRplBoot">
+            <summary>Connecting to the Remoteboot server...</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplBootServiceTerm">
+            <summary>Remote boot service was stopped; check the error log for the cause of the problem.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplBootStartFailed">
+            <summary>Remote boot startup failed; check the error log for the cause of the problem.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RPL_CONNECTED">
+            <summary>A second connection to a Remoteboot resource is not allowed.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BrowserConfiguredToNotRun">
+            <summary>The browser service was configured with MaintainServerList=No.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplNoAdaptersStarted">
+            <summary>Service failed to start since none of the network adapters started with this service.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplBadRegistry">
+            <summary>Service failed to start due to bad startup information in the registry.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplBadDatabase">
+            <summary>Service failed to start because its database is absent or corrupt.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplRplfilesShare">
+            <summary>Service failed to start because RPLFILES share is absent.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplNotRplServer">
+            <summary>Service failed to start because RPLUSER group is absent.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplCannotEnum">
+            <summary>Cannot enumerate service records.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplWkstaInfoCorrupted">
+            <summary>Workstation record information has been corrupted.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplWkstaNotFound">
+            <summary>Workstation record was not found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplWkstaNameUnavailable">
+            <summary>Workstation name is in use by some other workstation.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplProfileInfoCorrupted">
+            <summary>Profile record information has been corrupted.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplProfileNotFound">
+            <summary>Profile record was not found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplProfileNameUnavailable">
+            <summary>Profile name is in use by some other profile.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplProfileNotEmpty">
+            <summary>There are workstations using this profile.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplConfigInfoCorrupted">
+            <summary>Configuration record information has been corrupted.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplConfigNotFound">
+            <summary>Configuration record was not found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplAdapterInfoCorrupted">
+            <summary>Adapter id record information has been corrupted.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplInternal">
+            <summary>An internal service error has occurred.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplVendorInfoCorrupted">
+            <summary>Vendor id record information has been corrupted.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplBootInfoCorrupted">
+            <summary>Boot block record information has been corrupted.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplWkstaNeedsUserAcct">
+            <summary>The user account for this workstation record is missing.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplNeedsRPLUSERAcct">
+            <summary>The RPLUSER local group could not be found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplBootNotFound">
+            <summary>Boot block record was not found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplIncompatibleProfile">
+            <summary>Chosen profile is incompatible with this workstation.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplAdapterNameUnavailable">
+            <summary>Chosen network adapter id is in use by some other workstation.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplConfigNotEmpty">
+            <summary>There are profiles using this configuration.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplBootInUse">
+            <summary>There are workstations, profiles or configurations using this boot block.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplBackupDatabase">
+            <summary>Service failed to backup Remoteboot database.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplAdapterNotFound">
+            <summary>Adapter record was not found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplVendorNotFound">
+            <summary>Vendor record was not found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplVendorNameUnavailable">
+            <summary>Vendor name is in use by some other vendor record.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplBootNameUnavailable">
+            <summary>(boot name, vendor id) is in use by some other boot block record.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_RplConfigNameUnavailable">
+            <summary>Configuration name is in use by some other configuration.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsInternalCorruption">
+            <summary>The internal database maintained by the DFS service is corrupt</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsVolumeDataCorrupt">
+            <summary>One of the records in the internal DFS database is corrupt</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsNoSuchVolume">
+            <summary>There is no DFS name whose entry path matches the input Entry Path</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsVolumeAlreadyExists">
+            <summary>A root or link with the given name already exists</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsAlreadyShared">
+            <summary>The server share specified is already shared in the DFS</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsNoSuchShare">
+            <summary>The indicated server share does not support the indicated DFS namespace</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsNotALeafVolume">
+            <summary>The operation is not valid on this portion of the namespace</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsLeafVolume">
+            <summary>The operation is not valid on this portion of the namespace</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsVolumeHasMultipleServers">
+            <summary>The operation is ambiguous because the link has multiple servers</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsCantCreateJunctionPoint">
+            <summary>Unable to create a link</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsServerNotDfsAware">
+            <summary>The server is not DFS Aware</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsBadRenamePath">
+            <summary>The specified rename target path is invalid</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsVolumeIsOffline">
+            <summary>The specified DFS link is offline</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsNoSuchServer">
+            <summary>The specified server is not a server for this link</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsCyclicalName">
+            <summary>A cycle in the DFS name was detected</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsNotSupportedInServerDfs">
+            <summary>The operation is not supported on a server-based DFS</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsDuplicateService">
+            <summary>This link is already supported by the specified server-share</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsCantRemoveLastServerShare">
+            <summary>Can't remove the last server-share supporting this root or link</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsVolumeIsInterDfs">
+            <summary>The operation is not supported for an Inter-DFS link</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsInconsistent">
+            <summary>The internal state of the DFS Service has become inconsistent</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsServerUpgraded">
+            <summary>The DFS Service has been installed on the specified server</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsDataIsIdentical">
+            <summary>The DFS data being reconciled is identical</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsCantRemoveDfsRoot">
+            <summary>The DFS root cannot be deleted - Uninstall DFS if required</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsChildOrParentInDfs">
+            <summary>A child or parent directory of the share is already in a DFS</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DfsInternalError">
+            <summary>DFS internal error</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_SetupAlreadyJoined">
+            <summary>This machine is already joined to a domain.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_SetupNotJoined">
+            <summary>This machine is not currently joined to a domain.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_SetupDomainController">
+            <summary>This machine is a domain controller and cannot be unjoined from a domain.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DefaultJoinRequired">
+            <summary>The destination domain controller does not support creating machine accounts in OUs.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidWorkgroupName">
+            <summary>The specified workgroup name is invalid.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NameUsesIncompatibleCodePage">
+            <summary>The specified computer name is incompatible with the default language used on the domain controller.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ComputerAccountNotFound">
+            <summary>The specified computer account could not be found. Contact an administrator to verify the account is in the domain. If the account has been deleted unjoin, reboot, and rejoin the domain.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PersonalSku">
+            <summary>This version of Windows cannot be joined to a domain.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_SetupCheckDNSConfig">
+            <summary>An attempt to resolve the DNS name of a domain controller in the domain being joined has failed.  Please verify this client is configured to reach a DNS server that can resolve DNS names in the target domain. For information about network troubleshooting, see Windows Help.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PasswordMustChange">
+            <summary>Password must change at next logon</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_AccountLockedOut">
+            <summary>Account is locked out</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PasswordTooLong">
+            <summary>Password is too long</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PasswordNotComplexEnough">
+            <summary>Password doesn't meet the complexity policy</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_PasswordFilterError">
+            <summary>Password doesn't meet the requirements of the filter dll's</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoOfflineJoinInfo">
+            <summary>Offline join completion information was not found.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadOfflineJoinInfo">
+            <summary>The offline join completion information was bad.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CantCreateJoinInfo">
+            <summary>Unable to create offline join information. Please ensure you have access to the specified path location and permissions to modify its contents. Running as an elevated administrator may be required.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_BadDomainJoinInfo">
+            <summary>The domain join info being saved was incomplete or bad.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_JoinPerformedMustRestart">
+            <summary>Offline join operation successfully completed but a restart is needed.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_NoJoinPending">
+            <summary>There was no offline join operation pending.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ValuesNotSet">
+            <summary>Unable to set one or more requested machine or domain name values on the local computer.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CantVerifyHostname">
+            <summary>Could not verify the current machine's hostname against the saved value in the join completion information.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_CantLoadOfflineHive">
+            <summary>Unable to load the specified offline registry hive. Please ensure you have access to the specified path location and permissions to modify its contents. Running as an elevated administrator may be required.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ConnectionInsecure">
+            <summary>The minimum session security requirements for this operation were not met.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_ProvisioningBlobUnsupported">
+            <summary>Computer account provisioning blob version is not supported.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DS8DCRequired">
+            <summary>The specified domain controller does not meet the version requirement for this operation. Please select a domain controller capable of issuing claims.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_LDAPCapableDCRequired">
+            <summary>This operation requires a domain controller which supports LDAP. Please select an LDAP-capable domain controller.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DS8DCNotFound">
+            <summary>A domain controller which meets the version requirement for this operation could not be located. Please ensure that a domain controller capable of issuing claims is available.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_TargetVersionUnsupported">
+            <summary>The Windows version of the specified image does not support provisioning.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_InvalidMachineNameForJoin">
+            <summary>The machine name is blocked from joining the domain.</summary>
+        </member>
+        <member name="F:PInvoke.Win32ErrorCode.NERR_DS9DCNotFound">
+            <summary>The domain controller does not meet the version requirement for this operation. See http://go.microsoft.com/fwlink/?LinkId=294288 for more information.</summary>
         </member>
     </members>
 </doc>

@@ -6,7 +6,7 @@ using Android.Content;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using static AllProbe1.Views.EventsViewPageViewModel;
+using static EventsViewPageViewModel;
 
 namespace AllProbe1.Services
 {

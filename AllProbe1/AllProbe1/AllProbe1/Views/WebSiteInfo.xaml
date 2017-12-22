@@ -2,44 +2,45 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AllProbe1.Views.WebSiteInfo"
-             Title="Web Site Info">
+             Title="Site Info"
+             BackgroundColor="White">
     <RelativeLayout>
 
         <Label x:Name="lblURL"
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
-               BackgroundColor="{StaticResource Primary}" TextColor="White"
+               BackgroundColor="{StaticResource Primary}" TextColor="#ff00bfff" FontSize="Medium"
                HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
         <Label x:Name="lblStatus"
-               HorizontalTextAlignment="Center" TextColor="Black"
-               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblURL, Property=Y, Constant=50}"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" FontSize="Large"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.1}"
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.5}"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.1}"
                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.25}"/>
-        <Button x:Name="btnCode" Text="Code analysis" Clicked="ClickCode"
-                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblStatus, Property=Y, Constant=20}"
-                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.5}"
-                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.25}"/>
-        <Label x:Name="lblSLA"
-               HorizontalTextAlignment="Center"
-               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=btnCode, Property=Y, Constant=70}"
+        <Label x:Name="btnCode" Text="Code analysis..."
+               HorizontalTextAlignment="Center" FontSize="Medium" TextColor="#ff00bfff"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.2}"
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0}"/>
+        <Label x:Name="lblSLA" TextColor="Black"
+               HorizontalTextAlignment="Center" FontSize="Large" FontAttributes="Bold"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.3}"
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.75}"
                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.125}"/>
-        <Button x:Name="btnSLA" Text="SLA analysis" Clicked="ClickSLA"
-                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblSLA, Property=Y, Constant=20}"
-                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.5}"
-                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.125}"/>
-        <Button x:Name="oldSLA" Text="OLD" Clicked="ClickOLD"
-                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblSLA, Property=Y, Constant=20}"
-                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.25}"
-                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.625}"/>
+        <Label x:Name="btnSLA" Text="SLA analysis..."
+               HorizontalTextAlignment="Center" FontSize="Medium" TextColor="#ff00bfff"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.35}"
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0}"/>
 
         <ListView x:Name="webSites" ItemsSource="{Binding webSiteResult}"
                   HasUnevenRows="True"
                   IsGroupingEnabled="False"
                   IsPullToRefreshEnabled="false"
                   CachingStrategy="RecycleElement"
-                  BackgroundColor="White"
+                  BackgroundColor="Transparent"
                   HorizontalOptions="Center"
-                  RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=btnSLA, Property=Y, Constant=60}"
+                  RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.45}"
+                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Constant=.55}"
                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.8}"
                   RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.1}">
             <ListView.ItemTemplate>
@@ -50,15 +51,15 @@
                             <StackLayout Orientation="Horizontal" Padding="0">
                                 <Image Source="{Binding Country}" Margin="4,4,0,4" VerticalOptions="Center"/>
                                 <Label Text="Response time: "
-                                       FontSize="Default"
                                        LineBreakMode="NoWrap"
                                        HorizontalTextAlignment="Start" VerticalTextAlignment="Center"
-                                       TextColor="Black" />
+                                       TextColor="Black"
+                                       FontSize="Medium"/>
                                 <Label Text="{Binding ResponseTimeString}"
                                        LineBreakMode="NoWrap"
-                                       FontSize="Default"
                                        HorizontalTextAlignment="Start" VerticalTextAlignment="Center"
-                                       TextColor="Black" />
+                                       TextColor="Black"
+                                       FontSize="Medium"/>
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>

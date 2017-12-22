@@ -22,25 +22,27 @@
       HasBackgroundAnimation="True"/>
     </pages:PopupPage.Animation>
         <Image  IsVisible="true" Source="close"
-                    WidthRequest="20" HeightRequest="20" x:Name="lblClose" HorizontalOptions="End"
+                    WidthRequest="30" HeightRequest="30" x:Name="lblClose" HorizontalOptions="End"
                     />
-        <Entry x:Name="emailEntry" Placeholder="Email to send report" 
-                   IsVisible="true" Margin="10"
-                    FontSize="Medium"
-                    TextColor="#5b5b5b"
-                    FontAttributes="None"/>
-        <Label x:Name="messageLabel"  
-                    IsVisible="true"
-                    FontSize="Small" HorizontalOptions="Center"
-                    TextColor="Red"
-                    FontAttributes="None" />
+        <Entry x:Name="emailEntry" Placeholder="Email to send report"
+               IsVisible="true" Margin="10"
+               FontSize="Medium"
+               TextColor="#5b5b5b"
+               FontAttributes="None"
+               Keyboard="Email"/>
+        <Label x:Name="messageLabel"
+               IsVisible="true"
+               FontSize="Small" HorizontalOptions="Center"
+               TextColor="Red"
+               FontAttributes="None" />
         <Button Text="Send" Clicked="ClickSend" 
-                    IsVisible="true" 
-                    FontSize="Medium"
-                    TextColor="#fff"
-                    BackgroundColor="#84c4d3"
-                    FontAttributes="Bold" 
-                    WidthRequest="150" HeightRequest="50" HorizontalOptions="Center" Margin="15" VerticalOptions="Center"
-                    />
+                IsVisible="true" 
+                FontSize="Medium"
+                TextColor="#fff"
+                BackgroundColor="#ff00bfff"
+                FontAttributes="Bold"
+                WidthRequest="150" HeightRequest="50"
+                HorizontalOptions="Center" VerticalOptions="Center"
+                Margin="15"/>
     </StackLayout>
 </pages:PopupPage>

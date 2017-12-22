@@ -13,7 +13,8 @@
                    IsVisible="true"
                     FontSize="Medium"
                     TextColor="#5b5b5b"
-                    FontAttributes="None"/>
+                    FontAttributes="None"
+                       Keyboard="Email"/>
                 <Entry x:Name="passwordEntry" IsPassword="true" Placeholder="Password" 
                    IsVisible="true"
                     FontSize="Medium"
@@ -42,8 +43,6 @@
                     HorizontalOptions="Center"
                     BorderColor="Transparent"
                     BackgroundColor="Transparent"
-                 
-                  
                     />
 
         </StackLayout>

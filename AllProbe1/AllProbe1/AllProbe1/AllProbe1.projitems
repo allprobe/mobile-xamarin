@@ -23,7 +23,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Services\ICacheService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\IServices.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\Services.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\EventViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\EventsViewPageViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SlaViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\WebSitesResultViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\WebSitesViewModel.cs" />
@@ -51,12 +51,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Views\Settings.xaml.cs">
-      <DependentUpon>Settings.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\More.xaml.cs">
+      <DependentUpon>More.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Views\oldSLA.xaml.cs">
-      <DependentUpon>oldSLA.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\SLA.xaml.cs">
       <DependentUpon>SLA.xaml</DependentUpon>
@@ -111,15 +108,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Settings.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\More.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\oldSLA.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

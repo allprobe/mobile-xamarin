@@ -12,9 +12,12 @@ namespace AllProbe1.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class CodeAnalyze : ContentPage
 	{
-		public CodeAnalyze ()
+		public CodeAnalyze (string webSite)
 		{
 			InitializeComponent ();
-		}
+
+            ///URL (page header) title:
+            lblURL.Text = webSite;
+        }
 	}
 }

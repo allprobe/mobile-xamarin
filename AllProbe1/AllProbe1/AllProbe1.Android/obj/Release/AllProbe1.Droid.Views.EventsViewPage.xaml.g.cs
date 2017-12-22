@@ -11,9 +11,12 @@
 namespace AllProbe1.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\oren\\Documents\\Visual Studio 2017\\Projects\\AllProbe1\\AllProbe1\\AllProbe1" +
-        "\\AllProbe1\\Views\\EventsViewPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Magshimim\\Documents\\AllProbe\\AllProbe1\\AllProbe1\\AllProbe1\\Views\\EventsV" +
+        "iewPage.xaml")]
     public partial class EventsViewPage : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ToolbarItem lblUdpated;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label lblErrorEvents;
@@ -24,6 +27,7 @@ namespace AllProbe1.Views {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(EventsViewPage));
+            lblUdpated = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ToolbarItem>(this, "lblUdpated");
             lblErrorEvents = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblErrorEvents");
             eventsList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "eventsList");
         }

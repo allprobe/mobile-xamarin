@@ -1,1 +1,1 @@
-<resources><color name="error">#ff0000</color><color name="partialError">#FF6666</color><color name="allGood">#AADD00</color></resources>
+<resources><color name="primary_color">#EEEEEE</color><color name="secondary_color">#FF00BFFF</color><color name="tabs_text_color">#8C8C8C</color><color name="error">#ff0000</color><color name="partialError">#FF6666</color><color name="allGood">#AADD00</color></resources>

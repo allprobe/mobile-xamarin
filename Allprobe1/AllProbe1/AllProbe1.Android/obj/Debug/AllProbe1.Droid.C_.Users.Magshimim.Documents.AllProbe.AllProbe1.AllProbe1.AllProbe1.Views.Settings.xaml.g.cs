@@ -13,7 +13,7 @@ namespace AllProbe1.Views {
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Magshimim\\Documents\\AllProbe\\AllProbe1\\AllProbe1\\AllProbe1\\Views\\Setting" +
         "s.xaml")]
-    public partial class Settings : global::Xamarin.Forms.ContentPage {
+    public partial class More : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label lblLogout;
@@ -26,7 +26,7 @@ namespace AllProbe1.Views {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Settings));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(More));
             lblLogout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblLogout");
             imgLogout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "imgLogout");
             pkSeverity = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "pkSeverity");

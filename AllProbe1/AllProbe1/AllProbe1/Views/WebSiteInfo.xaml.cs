@@ -32,24 +32,25 @@ namespace AllProbe1.Views
             lblURL.Text = webSite;
             
             ///lblStatus styling:
-            lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.String.allGood));
+            lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.Color.allGood));
             lblStatus.Text = "ONLINE";
             int errorCount = webSiteResult.Count(w => w.Status != 3);
             if (webSiteResult.Count(w => w.Status == 3) == webSiteResult.Count)
             {
-                lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.String.allGood));
+                lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.Color.allGood));
                 lblStatus.Text = "ONLINE";
             }
             else if (errorCount < webSiteResult.Count && errorCount > 0)
             {
-                lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.String.partialError));
+                lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.Color.partialError));
                 lblStatus.Text = "PROBLEM";
             }
             else if (errorCount == webSiteResult.Count)
             {
-                lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.String.error));
+                lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.Color.error));
                 lblStatus.Text = "OFFLINE";
             }
+            btnCode.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => Navigation.PushAsync(new CodeAnalyze(webSite))) });
 
             ///SLA average logic:
             List<double> AverageItems = new List<double>();
@@ -57,8 +58,6 @@ namespace AllProbe1.Views
             string sessionId = cacheService.GetCache(Android.App.Application.Context.Resources.GetString(Resource.String.sessionId)).ToString();
             IServices services = new Services.Services();
             JObject slaJson = services.GetSlaList(sessionId, webSiteResult);
-
-
             foreach (JProperty DataCenter in slaJson["summary"])
             {
                 if (DataCenter.Value.ToString().IndexOf("[]") == -1) {
@@ -91,20 +90,15 @@ namespace AllProbe1.Views
                 //slaSummary.Add(DataCenter.Name, item);
             }
             lblSLA.Text = "Daily SLA: " + AverageItems.Average() + "%";
+            btnSLA.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => Navigation.PushAsync(new SLA(webSite, webSiteResult))) });
         }
 
-        private void ClickCode(object sender, EventArgs e)
+        ///On this specific page, the device's BACK button (Android and WinPhone)
+        ///will not exit the app. Instead it'll go to WebSites page.
+        protected override bool OnBackButtonPressed()
         {
-            Navigation.PushAsync(new CodeAnalyze() { Title = "AllProbe" });
-        }
-
-        private void ClickSLA(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new SLA(webSite, webSiteResult) { Title = "AllProbe" });
-        }
-        private void ClickOLD(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new oldSLA(webSite, webSiteResult) { Title = "AllProbe" });
+            (Parent as TabbedPage).CurrentPage = (Parent as TabbedPage).Children[1];
+            return true;
         }
     }
 }

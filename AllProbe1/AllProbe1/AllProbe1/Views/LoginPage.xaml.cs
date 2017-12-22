@@ -32,7 +32,7 @@ namespace AllProbe1.Views
                 clientId: "475278706153922",  // it is valid! I checked
                 clientSecret: "97d1f57c222d0f6349300b35dd2ff9ca",
                 accessTokenUrl: new Uri("https://graph.facebook.com/oauth/access_token"),
-                scope: "email",  // the scopes for the particular API you're accessing, delimited by "+" symbols
+                scope: "",  // the scopes for the particular API you're accessing, delimited by "+" symbols
                 authorizeUrl: new Uri("https://m.facebook.com/dialog/oauth/"),  // the auth URL for the service
                 redirectUrl: new Uri("https://www.facebook.com/connect/login_success.html"));  // the redirect URL for the service
 
@@ -52,7 +52,7 @@ namespace AllProbe1.Views
 
             auth.Completed += Auth_Completed;
             global::Android.Content.Intent ui_object = auth.GetUI(Android.App.Application.Context);
-            Forms.Context.StartActivity(ui_object);
+            Android.App.Application.Context.StartActivity(ui_object);
         }
 
         private async void Auth_Completed(object sender, AuthenticatorCompletedEventArgs e)
@@ -65,7 +65,7 @@ namespace AllProbe1.Views
             {
                 var request = new OAuth2Request(
                     "GET",
-                    new Uri("https://graph.facebook.com/v2.10/me?fields=name,email,picture,id,outbox"),
+                    new Uri("https://graph.facebook.com/v2.11/me?fields=name,email,picture,id,outbox"),
                     null,
                     e.Account
                     );
@@ -127,12 +127,12 @@ namespace AllProbe1.Views
             AfterLogin(sessionId);
         }
 
-        private async void ClickLogin(object sender, EventArgs e)
+        private void ClickLogin(object sender, EventArgs e)
         {
             try
             {
-                //this.emailEntry.Text = "demo@allprobe.com";
-                //this.passwordEntry.Text = "wwwwwww";
+                ///this.emailEntry.Text = "demo@allprobe.com";
+                ///this.passwordEntry.Text = "wwwwwww";
 
                 this.messageLabel.Text = string.Empty;
                 if (string.IsNullOrEmpty(this.emailEntry.Text))

@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace AllProbe1.Views
 {
@@ -16,6 +18,7 @@ namespace AllProbe1.Views
     {
         string sessionId = null;
         int intervalInSeconds = 30;
+        int FirstTimeDelay = 10;
         Dictionary<string, List<WebSitesResultViewModel>> webSites = null;
 
         public WebPages()
@@ -26,8 +29,14 @@ namespace AllProbe1.Views
 
                 ICacheService cacheService = new CacheService();
                 sessionId = cacheService.GetCache(Android.App.Application.Context.Resources.GetString(Resource.String.sessionId)).ToString();
-                RefreshWebSites();
 
+                ProgressAndCloseBar();
+                //RefreshWebSites();
+                Device.StartTimer(TimeSpan.FromSeconds(this.FirstTimeDelay), () =>
+                {
+                    Device.BeginInvokeOnMainThread(() => RefreshWebSites());
+                    return false;
+                });
                 Device.StartTimer(TimeSpan.FromSeconds(this.intervalInSeconds), () =>
                 {
                     Device.BeginInvokeOnMainThread(() => RefreshWebSites());
@@ -40,6 +49,12 @@ namespace AllProbe1.Views
                 lblError.Text = ex.Message;
                 lblError.IsVisible = true;
             }
+        }
+
+        private async void ProgressAndCloseBar()
+        {
+            await thinking.ProgressTo(1, (uint)FirstTimeDelay * 1000, Easing.Linear);
+            thinking.IsVisible = false;
         }
 
         private async void RefreshWebSites()
@@ -60,7 +75,8 @@ namespace AllProbe1.Views
 
                 webSitesList.ItemsSource = GetWebSitesBindingSource();
                 System.Globalization.CultureInfo.CurrentCulture.ClearCachedData();
-                this.Title = "Web sites\n" + DateTime.Now.ToShortTimeString();
+                lblUdpated.Text = "Updated\n" + DateTime.Now.ToShortTimeString();
+                //this.Title = "Web sites\n" + DateTime.Now.ToShortTimeString();
             }
             catch (Exception ex)
             {
@@ -73,27 +89,27 @@ namespace AllProbe1.Views
         private List<WebSitesViewModel>  GetWebSitesBindingSource()
         {
             List<WebSitesViewModel> webSitesStatus = new List<WebSitesViewModel>();
-            string titleColor = Android.App.Application.Context.Resources.GetString(Resource.String.allGood);
+            string titleColor = Android.App.Application.Context.Resources.GetString(Resource.Color.allGood);
 
             foreach (string key in webSites.Keys)
             {
                 List<WebSitesResultViewModel> webSiteResults = webSites[key];
-                string color = Android.App.Application.Context.Resources.GetString(Resource.String.allGood);
+                string color = Android.App.Application.Context.Resources.GetString(Resource.Color.allGood);
                 int dataCentersCount = webSiteResults.Count;
                 int errorCount = webSiteResults.Count(w => w.Status != 3);
 
                 if (webSiteResults.Count(w => w.Status == 3) == webSiteResults.Count)
-                    color = Android.App.Application.Context.Resources.GetString(Resource.String.allGood);
+                    color = Android.App.Application.Context.Resources.GetString(Resource.Color.allGood);
                 else if (errorCount < webSiteResults.Count && errorCount > 0)
                 {
-                    color = Android.App.Application.Context.Resources.GetString(Resource.String.partialError);
-                    if (titleColor.Equals(Android.App.Application.Context.Resources.GetString(Resource.String.allGood)))
-                        titleColor = Android.App.Application.Context.Resources.GetString(Resource.String.partialError);
+                    color = Android.App.Application.Context.Resources.GetString(Resource.Color.partialError);
+                    if (titleColor.Equals(Android.App.Application.Context.Resources.GetString(Resource.Color.allGood)))
+                        titleColor = Android.App.Application.Context.Resources.GetString(Resource.Color.partialError);
                 }
                 else if (errorCount == webSiteResults.Count)
                 {
-                    color = Android.App.Application.Context.Resources.GetString(Resource.String.error);
-                    titleColor = Android.App.Application.Context.Resources.GetString(Resource.String.error);
+                    color = Android.App.Application.Context.Resources.GetString(Resource.Color.error);
+                    titleColor = Android.App.Application.Context.Resources.GetString(Resource.Color.error);
                 }
 
                 WebSitesViewModel webSite = new WebSitesViewModel()
@@ -105,14 +121,19 @@ namespace AllProbe1.Views
                 webSitesStatus.Add(webSite);
                 lblColorTitle.BackgroundColor = Color.FromHex(titleColor);
             }
+            if (webSitesStatus.Count == 0)
+            {
+                ZeroWebSites.IsVisible = true;
+                webSitesList.IsVisible = false;
 
+            }
             return webSitesStatus.OrderBy(w => w.WebSite).ToList();
         }
 
         void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
            => ((ListView)sender).SelectedItem = null;
 
-        async void Handle_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        void Handle_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem == null)
                 return;
@@ -120,8 +141,14 @@ namespace AllProbe1.Views
             string webSite = ((WebSitesViewModel)e.SelectedItem).WebSite;
             List<WebSitesResultViewModel> webSiteResult = webSites[webSite];
 
-            await Navigation.PushAsync(new WebSiteInfo(webSite, webSiteResult) { Title="AllProbe" });
-
+            ///Changed navigation type: Instead of pushing NavigationPage, adding a Tab.
+            ///If you unchange it, this func should be "async" and see also the comment in MainPage.cs
+            //await Navigation.PushAsync(new WebSiteInfo(webSite, webSiteResult));
+            var parentPage = this.Parent as TabbedPage;
+            var websitepage = new WebSiteInfo(webSite, webSiteResult);
+            parentPage.Children.Add(websitepage);
+            parentPage.CurrentPage = websitepage;
+            
             //Deselect Item
             ((ListView)sender).SelectedItem = null;
         }
@@ -145,4 +172,5 @@ namespace AllProbe1.Views
             return cacheService.GetCachedWebSite(stringValues);
         }
     }
+
 }

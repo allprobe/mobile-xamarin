@@ -4,10 +4,6 @@
   <string name="app_name">AllProbe</string>
   <string name="facebook_app_id">475278706153922</string>
 
-  <string name="error">#ff0000</string>
-  <string name="partialError">#FF6666</string>
-  <string name="allGood">#AADD00</string>
-
   <string name="lastEvents">lastEvents</string>
   <string name="lastWebSites">lastWebSites</string>
   <string name="stringSeperator">"`"</string>

@@ -43,13 +43,13 @@ namespace AllProbe1.ViewModels
                 switch (Status)
                 {
                     case 1:
-                        return Android.App.Application.Context.Resources.GetString(Resource.String.error);
+                        return Android.App.Application.Context.Resources.GetString(Resource.Color.error);
                     case 2:
-                        return Android.App.Application.Context.Resources.GetString(Resource.String.partialError);
+                        return Android.App.Application.Context.Resources.GetString(Resource.Color.partialError);
                     case 3:
-                        return Android.App.Application.Context.Resources.GetString(Resource.String.allGood);
+                        return Android.App.Application.Context.Resources.GetString(Resource.Color.allGood);
                     default:
-                        return Android.App.Application.Context.Resources.GetString(Resource.String.allGood);
+                        return Android.App.Application.Context.Resources.GetString(Resource.Color.allGood);
                 }
 
             }

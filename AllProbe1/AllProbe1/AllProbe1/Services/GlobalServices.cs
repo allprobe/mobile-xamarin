@@ -12,7 +12,7 @@ namespace AllProbe1.Services
 {
     public static class GlobalServices
     {
-        private static new List<string> severityList = new List<string>
+        private static List<string> severityList = new List<string>
             {
                 Android.App.Application.Context.Resources.GetString(Resource.String.severity1),
                 Android.App.Application.Context.Resources.GetString(Resource.String.severity2),
@@ -21,7 +21,7 @@ namespace AllProbe1.Services
                 Android.App.Application.Context.Resources.GetString(Resource.String.severity5),
             };
 
-        private static new Dictionary<string, List<string>> resultsTranslations = null;
+        private static Dictionary<string, List<string>> resultsTranslations = null;
         private static void CreateResultsDictionary()
         {
             resultsTranslations.Add("port", new List<string> { "Port Status", "Response Time" });

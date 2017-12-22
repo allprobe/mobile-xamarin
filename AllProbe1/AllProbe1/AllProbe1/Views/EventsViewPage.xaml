@@ -4,6 +4,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AllProbe1.Views.EventsViewPage" 
              Title="Events">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="lblUdpated" Order="Primary" Priority="0"/>
+    </ContentPage.ToolbarItems>
   
     <Label x:Name="lblErrorEvents" HorizontalOptions="Center"  HeightRequest="30" Margin="20" IsVisible="False"></Label>
     <StackLayout Orientation="Vertical">
@@ -43,13 +46,13 @@
                            WidthRequest="100"/>
                     <Label Text="Type"
                            HorizontalTextAlignment="Center"
-                           HorizontalOptions="Center"
+                           HorizontalOptions="CenterAndExpand"
                            TextColor="#6a6a6a"
                            FontAttributes="Bold"
                            WidthRequest="100"/>
                     <Label Text="Elapsed"
-                           HorizontalTextAlignment="End"
-                           HorizontalOptions="End"
+                           HorizontalTextAlignment="Center"
+                           HorizontalOptions="EndAndExpand"
                            TextColor="#6a6a6a"
                            FontAttributes="Bold"
                            WidthRequest="71"/>
@@ -57,36 +60,34 @@
             </ListView.Header>
 
             <ListView.ItemTemplate>
-                <DataTemplate>;
+                <DataTemplate>
                     <ViewCell>
-                        <StackLayout BackgroundColor="#fff" Padding="4" Orientation="Vertical"  HeightRequest="32">
+                        <StackLayout BackgroundColor="#fff" Padding="4" Orientation="Vertical">
                             <StackLayout Orientation="Horizontal">
                                 <Label HorizontalOptions="Start"
                                        BackgroundColor="{Binding SeverityColor}"
                                        WidthRequest="20"
-                                       HeightRequest="15" 
+                                       HeightRequest="20"
                                        Margin="4"/>
                                 <Label Text="{Binding EventName}"
-                                       HorizontalOptions="StartAndExpand"
+                                       HorizontalOptions="Start"
                                        HorizontalTextAlignment="Start"
-                                       FontSize="13"
                                        LineBreakMode="WordWrap"
                                        Margin="4"
-                                       TextColor="#84c4d3" />
+                                       TextColor="#757575"
+                                       FontSize="13" />
                                 <Label Text="{Binding ProbeType}"
-                                       HorizontalOptions="End"
-                                       HorizontalTextAlignment="Start"  
+                                       HorizontalOptions="CenterAndExpand"
+                                       HorizontalTextAlignment="Center"
                                        Margin="4"
-                                       TextColor="#84c4d3"
-                                       FontSize="13"
-                                       WidthRequest="45"/>
+                                       TextColor="#757575"
+                                       FontSize="13"/>
                                 <Label Text="{Binding ElapsedTime}"
-                                       HorizontalOptions="End"
-                                       HorizontalTextAlignment="Start"
+                                       HorizontalOptions="EndAndExpand"
+                                       HorizontalTextAlignment="End"
                                        Margin="4"
-                                       TextColor="#84c4d3"
-                                       FontSize="13"
-                                       WidthRequest="65"/>
+                                       TextColor="#757575"
+                                       FontSize="13"/>
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>

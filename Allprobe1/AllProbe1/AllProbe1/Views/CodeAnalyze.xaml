@@ -2,12 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AllProbe1.Views.CodeAnalyze"
-             Title="CodeAnalyze">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Feature is not available yet.&#x0a;&#x0a;Please check in future releases!"
-                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
-                   HorizontalTextAlignment="Center"/>
-        </StackLayout>
-    </ContentPage.Content>
+             BackgroundColor="White">
+    <RelativeLayout>
+        <Label x:Name="lblURL"
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+               BackgroundColor="{StaticResource Primary}" TextColor="#ff00bfff" FontSize="Medium"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+
+        <Label Text="Feature is not available yet.&#x0a;&#x0a;Please check in future releases!"
+               HorizontalTextAlignment="Center"
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.45}"/>
+    </RelativeLayout>
 </ContentPage>

@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AllProbe1.Views.MainPage"
-             xmlns:pages="clr-namespace:AllProbe1.Views"
-             Title="All probe"
-             BackgroundColor="#dadada" Icon="@drawable/allProbe" BackgroundImage="@drawable/allProbe">
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="AllProbe1.Views.MainPage"
+            xmlns:pages="clr-namespace:AllProbe1.Views"
+            Icon="@drawable/allProbe" BackgroundColor="White" BackgroundImage="@drawable/allProbe">
 
-    <pages:EventsViewPage/>
-    <pages:WebPages/>
-    <pages:Settings/>
+    <pages:EventsViewPage Icon="@drawable/icon_events.png"/>
+    <pages:WebPages Icon="@drawable/icon_websites.png"/>
+    <pages:More Icon="@drawable/icon_more.png"/>
     
 </TabbedPage>
