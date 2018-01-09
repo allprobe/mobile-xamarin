@@ -29,7 +29,7 @@
                     IsVisible="true" 
                     FontSize="Medium"
                     TextColor="#fff"
-                    BackgroundColor="#84c4d3"
+                    BackgroundColor="#ff00bfff"
                     FontAttributes="Bold" 
                     BorderRadius="20" WidthRequest="210" HorizontalOptions="Center" HeightRequest="46"
                     />

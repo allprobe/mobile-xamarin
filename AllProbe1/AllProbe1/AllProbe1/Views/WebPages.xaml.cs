@@ -2,6 +2,7 @@
 using AllProbe1.Models;
 using AllProbe1.Services;
 using AllProbe1.ViewModels;
+using AllProbe1.Helpers;
 using Android.Content;
 using System;
 using System.Collections.Generic;
@@ -30,13 +31,30 @@ namespace AllProbe1.Views
                 ICacheService cacheService = new CacheService();
                 sessionId = cacheService.GetCache(Android.App.Application.Context.Resources.GetString(Resource.String.sessionId)).ToString();
 
-                ProgressAndCloseBar();
-                //RefreshWebSites();
-                Device.StartTimer(TimeSpan.FromSeconds(this.FirstTimeDelay), () =>
+                if (Application.Current.Properties.ContainsKey("FirstUse"))
                 {
-                    Device.BeginInvokeOnMainThread(() => RefreshWebSites());
-                    return false;
-                });
+                    thinking.IsVisible = false;
+                    Device.BeginInvokeOnMainThread(() => {
+                        RefreshWebSites();
+                        if (GlobalServices.GetOrientation() == 3)
+                            webSitesList.SelectedItem = (webSitesList.ItemsSource as List<WebSitesViewModel>)[0];
+                    });
+                    
+                }
+                else
+                {
+                    Application.Current.Properties["FirstUse"] = false;
+                    ProgressAndCloseBar();
+                    Device.StartTimer(TimeSpan.FromSeconds(this.FirstTimeDelay), () =>
+                    {
+                        Device.BeginInvokeOnMainThread(() => {
+                            RefreshWebSites();
+                            if (GlobalServices.GetOrientation() == 3)
+                                webSitesList.SelectedItem = (webSitesList.ItemsSource as List<WebSitesViewModel>)[0];
+                        });
+                        return false;
+                    });
+                }
                 Device.StartTimer(TimeSpan.FromSeconds(this.intervalInSeconds), () =>
                 {
                     Device.BeginInvokeOnMainThread(() => RefreshWebSites());
@@ -61,6 +79,10 @@ namespace AllProbe1.Views
         {
             try
             {
+                webSitesList.IsVisible = true;
+                lblError.IsVisible = false;
+                ZeroWebSites.IsVisible = false;
+
                 SessionState sessionState = SessionState.GetInstance();
                 ICollection<string> webSitesStringList = sessionState.OldWebSites;
 
@@ -74,6 +96,12 @@ namespace AllProbe1.Views
                 }
 
                 webSitesList.ItemsSource = GetWebSitesBindingSource();
+                if ((webSitesList.ItemsSource as List<WebSitesViewModel>).Count==0)
+                {
+                    webSitesList.IsVisible = false;
+                    ZeroWebSites.IsVisible = true;
+
+                }
                 System.Globalization.CultureInfo.CurrentCulture.ClearCachedData();
                 lblUdpated.Text = "Updated\n" + DateTime.Now.ToShortTimeString();
                 //this.Title = "Web sites\n" + DateTime.Now.ToShortTimeString();
@@ -81,8 +109,9 @@ namespace AllProbe1.Views
             catch (Exception ex)
             {
                 webSitesList.IsVisible = false;
-                lblError.Text = ex.Message;
+                //lblError.Text = ex.Message;
                 lblError.IsVisible = true;
+                return;
             }
         }
 
@@ -121,12 +150,6 @@ namespace AllProbe1.Views
                 webSitesStatus.Add(webSite);
                 lblColorTitle.BackgroundColor = Color.FromHex(titleColor);
             }
-            if (webSitesStatus.Count == 0)
-            {
-                ZeroWebSites.IsVisible = true;
-                webSitesList.IsVisible = false;
-
-            }
             return webSitesStatus.OrderBy(w => w.WebSite).ToList();
         }
 
@@ -138,19 +161,26 @@ namespace AllProbe1.Views
             if (e.SelectedItem == null)
                 return;
 
-            string webSite = ((WebSitesViewModel)e.SelectedItem).WebSite;
-            List<WebSitesResultViewModel> webSiteResult = webSites[webSite];
+            try
+            {
+                string webSite = ((WebSitesViewModel)e.SelectedItem).WebSite;
+                List<WebSitesResultViewModel> webSiteResult = webSites[webSite];
 
-            ///Changed navigation type: Instead of pushing NavigationPage, adding a Tab.
-            ///If you unchange it, this func should be "async" and see also the comment in MainPage.cs
-            //await Navigation.PushAsync(new WebSiteInfo(webSite, webSiteResult));
-            var parentPage = this.Parent as TabbedPage;
-            var websitepage = new WebSiteInfo(webSite, webSiteResult);
-            parentPage.Children.Add(websitepage);
-            parentPage.CurrentPage = websitepage;
-            
-            //Deselect Item
-            ((ListView)sender).SelectedItem = null;
+                ///Changed navigation type: Instead of pushing NavigationPage, adding a Tab.
+                ///If you unchange it, this func should be "async" and see also the comment in MainPage.cs
+                //await Navigation.PushAsync(new WebSiteInfo(webSite, webSiteResult));
+                var parentPage = this.Parent as TabbedPage;
+                var websitepage = new WebSiteInfo(webSite, webSiteResult);
+                parentPage.Children.Add(websitepage);
+                parentPage.CurrentPage = websitepage;
+
+                //Deselect Item
+                ((ListView)sender).SelectedItem = null;
+            }
+            catch
+            {
+                DisplayAlert("Oops!", "We can't do that action now.\nPlease try again later.", "OK");
+            }
         }
 
         private void ClickSendReport(object sender, EventArgs e)

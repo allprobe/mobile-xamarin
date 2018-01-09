@@ -3,46 +3,56 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AllProbe1.Views.WebSiteInfo"
              Title="Site Info"
+             Icon="@drawable/icon_events.png"
              BackgroundColor="White">
-    <RelativeLayout>
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
 
-        <Label x:Name="lblURL"
-               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
-               BackgroundColor="{StaticResource Primary}" TextColor="#ff00bfff" FontSize="Medium"
-               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <ContentView BackgroundColor="#dadada"
+               Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4">
+            <Label x:Name="lblURL"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,3,0,3"
+               BackgroundColor="Transparent" TextColor="#6a6a6a" FontSize="Medium"/>
+        </ContentView>
         <Label x:Name="lblStatus"
-               HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" FontSize="Large"
-               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.1}"
-               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.5}"
-               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.1}"
-               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.25}"/>
+               Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+               TextColor="Black" FontSize="Large"/>
         <Label x:Name="btnCode" Text="Code analysis..."
-               HorizontalTextAlignment="Center" FontSize="Medium" TextColor="#ff00bfff"
-               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.2}"
-               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
-               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0}"/>
-        <Label x:Name="lblSLA" TextColor="Black"
-               HorizontalTextAlignment="Center" FontSize="Large" FontAttributes="Bold"
-               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.3}"
-               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.75}"
-               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.125}"/>
+               Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"
+               HorizontalTextAlignment="Center" FontSize="Medium" TextColor="#ff00bfff"/>
+        <Label x:Name="lblSLA"
+               Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4"
+               HorizontalTextAlignment="Center" FontSize="Large" TextColor="Black" FontAttributes="Bold"/>
         <Label x:Name="btnSLA" Text="SLA analysis..."
-               HorizontalTextAlignment="Center" FontSize="Medium" TextColor="#ff00bfff"
-               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.35}"
-               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
-               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0}"/>
+               Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2"
+               HorizontalTextAlignment="Center" FontSize="Medium" TextColor="#ff00bfff"/>
 
         <ListView x:Name="webSites" ItemsSource="{Binding webSiteResult}"
+                  Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="4"
                   HasUnevenRows="True"
                   IsGroupingEnabled="False"
                   IsPullToRefreshEnabled="false"
                   CachingStrategy="RecycleElement"
                   BackgroundColor="Transparent"
-                  HorizontalOptions="Center"
-                  RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.45}"
-                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Constant=.55}"
-                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.8}"
-                  RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.1}">
+                  HorizontalOptions="Center">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -67,5 +77,5 @@
             </ListView.ItemTemplate>
         </ListView>
 
-    </RelativeLayout>
+    </Grid>
 </ContentPage>

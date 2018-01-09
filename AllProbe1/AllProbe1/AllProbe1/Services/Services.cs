@@ -27,27 +27,13 @@ namespace AllProbe1.Services
                 string url = string.Format("https://api.allprobe.com/v2/wLogin/{0}/{1}/none/1/{2}", email, password, token);
 
                 var obj = PostAuthentication(url);
-                if (obj == null)
-                {
-                    return error;
-                }
-                else
-                {
-                    var msg = obj["msg"];
-                    var sessionId = obj.GetValue("data");
-                    var orientation = obj.GetValue("orientation");
-                    if (orientation != null && !orientation.ToString().Equals("events"))
-                        GlobalServices.setMenuSelected(1);
-
-                    return msg.ToString().Equals("success") ? sessionId.ToString() : null;
-                }
+                return ParseLoginJSON(obj);
             }
             catch (Exception ex)
             {
                 return "!Login:" + ex.Message;
             }
         }
-
 
         public string LoginFB(string email, string id)
         {
@@ -56,24 +42,52 @@ namespace AllProbe1.Services
                 string url = string.Format("https://api.allprobe.com/v2/wLogin/{0}/{1}/none/2/{2}", email, id, token);
 
                 var obj = PostAuthentication(url);
-                if (obj == null)
-                {
-                    return error;
-                }
-                else
-                {
-                    var msg = obj["msg"];
-                    var sessionId = obj.GetValue("data");
-                    var orientation = obj.GetValue("orientation");
-                    if (orientation != null && !orientation.ToString().Equals("events"))
-                        GlobalServices.setMenuSelected(1);
-
-                    return msg.ToString().Equals("success") ? sessionId.ToString() : null;
-                }
+                return ParseLoginJSON(obj);
             }
             catch (Exception ex)
             {
                 return "!Login:" + ex.Message;
+            }
+        }
+
+        /// <summary>
+        /// Checking if the answer from the server is "success",
+        /// defining sessionId and initial orientation based the answer.
+        /// The orientation is being read by MainPage.cs on startup and after login.
+        /// </summary>
+        private string ParseLoginJSON(JObject obj)
+        {
+            if (obj == null)
+                return error;
+            else
+            {
+                var msg = obj["msg"];
+                var sessionId = obj.GetValue("data");
+                var orientation = obj.GetValue("orientation");
+                ///Here we code the landing tab of each user
+                ///by setting the "SetOrientation" int, later be used by MainPage() builder.
+                if (orientation != null)
+                {
+                    switch (orientation.ToString())
+                    {
+                        case "none":
+                            GlobalServices.SetOrientation(0);
+                            break;
+                        case "events":
+                            GlobalServices.SetOrientation(1);
+                            break;
+                        case "websites":
+                            GlobalServices.SetOrientation(2);
+                            break;
+                        case "website":
+                            GlobalServices.SetOrientation(3);
+                            break;
+                        default:
+                            GlobalServices.SetOrientation(0);
+                            break;
+                    }
+                }
+                return msg.ToString().Equals("success") ? sessionId.ToString() : null;
             }
         }
 
@@ -84,7 +98,10 @@ namespace AllProbe1.Services
             string url = string.Format("https://api.allprobe.com/v2/GetUserLiveEvents/{0}/{1}", sessionId, token);
 
             JArray obj = await GetJson(url);
-            return obj.ToList();
+            if (obj.HasValues)
+                return obj.ToList();
+            else
+                return new List<JToken>();
         }
 
         public async Task<Dictionary<string, List<WebSitesResultViewModel>>> GetWebSites(string sessionId)
@@ -98,39 +115,41 @@ namespace AllProbe1.Services
                 return null;
 
             Dictionary<string, List<WebSitesResultViewModel>> webSites = new Dictionary<string, List<WebSitesResultViewModel>>();
-
-            JArray urls = (JArray)obj["urls"];
-            JArray results = (JArray)obj["results"];
-            Dictionary<string, Tuple<int?, int>> shortResults = GetWebSiteResults(results);
-
-            foreach (JToken token in urls.ToList())
+            if (obj.HasValues)
             {
-                string webSite = token["url"].ToString();
-                string runnables = token["runnables"].ToString();
-                JArray runnablesArray = JArray.Parse(runnables);
+                JArray urls = (JArray)obj["urls"];
+                JArray results = (JArray)obj["results"];
+                Dictionary<string, Tuple<int?, int>> shortResults = GetWebSiteResults(results);
 
-
-                List<WebSitesResultViewModel> wesSitesResult = new List<WebSitesResultViewModel>();
-                foreach (JToken runnable in runnablesArray.ToList())
+                foreach (JToken token in urls.ToList())
                 {
-                    string probeId = runnable.ToString().Split('@')[2];
-                    string dataCenter = runnable.ToString().Split('@')[3];
-                    Tuple<int?, int> result = GetWebSiteResult(shortResults, probeId);
+                    string webSite = token["url"].ToString();
+                    string runnables = token["runnables"].ToString();
+                    JArray runnablesArray = JArray.Parse(runnables);
 
-                    WebSitesResultViewModel webSitesResultViewModel = new WebSitesResultViewModel
+
+                    List<WebSitesResultViewModel> wesSitesResult = new List<WebSitesResultViewModel>();
+                    foreach (JToken runnable in runnablesArray.ToList())
                     {
-                        Runnable = runnable.ToString(),
-                        ProbeId = probeId,
-                        Country = dataCenter.Split('_')[0],
-                        DataCenter = dataCenter,
-                        ResposeTime = result.Item1,
-                        Status = result.Item2
-                    };
+                        string probeId = runnable.ToString().Split('@')[2];
+                        string dataCenter = runnable.ToString().Split('@')[3];
+                        Tuple<int?, int> result = GetWebSiteResult(shortResults, probeId);
 
-                    wesSitesResult.Add(webSitesResultViewModel);
+                        WebSitesResultViewModel webSitesResultViewModel = new WebSitesResultViewModel
+                        {
+                            Runnable = runnable.ToString(),
+                            ProbeId = probeId,
+                            Country = dataCenter.Split('_')[0],
+                            DataCenter = dataCenter,
+                            ResposeTime = result.Item1,
+                            Status = result.Item2
+                        };
+
+                        wesSitesResult.Add(webSitesResultViewModel);
+                    }
+                    byte[] data = Convert.FromBase64String(webSite);
+                    webSites.Add(Encoding.UTF8.GetString(data), wesSitesResult);
                 }
-                byte[] data = Convert.FromBase64String(webSite);
-                webSites.Add(Encoding.UTF8.GetString(data), wesSitesResult);
             }
 
             return webSites;
@@ -289,6 +308,7 @@ namespace AllProbe1.Services
             }
             catch (Exception ex)
             {
+                Debug.WriteLine("Exception in GetJson");
                 Debug.WriteLine(ex);
                 return null;
             }
@@ -310,6 +330,7 @@ namespace AllProbe1.Services
             }
             catch (Exception ex)
             {
+                Debug.WriteLine("Exception in PostJson");
                 Debug.WriteLine(ex);
                 return null;
             }

@@ -8,11 +8,14 @@
         <ToolbarItem x:Name="lblUdpated" Order="Primary" Priority="0"/>
     </ContentPage.ToolbarItems>
 
-    <Label x:Name="lblError" HorizontalOptions="Center"  HeightRequest="30" Margin="20" IsVisible="False"></Label>
     <StackLayout Orientation="Vertical" >
         <ProgressBar x:Name="thinking" Progress="0" IsVisible="True"/>
+        <Label x:Name="lblError" Text="Oops!&#x0a;&#x0a;We can't show you that info now.&#x0a;Please try again later."
+               HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+               HorizontalTextAlignment="Center" FontSize="Large"
+               IsVisible="False"></Label>
         <Label x:Name="ZeroWebSites"
-               Text="You aren't monitoring anything yet.&#x0a;&#x0a;Please add recources/probes using our website."
+               Text="You aren't monitoring anything yet.&#x0a;&#x0a;Please add recources/probes using our website,&#x0a;then login to the app again."
                HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
                HorizontalTextAlignment="Center" FontSize="Large"
                IsVisible="False"/>

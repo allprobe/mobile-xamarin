@@ -27,7 +27,8 @@ namespace AllProbe1
 
             if (!Xamarin.Forms.Application.Current.Properties.ContainsKey(Android.App.Application.Context.Resources.GetString(Resource.String.selectedSeverity)))
                 Xamarin.Forms.Application.Current.Properties.Add(Android.App.Application.Context.Resources.GetString(Resource.String.selectedSeverity), 0);
-            GlobalServices.setMenuSelected(0);
+            if (!Xamarin.Forms.Application.Current.Properties.ContainsKey("userOrientation"))
+                GlobalServices.SetOrientation(0);
 
             if (cacheService.GetCache(Android.App.Application.Context.Resources.GetString(Resource.String.sessionId)) != null)
             {

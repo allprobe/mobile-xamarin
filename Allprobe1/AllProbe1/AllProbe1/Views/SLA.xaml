@@ -4,31 +4,32 @@
              x:Class="AllProbe1.Views.SLA"
              BackgroundColor="White">
 
-    <RelativeLayout>
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
 
-        <Label x:Name="lblURL"
-               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
-               BackgroundColor="{StaticResource Primary}" TextColor="#ff00bfff" FontSize="Medium"
-               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <ContentView Grid.Row="0"
+                     BackgroundColor="#dadada">
+            <Label x:Name="lblURL"
+                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,3,0,3"
+                   BackgroundColor="Transparent" TextColor="#6a6a6a" FontSize="Medium"/>
+        </ContentView>
 
-        <Label x:Name="lblSLA" BackgroundColor="White"
-               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
-               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblURL, Property=Y, Constant=40}"
-               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.75}"
-               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.125}"/>
+        <Label x:Name="lblSLA" Grid.Row="1" BackgroundColor="White"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold"/>
 
-        <ListView x:Name="webSites"
+        <ListView x:Name="webSites" Grid.Row="2"
                   HasUnevenRows="True"
                   IsGroupingEnabled="False"
                   IsPullToRefreshEnabled="false"
                   CachingStrategy="RecycleElement"
                   BackgroundColor="White"
                   HorizontalOptions="Center"
-                  VerticalOptions="EndAndExpand"
-                  ItemSelected="ExpandAndCollapseDetails"
-                  RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=lblSLA, Property=Y, Constant=30}"
-                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
-                  RelativeLayout.XConstraint="0">
+                  VerticalOptions="StartAndExpand"
+                  ItemSelected="ExpandAndCollapseDetails">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -51,13 +52,17 @@
                                        TextColor="Black"
                                        HorizontalOptions="StartAndExpand"/>
                             </StackLayout>
+                            <Label Text="No issues found."
+                                   TextColor="#6a6a6a" FontSize="Medium"
+                                   HorizontalOptions="FillAndExpand" VerticalOptions="Start"
+                                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                                   IsVisible="{Binding DontShowAtView}"/>
                             <ListView x:Name="SLAdetails" ItemsSource="{Binding WebSiteIssues}"
                                       HasUnevenRows="True"
                                       IsGroupingEnabled="False"
                                       IsPullToRefreshEnabled="False"
                                       CachingStrategy="RecycleElement"
                                       BackgroundColor="White"
-                                      VerticalOptions="Start"
                                       HorizontalOptions="Center"
                                       IsVisible="{Binding ShowAtView}">
                                 <ListView.Header>
@@ -115,5 +120,5 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-    </RelativeLayout>
+    </Grid>
 </ContentPage>

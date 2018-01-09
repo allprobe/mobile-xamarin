@@ -30,7 +30,7 @@ namespace AllProbe1.Views
 
             ///URL (page header) title:
             lblURL.Text = webSite;
-            
+
             ///lblStatus styling:
             lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.Color.allGood));
             lblStatus.Text = "ONLINE";
@@ -58,9 +58,12 @@ namespace AllProbe1.Views
             string sessionId = cacheService.GetCache(Android.App.Application.Context.Resources.GetString(Resource.String.sessionId)).ToString();
             IServices services = new Services.Services();
             JObject slaJson = services.GetSlaList(sessionId, webSiteResult);
+            ///Go through all data centers in "summary".
+            ///For Each of them that ISN'T EMPTY - extract the "avg_sla" value from it.
             foreach (JProperty DataCenter in slaJson["summary"])
             {
-                if (DataCenter.Value.ToString().IndexOf("[]") == -1) {
+                if (DataCenter.Value.ToString().IndexOf("[]") == -1)
+                {
                     AverageItems.Add(DataCenter.Value["avg_sla"].ToObject<double>());
                     //Console.WriteLine("Data Center: {0}%.", DataCenter.Value["avg_sla"].ToString());
                 }
@@ -89,8 +92,15 @@ namespace AllProbe1.Views
 
                 //slaSummary.Add(DataCenter.Name, item);
             }
-            lblSLA.Text = "Daily SLA: " + AverageItems.Average() + "%";
-            btnSLA.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => Navigation.PushAsync(new SLA(webSite, webSiteResult))) });
+            if (AverageItems.Count() < 1)
+            {
+                throw new System.MissingFieldException("All Data centers is empty");
+            }
+            else
+            {
+                lblSLA.Text = "Daily SLA: " + AverageItems.Average() + "%";
+                btnSLA.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { try { Navigation.PushAsync(new SLA(webSite, webSiteResult)); } catch { DisplayAlert("Oops!", "We can't do that action now.\nPlease try again later.", "I will"); } }) });
+            }
         }
 
         ///On this specific page, the device's BACK button (Android and WinPhone)

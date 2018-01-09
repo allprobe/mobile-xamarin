@@ -36,7 +36,7 @@ namespace AllProbe1.Views
             catch (Exception ex)
             {
                 eventsList.IsVisible = false;
-                lblErrorEvents.Text = ex.Message;
+                //lblErrorEvents.Text = ex.Message;
                 lblErrorEvents.IsVisible = true;
             }
         }
@@ -45,6 +45,12 @@ namespace AllProbe1.Views
         {
             try
             {
+                ///Initialize messages' visibility 
+                eventsList.IsVisible = true;
+                ZeroEvents.IsVisible = false;
+                lblErrorEvents.IsVisible = false;
+                ZeroWebSites.IsVisible = false;
+
                 events = cacheService.GetCachedEvents();
                 if (events == null)
                 {
@@ -58,13 +64,21 @@ namespace AllProbe1.Views
                 }
 
                 eventsList.ItemsSource = events;
-                lblUdpated.Text= "Updated\n" + DateTime.Now.ToShortTimeString();
+                if (events.Count == 0)
+                {
+                    eventsList.IsVisible = false;
+                    if (GlobalServices.GetOrientation() == 0) //user has 0 evets because he is none
+                        ZeroWebSites.IsVisible = true;
+                    else    //user is !none and has 0 events
+                        ZeroEvents.IsVisible = true;
+                }
+                lblUdpated.Text = "Updated\n" + DateTime.Now.ToShortTimeString();
                 //this.Title = "Events\n" + DateTime.Now.ToShortTimeString();
             }
             catch (Exception ex)
             {
                 eventsList.IsVisible = false;
-                lblErrorEvents.Text = ex.Message;
+                //lblErrorEvents.Text = ex.Message;
                 lblErrorEvents.IsVisible = true;
             }
         }

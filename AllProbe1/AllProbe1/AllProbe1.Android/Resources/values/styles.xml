@@ -22,4 +22,8 @@
 	</style>
 	<style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
 	</style>
+  <style name="MyCustomTabText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+    <item name="android:textSize">12sp</item>
+    <item name="android:textAllCaps">true</item>
+  </style>
 </resources>

@@ -12,10 +12,11 @@ namespace AllProbe1.ViewModels
         public string DataCenter { get; set; }
         public string Country { get; set; }
         public int? ResposeTime { get; set; }
-        public double SLAaverage {get; set;}
+        public double SLAaverage { get; set;}
         public int Status { get; set; }
         public List<SlaViewModel> WebSiteIssues { get; set; }
         public bool ShowAtView { get; set; }
+        public bool DontShowAtView { get { return !ShowAtView; } }
 
         public string ResponseTimeString
         {

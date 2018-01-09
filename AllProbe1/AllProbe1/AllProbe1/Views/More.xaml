@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AllProbe1.Views.More"
+             Title="More">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="10">
+            <StackLayout Orientation="Horizontal">
+                <Label x:Name="lblLogout" Text="Logout" FontSize="Large" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>
+                <Image x:Name="imgLogout" VerticalOptions="Start" HorizontalOptions="End" Source="@drawable/logout.png"/>
+            </StackLayout>
+            <Label Text="Min. severity of events:" FontSize="Medium" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" Margin="0,30,0,0"/>
+            <Picker Title="Show alerts from this severity or worse:" x:Name="pkSeverity" SelectedIndexChanged="SelectedItem_handler"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -36,22 +36,10 @@ namespace AllProbe1.Views
                 authorizeUrl: new Uri("https://m.facebook.com/dialog/oauth/"),  // the auth URL for the service
                 redirectUrl: new Uri("https://www.facebook.com/connect/login_success.html"));  // the redirect URL for the service
 
-            //OAuth2Authenticator auth = new OAuth2Authenticator
-            //        (
-            //            clientId: "475278706153922",
-            //            scope: "",
-            //            authorizeUrl: new Uri("https://m.facebook.com/dialog/oauth/"),
-            //            redirectUrl: new Uri("https://www.facebook.com/connect/login_success.html"),
-
-            //            // switch for new Native UI API
-            //            //      true = Android Custom Tabs and/or iOS Safari View Controller
-            //            //      false = Embedded Browsers used (Android WebView, iOS UIWebView)
-            //            //  default = false  (not using NEW native UI)
-            //            isUsingNativeUI: false
-            //        );
-
             auth.Completed += Auth_Completed;
+            ///Facebook Login is implemented for Android only:
             global::Android.Content.Intent ui_object = auth.GetUI(Android.App.Application.Context);
+            ui_object.SetFlags(ActivityFlags.NewTask);
             Android.App.Application.Context.StartActivity(ui_object);
         }
 
@@ -82,7 +70,7 @@ namespace AllProbe1.Views
 
 
 
-            // For IOS
+            // For iOS
             //auth.Completed += (sender, eventArgs) =>
             //{
             //    // UI presented, so it's up to us to dimiss it on iOS

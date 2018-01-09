@@ -42,51 +42,61 @@ namespace AllProbe1.Views
                     AverageItems.Add(DataCenter.Value["avg_sla"].ToObject<double>());
                 }
             }
-            lblSLA.Text = "Daily SLA: " + AverageItems.Average() + "%";
-
-            ///Deteailed SLA logic:
-            foreach (WebSitesResultViewModel DataCenter in webSiteResult)
+            if (AverageItems.Count() < 1)
             {
-                foreach (JProperty DataCenterSummery in slaJson["summary"])
-                {
-                    if (DataCenterSummery.Name == DataCenter.DataCenter)
-                    {
-                        DataCenter.SLAaverage = DataCenterSummery.Value["avg_sla"].ToObject<double>();
-                    }
-                }
-                DataCenter.WebSiteIssues = new List<SlaViewModel>();
-                foreach (JProperty IssuedDataCenter in slaJson["issues"])
-                {
-                    if (IssuedDataCenter.Name == DataCenter.DataCenter)
-                    {
-                        if (IssuedDataCenter.Value.ToString() == "[]")
-                        {
-                            SlaViewModel IssueItem = new SlaViewModel()
-                            {
-                                FromTime = "No",
-                                ToTime = "issues",
-                                Average = "found",
-                            };
-                            DataCenter.WebSiteIssues.Add(IssueItem);
-                        }
-                        else
-                            foreach (JToken issue in IssuedDataCenter.Value)
-                            {
-                                SlaViewModel IssueItem = new SlaViewModel()
-                                {
-                                    Average = string.Format("{0:0.000%}", issue["sla"]),
-                                    FromTime = issue["from"].ToString(),
-                                    ToTime = issue["to"].ToString(),
-                                };
-                                DataCenter.WebSiteIssues.Add(IssueItem);
-                            }
-                    }
-                }
-                ///SLAdetails default view:
-                DataCenter.ShowAtView = true;
+                throw new System.MissingFieldException("All Data centers is empty");
             }
-            List2show = webSiteResult;
-            webSites.ItemsSource = List2show;
+            else
+            {
+                lblSLA.Text = "Daily SLA: " + AverageItems.Average() + "%";
+
+                ///Deteailed SLA logic:
+                foreach (WebSitesResultViewModel DataCenter in webSiteResult)
+                {
+                    DataCenter.ShowAtView = true;
+                    foreach (JProperty DataCenterSummery in slaJson["summary"])
+                    {
+                        if (DataCenterSummery.Name == DataCenter.DataCenter)
+                        {
+                            DataCenter.SLAaverage = DataCenterSummery.Value["avg_sla"].ToObject<double>();
+                        }
+                    }
+                    DataCenter.WebSiteIssues = new List<SlaViewModel>();
+                    foreach (JProperty IssuedDataCenter in slaJson["issues"])
+                    {
+                        if (IssuedDataCenter.Name == DataCenter.DataCenter)
+                        {
+                            //if (IssuedDataCenter.Value.ToString() == "[]")
+                            //{
+                            //    SlaViewModel IssueItem = new SlaViewModel()
+                            //    {
+                            //        FromTime = "No",
+                            //        ToTime = "issues",
+                            //        Average = "found",
+                            //    };
+                            //    DataCenter.WebSiteIssues.Add(IssueItem);
+                            //}
+                            //else
+                                foreach (JToken issue in IssuedDataCenter.Value)
+                                {
+                                    SlaViewModel IssueItem = new SlaViewModel()
+                                    {
+                                        Average = string.Format("{0:0.000%}", issue["sla"]),
+                                        FromTime = issue["from"].ToString(),
+                                        ToTime = issue["to"].ToString(),
+                                    };
+                                    DataCenter.WebSiteIssues.Add(IssueItem);
+                                }
+                        }
+                    }
+                    if (DataCenter.WebSiteIssues.Count == 0)
+                        DataCenter.ShowAtView = false;
+                    ///SLAdetails default view:
+                    //DataCenter.ShowAtView = true;
+                }
+                List2show = webSiteResult;
+                webSites.ItemsSource = List2show;
+            }
         }
 
         private void ExpandAndCollapseDetails(object sender, SelectedItemChangedEventArgs e)

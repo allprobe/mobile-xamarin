@@ -204,18 +204,15 @@ namespace AllProbe1.Services
             return false;
         }
 
-        public static void setMenuSelected(int selectedMenuItem)
+        public static void SetOrientation(int OrientationToSelect)
         {
-            if (Xamarin.Forms.Application.Current.Properties.ContainsKey(Android.App.Application.Context.Resources.GetString(Resource.String.selectedMenuItem)))
-                Xamarin.Forms.Application.Current.Properties[Android.App.Application.Context.Resources.GetString(Resource.String.selectedMenuItem)] = selectedMenuItem;
-            else
-                Xamarin.Forms.Application.Current.Properties.Add(Android.App.Application.Context.Resources.GetString(Resource.String.selectedMenuItem), selectedMenuItem);
+            Xamarin.Forms.Application.Current.Properties["userOrientation"] = OrientationToSelect;
         }
 
-        public static int getMenuSelected()
+        public static int GetOrientation()
         {
-            if (Xamarin.Forms.Application.Current.Properties.ContainsKey(Android.App.Application.Context.Resources.GetString(Resource.String.selectedMenuItem)))
-                return Convert.ToInt32(Xamarin.Forms.Application.Current.Properties[Android.App.Application.Context.Resources.GetString(Resource.String.selectedMenuItem)]);
+            if (Xamarin.Forms.Application.Current.Properties.ContainsKey("userOrientation"))
+                return Convert.ToInt32(Xamarin.Forms.Application.Current.Properties["userOrientation"]);
             else
                 return 0;
         }

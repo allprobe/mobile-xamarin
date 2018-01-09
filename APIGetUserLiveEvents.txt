@@ -1,0 +1,24 @@
+https://api.allprobe.com/v2/GetUserLiveEvents/{sessionId}/{token}
+הפונקציה מחזירה מערך של אובייקטים
+
+[
+    [
+        "2d0825f9-f1d1-4a21-88e4-50de5d86ba8b@1eeae8f7-b632-4d24-8be7-df8b94264b30@e2db0595-5fd9-4fe2-9004-eed959cfa6b0@rbl_ea311442-752a-4a98-aa70-bb0c733b79fa@c0fe6d53-49bf-4ba5-954b-2756909198cc",
+        "{\"timestamp\":\"1510311610935\",\"data\":\"Listed on RBL spam.dnsbl.sorbs.net\",\"ack\":0,\"host_name\":\"RELAY3\",\"severity\":\"warning\",\"prober_id\":\"IL_D1-S1\",\"event_sub_type\":\"regular\",\"result\":[5,1]}"
+    ],
+    [
+        "2d0825f9-f1d1-4a21-88e4-50de5d86ba8b@d0f50422-8887-4032-a36f-a0c193095923@e2db0595-5fd9-4fe2-9004-eed959cfa6b0@rbl_ea311442-752a-4a98-aa70-bb0c733b79fa@c0fe6d53-49bf-4ba5-954b-2756909198cc",
+        "{\"timestamp\":\"1510225212168\",\"data\":\"Listed on RBL spam.dnsbl.sorbs.net\",\"ack\":0,\"host_name\":\"MX4-MAIN\",\"severity\":\"warning\",\"prober_id\":\"IL_D1-S2\",\"event_sub_type\":\"regular\",\"result\":[5,1]}"
+    ],
+    [
+        "302dd1a0-c84a-4a3b-8853-88af49f45fa2@63895a27-6225-46aa-9a45-01924e4aca38@f103831a-1154-4d74-b608-67c65fc2a41e@snmp_bb18c7c4-19cf-4897-9234-292bc5980420@de93ebcf-a00a-46e1-b643-38507ac21a10",
+        "{\"timestamp\":\"1510221642643\",\"data\":\"backup failed\",\"ack\":0,\"host_name\":\"NFS storage\",\"severity\":\"disaster\",\"prober_id\":\"IL_D1-S2\",\"event_sub_type\":\"regular\",\"result\":[4,\"0\"]}"
+    ],
+    [
+        "bef6c951-0137-4018-9b85-859812cfdcae@d934aa3b-f703-4d4b-99c6-66b470c782f2@d934aa3b-f703-4d4b-99c6-66b470c782f2@http_5d1eadb7-d291-4573-b3fc-15a5c226c063@ce87321f-8078-4c42-8a63-ce67e6929665",
+        "{\"timestamp\":\"1510279208928\",\"data\":\"www.cloudsys.co.il Error on HTTP fetch!\",\"ack\":0,\"host_name\":\"WEB set 1\",\"severity\":\"high\",\"prober_id\":\"US_D1-S1\",\"event_sub_type\":\"regular\",\"result\":null}"
+    ],
+    [
+        "bef6c951-0137-4018-9b85-859812cfdcae@d934aa3b-f703-4d4b-99c6-66b470c782f2@d934aa3b-f703-4d4b-99c6-66b470c782f2@http_aa423c55-d0aa-484d-9ffd-cc505bca5c99@1be7d0dd-4d4e-4c67-919b-80823f2f0b3e",
+        "{\"timestamp\":\"1510308043315\",\"data\":\"www.cloudsys.co.il Error on HTTP fetch!\",\"ack\":0,\"host_name\":\"WEB set 1\",\"severity\":\"high\",\"prober_id\":\"IL_D1-S2\",\"event_sub_type\":\"regular\",\"result\":null}"
+    ]

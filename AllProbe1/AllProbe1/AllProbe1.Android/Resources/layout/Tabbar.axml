@@ -6,8 +6,9 @@
     android:layout_height="wrap_content"
     android:theme="@style/Base.Theme.AppCompat.Light"
     app:tabGravity="fill"
-    app:tabMode="scrollable"
+    app:tabMode="fixed"
     android:background="@color/primary_color"
     app:tabTextColor="@color/tabs_text_color"
+    app:tabTextAppearance="@style/MyCustomTabText"
     app:tabSelectedTextColor="@color/secondary_color"
     app:tabIndicatorColor="@color/secondary_color" />

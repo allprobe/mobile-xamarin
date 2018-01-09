@@ -8,8 +8,25 @@
         <ToolbarItem x:Name="lblUdpated" Order="Primary" Priority="0"/>
     </ContentPage.ToolbarItems>
   
-    <Label x:Name="lblErrorEvents" HorizontalOptions="Center"  HeightRequest="30" Margin="20" IsVisible="False"></Label>
     <StackLayout Orientation="Vertical">
+        <Label x:Name="lblErrorEvents" Text="Oops!&#x0a;&#x0a;We can't show you that info now.&#x0a;Please try again later."
+               HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+               HorizontalTextAlignment="Center" FontSize="Large"
+               IsVisible="False"></Label>
+        <StackLayout x:Name="ZeroEvents" IsVisible="False"
+                     HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="10,0,10,0">
+            <Label Text="No open events."
+                   HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"
+                   HorizontalTextAlignment="Center" FontSize="Large"/>
+            <Label Text="Complement your chosen severity threshold on app settings."
+                   HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand"
+                   HorizontalTextAlignment="Center" FontSize="Medium"/>
+        </StackLayout>
+        <Label x:Name="ZeroWebSites"
+               Text="You aren't monitoring anything yet.&#x0a;&#x0a;Please add recources/probes using our website,&#x0a;then login to the app again."
+               HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+               HorizontalTextAlignment="Center" FontSize="Large"
+               IsVisible="False"/>
         <ListView ItemsSource="{Binding events}" 
             ItemTapped="Handle_ItemTapped"
             ItemSelected="Handle_ItemSelected"

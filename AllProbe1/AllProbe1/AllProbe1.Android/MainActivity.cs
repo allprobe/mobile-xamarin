@@ -45,7 +45,7 @@ namespace AllProbe1.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ///Change tab's icon color according to "state_selected" status.
-            if (Convert.ToInt32(Build.VERSION.SdkInt) >= 23)    //Couldn't find the equivalent for android5.1 or less.
+            if (Convert.ToInt32(Build.VERSION.SdkInt) >= 23)    //Couldn't find the equivalent for android5.1 or less. Probably need to use 2 different icon files for each icon (in 2 different colors).
             {
                 Android.Support.V4.Graphics.Drawable.DrawableCompat.SetTintList(GetDrawable(Resource.Drawable.icon_events), GetColorStateList(Resource.Color.TabIconsColors));
                 Android.Support.V4.Graphics.Drawable.DrawableCompat.SetTintList(GetDrawable(Resource.Drawable.icon_websites), GetColorStateList(Resource.Color.TabIconsColors));
