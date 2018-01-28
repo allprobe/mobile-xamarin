@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AllProbe1.Views.WebSiteInfo"
              Title="Site Info"
-             Icon="@drawable/icon_events.png"
+             Icon="@drawable/icon_website.png"
              BackgroundColor="White">
     <Grid RowSpacing="0">
         <Grid.RowDefinitions>
@@ -26,10 +26,12 @@
         </Grid.ColumnDefinitions>
 
         <ContentView BackgroundColor="#dadada"
-               Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4">
-            <Label x:Name="lblURL"
-               HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,3,0,3"
-               BackgroundColor="Transparent" TextColor="#6a6a6a" FontSize="Medium"/>
+                     Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4">
+            <Label x:Name="lblURL" 
+                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="3,3,3,3"
+                   BackgroundColor="Transparent" TextColor="#ff00bfff" FontSize="Medium"
+                   LineBreakMode="TailTruncation">
+            </Label>
         </ContentView>
         <Label x:Name="lblStatus"
                Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"

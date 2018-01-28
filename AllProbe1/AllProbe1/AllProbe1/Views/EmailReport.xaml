@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 x:Class="AllProbe1.Views.EmailReport"
+                 Title="Email Report"
+                 BackgroundColor="Transparent">
+    <!--Animations use example-->
+    <!--<pages:PopupPage.Animation>
+        <animations:ScaleAnimation
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="10"
+            ScaleOut="0.5"
+            DurationIn="5000"
+            DurationOut="5000"
+            EasingIn="CubicIn"
+            EasingOut="CubicOut"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>-->
+        <Frame x:Name="TheFrame" HorizontalOptions="Center" VerticalOptions="Center"
+           BackgroundColor="White" CornerRadius="15" HasShadow="True">
+            <StackLayout>
+                <Image Source="close"
+                   WidthRequest="30" HeightRequest="30" x:Name="lblClose" HorizontalOptions="End"/>
+                <Entry x:Name="emailEntry" Placeholder="Email to send report"
+                   Margin="10"
+                   FontSize="Medium" TextColor="#5b5b5b"
+                   Keyboard="Email"/>
+                <Label x:Name="messageLabel"
+                   IsVisible="true"
+                   FontSize="Small" HorizontalOptions="Center"
+                   TextColor="Red"
+                   FontAttributes="None" />
+                <Button Text="Send" Clicked="ClickSend" 
+                    HorizontalOptions="Center" Margin="15"
+                    WidthRequest="150" HeightRequest="50"
+                    FontSize="Medium" FontAttributes="Bold" TextColor="#fff"
+                    BackgroundColor="#ff00bfff"/>
+            </StackLayout>
+        </Frame>
+
+
+
+    <!--<StackLayout Orientation="Vertical" WidthRequest="200" HeightRequest="210" HorizontalOptions="Center" VerticalOptions="Center" 
+                 Padding="3" 
+                 Opacity="0.8" BackgroundColor="White" >
+        <pages:PopupPage.Animation>
+            <animations:ScaleAnimation
+                PositionIn="Center"
+                PositionOut="Center"
+                ScaleIn="1.2"
+                ScaleOut="0.8"
+                DurationIn="400"
+                DurationOut="300"
+                EasingIn="CubicIn"
+                EasingOut="SinIn"
+                HasBackgroundAnimation="True"/>
+        </pages:PopupPage.Animation>
+        <Image IsVisible="true" Source="close"
+               WidthRequest="30" HeightRequest="30" x:Name="lblClose" HorizontalOptions="End"/>
+        <Entry x:Name="emailEntry" Placeholder="Email to send report"
+               IsVisible="true" Margin="10"
+               FontSize="Medium"
+               TextColor="#5b5b5b"
+               FontAttributes="None"
+               Keyboard="Email"/>
+        <Label x:Name="messageLabel"
+               IsVisible="true"
+               FontSize="Small" HorizontalOptions="Center"
+               TextColor="Red"
+               FontAttributes="None" />
+        <Button Text="Send" Clicked="ClickSend" 
+                IsVisible="true" 
+                FontSize="Medium"
+                TextColor="#fff"
+                BackgroundColor="#ff00bfff"
+                FontAttributes="Bold"
+                WidthRequest="150" HeightRequest="50"
+                HorizontalOptions="Center" VerticalOptions="Center"
+                Margin="15"/>
+    </StackLayout>-->
+</ContentPage>

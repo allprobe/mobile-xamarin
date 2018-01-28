@@ -50,6 +50,7 @@ namespace AllProbe1.Droid
                 Android.Support.V4.Graphics.Drawable.DrawableCompat.SetTintList(GetDrawable(Resource.Drawable.icon_events), GetColorStateList(Resource.Color.TabIconsColors));
                 Android.Support.V4.Graphics.Drawable.DrawableCompat.SetTintList(GetDrawable(Resource.Drawable.icon_websites), GetColorStateList(Resource.Color.TabIconsColors));
                 Android.Support.V4.Graphics.Drawable.DrawableCompat.SetTintList(GetDrawable(Resource.Drawable.icon_more), GetColorStateList(Resource.Color.TabIconsColors));
+                Android.Support.V4.Graphics.Drawable.DrawableCompat.SetTintList(GetDrawable(Resource.Drawable.icon_website), GetColorStateList(Resource.Color.TabIconsColors));
             }
             //Android.Support.V4.Graphics.Drawable.DrawableCompat.SetTintMode(GetDrawable(Resource.Drawable.icon_events), Android.Graphics.PorterDuff.Mode.SrcAtop);
             ToolbarResource = Resource.Layout.Toolbar;
@@ -58,8 +59,8 @@ namespace AllProbe1.Droid
             //AlertDialog.Builder builder = new AlertDialog.Builder(this);
             //builder.SetMessage("OnCreate!");
             //builder.Show();
-
-            global::Xamarin.Forms.Forms.Init(this, bundle);
+            //Rg.Plugins.Popup.Popup.Init(this, bundle);
+            Xamarin.Forms.Forms.Init(this, bundle);
 
             LoadApplication(new App());
         }

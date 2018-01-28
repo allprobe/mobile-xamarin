@@ -1,0 +1,26 @@
+demo@allprobe.com Session ID:
+b3I0M242NDAtNTMzcS00Nzg2LTlzOTUtcThuMzc3MW9yNTJw
+cool_tweety Session ID:
+NDlyNDVvMDMtb3E0Mi00NnA0LW8yOXAtMDA4NzI4bzVuM3I2
+
+Old token:
+9f34da71-0725-4380-9ab5-a90f691fbd9f
+New token:
+e6dbff8b-2ae3-4b55-addc-a52b67d32b03
+
+https://client-api.allprobe.com/v2/wLogin/{email}/{password}/none/1/{token}
+
+
+https://client-api.allprobe.com/v2/GetUserWebsites/{sessionId}/{token}
+
+https://client-api.allprobe.com/v2/GetUserLiveEvents/{sessionId}/{token}
+
+https://client-api.allprobe.com/v2/GetUserWebsitesSla/{sessionId}/{token}
+
+https://client-api.allprobe.com/v2/SendApplicationReport/{sessionId}/{token}
+
+
+https://client-api.allprobe.com/v2/GetUserWebsitesSla/b3I0M242NDAtNTMzcS00Nzg2LTlzOTUtcThuMzc3MW9yNTJw/e6dbff8b-2ae3-4b55-addc-a52b67d32b03
+
+
+https://client-api.allprobe.com/v2/wLogin/demo@allprobe.com/wwwwwww/none/1/e6dbff8b-2ae3-4b55-addc-a52b67d32b03

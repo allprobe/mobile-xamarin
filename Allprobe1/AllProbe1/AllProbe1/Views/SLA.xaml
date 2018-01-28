@@ -13,9 +13,9 @@
 
         <ContentView Grid.Row="0"
                      BackgroundColor="#dadada">
-            <Label x:Name="lblURL"
-                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,3,0,3"
-                   BackgroundColor="Transparent" TextColor="#6a6a6a" FontSize="Medium"/>
+            <Label x:Name="lblURL" LineBreakMode="TailTruncation"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="3,3,3,3"
+               BackgroundColor="Transparent" TextColor="#ff00bfff" FontSize="Medium"/>
         </ContentView>
 
         <Label x:Name="lblSLA" Grid.Row="1" BackgroundColor="White"
@@ -53,7 +53,7 @@
                                        HorizontalOptions="StartAndExpand"/>
                             </StackLayout>
                             <Label Text="No issues found."
-                                   TextColor="#6a6a6a" FontSize="Medium"
+                                   TextColor="#dadada" FontSize="Medium"
                                    HorizontalOptions="FillAndExpand" VerticalOptions="Start"
                                    HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
                                    IsVisible="{Binding DontShowAtView}"/>

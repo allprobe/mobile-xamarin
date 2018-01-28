@@ -17,12 +17,18 @@ namespace AllProbe1.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class WebSiteInfo : ContentPage
     {
-        private string webSite;
+    private string webSite;
         private List<WebSitesResultViewModel> webSiteResult;
-
         public WebSiteInfo(string webSite, List<WebSitesResultViewModel> webSiteResult)
         {
             InitializeComponent();
+            //Xamarin.Forms.Platform.Android.FormsAppCompatActivity.TabLayoutResource= Resource.Layout.Tabbar;
+            ///Change tab's icon color according to "state_selected" status.
+            //if (Convert.ToInt32(Android.OS.Build.VERSION.SdkInt) >= 23)    //Couldn't find the equivalent for android5.1 or less. Probably need to use 2 different icon files for each icon (in 2 different colors).
+            //{
+            //    Android.Support.V4.Graphics.Drawable.DrawableCompat.SetTintList(Android.Content.Res.Resources.System.GetDrawable(Resource.Drawable.icon_website,null), Android.Content.Res.Resources.System.GetColorStateList(Resource.Color.TabIconsColors,null));
+            //}
+
             webSites.ItemsSource = webSiteResult;
 
             this.webSiteResult = webSiteResult;
@@ -30,6 +36,7 @@ namespace AllProbe1.Views
 
             ///URL (page header) title:
             lblURL.Text = webSite;
+            lblURL.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => DisplayAlert("Full URL:", webSite, "ok")) });
 
             ///lblStatus styling:
             lblStatus.BackgroundColor = Color.FromHex(Android.App.Application.Context.Resources.GetString(Resource.Color.allGood));
@@ -67,30 +74,6 @@ namespace AllProbe1.Views
                     AverageItems.Add(DataCenter.Value["avg_sla"].ToObject<double>());
                     //Console.WriteLine("Data Center: {0}%.", DataCenter.Value["avg_sla"].ToString());
                 }
-
-                //SlaViewModel item = null;
-                //if (DataCenter.Value.ToString().IndexOf("[]") > -1)
-                //{
-                //    item = new SlaViewModel()
-                //    {
-                //        Average = "NA",
-                //        Range = "NA",
-                //        FromTime = "",
-                //        ToTime = "",
-                //    };
-                //}
-                //else
-                //{
-                //    item = new SlaViewModel()
-                //    {
-                //        Average = DataCenter.Value["avg_sla"].ToString() + "%",
-                //        Range = DataCenter.Value["sla_range"].ToString(),
-                //        FromTime = DataCenter.Value["from_time"].ToString(),
-                //        ToTime = DataCenter.Value["to_time"].ToString(),
-                //    };
-                //}
-
-                //slaSummary.Add(DataCenter.Name, item);
             }
             if (AverageItems.Count() < 1)
             {

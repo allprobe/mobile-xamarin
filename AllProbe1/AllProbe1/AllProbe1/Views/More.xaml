@@ -4,13 +4,31 @@
              x:Class="AllProbe1.Views.More"
              Title="More">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Padding="10">
-            <StackLayout Orientation="Horizontal">
-                <Label x:Name="lblLogout" Text="Logout" FontSize="Large" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>
-                <Image x:Name="imgLogout" VerticalOptions="Start" HorizontalOptions="End" Source="@drawable/logout.png"/>
+        <AbsoluteLayout>
+            <StackLayout Orientation="Vertical" Padding="10"
+                         AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="SizeProportional ">
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="lblLogout" Text="Logout" FontSize="Large" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>
+                    <Image x:Name="imgLogout" VerticalOptions="Start" HorizontalOptions="End" Source="@drawable/logout.png"/>
+                </StackLayout>
+                <Label Text="Min. severity of events:" FontSize="Medium" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" Margin="0,30,0,0"/>
+                <Picker Title="Show alerts from this severity or worse:" x:Name="pkSeverity" SelectedIndexChanged="SelectedItem_handler" HorizontalOptions="Start"/>
+                <StackLayout Orientation="Horizontal" Margin="0,30,0,0">
+                    <Label x:Name="lblFeedback" Text="Send us a feedback" FontSize="Large" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>
+                    <Image x:Name="imgFeedback" VerticalOptions="Start" HorizontalOptions="End" Source="@drawable/icon_feedback.png"/>
+                </StackLayout>
             </StackLayout>
-            <Label Text="Min. severity of events:" FontSize="Medium" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" Margin="0,30,0,0"/>
-            <Picker Title="Show alerts from this severity or worse:" x:Name="pkSeverity" SelectedIndexChanged="SelectedItem_handler"/>
-        </StackLayout>
+            <Frame x:Name="FeedbackFrame" BackgroundColor="#ff00bfff" CornerRadius="15" HasShadow="True" IsVisible="False"
+                   AbsoluteLayout.LayoutBounds="0.5,0.5,300,350" AbsoluteLayout.LayoutFlags="PositionProportional">
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <Image x:Name="CloseFeedback" Source="close" WidthRequest="30" HeightRequest="30" HorizontalOptions="End"/>
+                    <Label Text="Thank you for helping us improve the app!" FontSize="Large"/>
+                    <Label Text="Please be specific when describing the issue:" FontSize="Medium"/>
+                    <Editor x:Name="FeedbackEditor" BackgroundColor="White" VerticalOptions="FillAndExpand" Margin="0,15,0,0"/>
+                    <Label x:Name="FeedbackError" TextColor="Red" IsVisible="False"/>
+                    <Button x:Name="btnSendFeedback" Text="Send" Clicked="ClickSendFeedback" FontSize="Large" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

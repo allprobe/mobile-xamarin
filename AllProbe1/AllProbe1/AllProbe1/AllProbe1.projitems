@@ -31,8 +31,8 @@
       <DependentUpon>CodeAnalyze.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Views\EmailPopup.xaml.cs">
-      <DependentUpon>EmailPopup.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\EmailReport.xaml.cs">
+      <DependentUpon>EmailReport.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\EventsViewPage.xaml.cs">
@@ -99,7 +99,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\EmailPopup.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\EmailReport.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

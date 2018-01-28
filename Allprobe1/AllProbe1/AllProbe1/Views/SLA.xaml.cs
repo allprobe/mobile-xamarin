@@ -27,6 +27,7 @@ namespace AllProbe1.Views
 
             ///URL (page header) title:
             lblURL.Text = webSite;
+            lblURL.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => DisplayAlert("Full URL:", webSite, "ok")) });
 
             ///SLA average logic:
             List<double> AverageItems = new List<double>();

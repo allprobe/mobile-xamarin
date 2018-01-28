@@ -218,12 +218,11 @@ namespace AllProbe1.Services
                             .SetColor(Convert.ToInt32(0x00FFFFFF))//Background notification icon color = Transparent
                             .SetOnlyAlertOnce(true)
                             .SetWhen(JavaSystem.CurrentTimeMillis())
-                            //.SetLargeIcon(BitmapFactory.DecodeResource(Application.Context.Resources, Resource.Drawable.allProbe))
+                            .SetLargeIcon(BitmapFactory.DecodeResource(Application.Context.Resources, Resource.Drawable.allProbe))
                             .SetShowWhen(true)
                             .SetAutoCancel(true)
-                            .SetNumber(number)
-                            .SetBadgeIconType(NotificationCompat.BadgeIconNone);
-
+                            .SetNumber(number);
+                            //.SetBadgeIconType(NotificationCompat.BadgeIconNone);
 
             /// Build the notification:
             Notification notification = builder.Build();

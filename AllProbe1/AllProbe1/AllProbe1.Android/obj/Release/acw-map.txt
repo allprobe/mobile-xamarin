@@ -6,10 +6,6 @@ AllProbe1.Droid.MainActivity, AllProbe;md56985134800bb0ab234e8cc4f7d8ff278.MainA
 AllProbe1.Droid.MainActivity, AllProbe, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56985134800bb0ab234e8cc4f7d8ff278.MainActivity
 AllProbe1.Droid.MainActivity;md56985134800bb0ab234e8cc4f7d8ff278.MainActivity
 allprobe1.droid.MainActivity;md56985134800bb0ab234e8cc4f7d8ff278.MainActivity
-Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer, Rg.Plugins.Popup.Droid;md5d3faaefeebcb93e0145f431f44dc199e.PopupPageRenderer
-Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer, Rg.Plugins.Popup.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3faaefeebcb93e0145f431f44dc199e.PopupPageRenderer
-Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer;md5d3faaefeebcb93e0145f431f44dc199e.PopupPageRenderer
-rg.plugins.popup.droid.renderers.PopupPageRenderer;md5d3faaefeebcb93e0145f431f44dc199e.PopupPageRenderer
 Android.Support.V4.Widget.SearchViewCompat/IOnCloseListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat+IOnCloseListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat.IOnCloseListenerImplementor;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor

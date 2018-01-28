@@ -15,5 +15,6 @@ namespace AllProbe1.Services
         Task<Dictionary<string, List<WebSitesResultViewModel>>> GetWebSites(string sessionId);
         JObject GetSlaList(string sessionId, List<WebSitesResultViewModel> webSitesList);
         bool PostReport(string email, string webSite, string sessionId);
+        Task<JObject> PostFeedback(string email, string details);
     }
 }

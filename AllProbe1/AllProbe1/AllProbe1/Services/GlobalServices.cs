@@ -216,5 +216,18 @@ namespace AllProbe1.Services
             else
                 return 0;
         }
+
+        public static void SetUserEmailAddress(string EmailAddress)
+        {
+            Xamarin.Forms.Application.Current.Properties["UserEmailAddress"] = EmailAddress;
+        }
+        public static string GetUserEmailAddress()
+        {
+            if (Xamarin.Forms.Application.Current.Properties.ContainsKey("UserEmailAddress"))
+                return Convert.ToString(Xamarin.Forms.Application.Current.Properties["UserEmailAddress"]);
+            else
+                return "AllProbeAppUser@NoMailAddress.detected";
+        }
+
     }
 }

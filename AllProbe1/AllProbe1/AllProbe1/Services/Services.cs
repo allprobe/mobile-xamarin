@@ -24,7 +24,7 @@ namespace AllProbe1.Services
         {
             try
             {
-                string url = string.Format("https://api.allprobe.com/v2/wLogin/{0}/{1}/none/1/{2}", email, password, token);
+                string url = string.Format("https://client-api.allprobe.com/v2/wLogin/{0}/{1}/none/1/{2}", email, password, token);
 
                 var obj = PostAuthentication(url);
                 return ParseLoginJSON(obj);
@@ -39,7 +39,7 @@ namespace AllProbe1.Services
         {
             try
             {
-                string url = string.Format("https://api.allprobe.com/v2/wLogin/{0}/{1}/none/2/{2}", email, id, token);
+                string url = string.Format("https://client-api.allprobe.com/v2/wLogin/{0}/{1}/none/2/{2}", email, id, token);
 
                 var obj = PostAuthentication(url);
                 return ParseLoginJSON(obj);
@@ -95,7 +95,7 @@ namespace AllProbe1.Services
         {
             if (sessionId == null)
                 return null;
-            string url = string.Format("https://api.allprobe.com/v2/GetUserLiveEvents/{0}/{1}", sessionId, token);
+            string url = string.Format("https://client-api.allprobe.com/v2/GetUserLiveEvents/{0}/{1}", sessionId, token);
 
             JArray obj = await GetJson(url);
             if (obj.HasValues)
@@ -108,7 +108,7 @@ namespace AllProbe1.Services
         {
             if (sessionId == null)
                 return null;
-            string url = string.Format("https://api.allprobe.com/v2/GetUserWebsites/{0}/{1}", sessionId, token);
+            string url = string.Format("https://client-api.allprobe.com/v2/GetUserWebsites/{0}/{1}", sessionId, token);
 
             JObject obj = await PostJson(url);
             if (obj == null)
@@ -221,7 +221,7 @@ namespace AllProbe1.Services
         {
             try
             {
-                string url = string.Format("https://api.allprobe.com/v2/GetUserWebsitesSla/{0}/{1}", sessionId, token);
+                string url = string.Format("https://client-api.allprobe.com/v2/GetUserWebsitesSla/{0}/{1}", sessionId, token);
                 string jsonObject = GetRunnables(webSitesList);
 
                 var content = new StringContent(jsonObject.ToString(), Encoding.UTF8, "application/json");
@@ -243,7 +243,7 @@ namespace AllProbe1.Services
 
         public bool PostReport(string email, string webSite, string sessionId)
         {
-            string url = string.Format("https://api.allprobe.com/v2/SendApplicationReport/{0}/{1}", sessionId, token);
+            string url = string.Format("https://client-api.allprobe.com/v2/SendApplicationReport/{0}/{1}", sessionId, token);
             var json = new JObject();
             json.Add("email", email);
             json.Add("webSite", webSite);
@@ -262,6 +262,29 @@ namespace AllProbe1.Services
             var responseBody = result.Content.ReadAsStringAsync();
             string resultString = responseBody.Result;
             return resultString.IndexOf("true") > -1;
+        }
+
+        public async Task<JObject> PostFeedback(string email, string details)
+        {
+            string url = string.Format("https://client-api.allprobe.com/v2/wGeneral/contact/{0}", token);
+            string fullname = "Android App";
+            string topic="Android InApp feedback";
+            var json = new JObject();
+            json.Add("email", email);
+            json.Add("fullname", fullname);
+            json.Add("topic", topic);
+            json.Add("details", details);
+
+            var content = new StringContent(json.ToString(), Encoding.UTF8, "application/json");
+            HttpClient httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+            var result = await httpClient.PostAsync(url, content);
+
+            result.EnsureSuccessStatusCode();
+            var responseBody = result.Content.ReadAsStringAsync();
+            string resultString = responseBody.Result;
+            return JObject.Parse(resultString);
         }
 
         private string GetRunnables(List<WebSitesResultViewModel> webSitesList)

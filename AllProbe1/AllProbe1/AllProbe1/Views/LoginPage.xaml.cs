@@ -154,6 +154,7 @@ namespace AllProbe1.Views
                     return;
                 }
 
+                GlobalServices.SetUserEmailAddress(email);
                 sessionId = services.Login(email, password);
                 AfterLogin(sessionId);
             }

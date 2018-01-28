@@ -3,15 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AllProbe1.Views.CodeAnalyze"
              BackgroundColor="White">
-    <RelativeLayout>
-        <Label x:Name="lblURL"
-               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
-               BackgroundColor="{StaticResource Primary}" TextColor="#ff00bfff" FontSize="Medium"
-               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-        <Label Text="Feature is not available yet.&#x0a;&#x0a;Please check in future releases!"
-               HorizontalTextAlignment="Center"
-               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
-               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.45}"/>
-    </RelativeLayout>
+        <ContentView Grid.Row="0"
+                     BackgroundColor="#dadada">
+            <Label x:Name="lblURL" LineBreakMode="TailTruncation"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="3,3,3,3"
+               BackgroundColor="Transparent" TextColor="#ff00bfff" FontSize="Medium"/>
+        </ContentView>
+        <Label Grid.Row="1"
+               Text="Feature is not available yet.&#x0a;&#x0a;Please check in future releases!"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+    </Grid>
 </ContentPage>

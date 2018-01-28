@@ -22,8 +22,10 @@ namespace AllProbe1.ViewModels
         {
             get
             {
-                if(ResposeTime>1000)
-                    return string.Format("{0:0.00} sec", (double)ResposeTime/1000);
+                if (ResposeTime == null)
+                    return string.Format("No Response");
+                else if (ResposeTime > 1000)
+                    return string.Format("{0:0.00} sec", (double)ResposeTime / 1000);
                 else
                     return string.Format("{0} ms", ResposeTime);
             }

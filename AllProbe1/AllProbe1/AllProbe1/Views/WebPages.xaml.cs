@@ -7,6 +7,7 @@ using Android.Content;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using System.ComponentModel;
@@ -154,11 +155,11 @@ namespace AllProbe1.Views
         }
 
         void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
-           => ((ListView)sender).SelectedItem = null;
+            => ((ListView)sender).SelectedItem = null;
 
         void Handle_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            if (e.SelectedItem == null)
+            if (((ListView)sender).SelectedItem == null)
                 return;
 
             try
@@ -172,6 +173,7 @@ namespace AllProbe1.Views
                 var parentPage = this.Parent as TabbedPage;
                 var websitepage = new WebSiteInfo(webSite, webSiteResult);
                 parentPage.Children.Add(websitepage);
+                //parentPage.SelectedItem.Equals(websitepage);
                 parentPage.CurrentPage = websitepage;
 
                 //Deselect Item
@@ -179,17 +181,20 @@ namespace AllProbe1.Views
             }
             catch
             {
+                ((ListView)sender).SelectedItem = null;
                 DisplayAlert("Oops!", "We can't do that action now.\nPlease try again later.", "OK");
             }
         }
 
-        private void ClickSendReport(object sender, EventArgs e)
+        private async void ClickSendReport(object sender, EventArgs e)
         {
             string webSite = ((WebSitesViewModel)((Button)sender).BindingContext).WebSite;
             List<WebSitesResultViewModel> webSiteResult = webSites[webSite];
 
-            var popupPage = new EmailPopup(webSite);
-            Navigation.PushModalAsync(popupPage);
+            var popupPage = new EmailReport(webSite);
+            //await popupPage.ScaleTo(1,2000,Easing.BounceIn);
+            await Navigation.PushModalAsync(popupPage);
+            //await Rg.Plugins.Popup.Services.PopupNavigation.Instance.PushAsync(popupPage);
         }
 
         public Dictionary<string, List<WebSitesResultViewModel>> GetCachedWebSites()

@@ -1,738 +1,3 @@
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\com.adcd.AllProbe.apk
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\com.adcd.AllProbe-Signed.apk
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\FormsViewGroup.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Newtonsoft.Json.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.Design.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v4.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\FormsViewGroup.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\FormsViewGroup.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Newtonsoft.Json.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.App.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.LoginPage.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.EventsViewPage.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\bin\com.adcd.AllProbe.apk
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\layout\tabbar.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\layout\toolbar.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\values\styles.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\slideout.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\profile_generic.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\profile_generic.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\profile_generic.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\profile_generic.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\profile_generic.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\logo.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\R.cs.flag
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\uploadflags.txt
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Java.Interop.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Microsoft.CSharp.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Mono.Android.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Mono.CSharp.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\mscorlib.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\System.Core.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\System.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\System.IO.Compression.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\System.Net.Http.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\System.Numerics.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\System.Runtime.Serialization.Primitives.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\System.Xml.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\System.Xml.Linq.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\AllProbe.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Badge.Plugin.Abstractions.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Badge.Plugin.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Java.Interop.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Mono.CSharp.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\mscorlib.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\System.Core.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\System.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\System.IO.Compression.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\System.Numerics.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\System.Xml.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Android.csprojResolveAssemblyReference.cache
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\com.adcd.AllProbe.apk
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\com.adcd.AllProbe-Signed.apk
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\FormsViewGroup.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Newtonsoft.Json.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Rg.Plugins.Popup.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Rg.Plugins.Popup.Droid.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Rg.Plugins.Popup.Platform.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.Design.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v4.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\FormsViewGroup.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Newtonsoft.Json.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.App.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.LoginPage.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.EventsViewPage.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.MainPage.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.WebPages.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.WebSiteInfo.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.EmailPopup.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.Settings.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\bin\com.adcd.AllProbe.apk
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ad.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ae.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\af.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ag.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ai.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\al.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\il.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\in.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\iq.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ir.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\is.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\it.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\je.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\jm.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\jo.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\jp.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ke.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kg.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kh.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ki.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\km.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kp.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kr.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kw.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ky.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kz.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\la.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lb.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lc.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\li.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lk.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lr.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ls.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lt.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lu.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lv.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ly.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ma.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mc.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\md.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\me.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mg.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mh.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mk.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ml.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mm.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mn.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mo.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mr.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ms.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mt.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mu.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mv.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mw.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mx.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\my.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mz.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\na.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\nc.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ne.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ng.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ni.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\nl.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\no.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\np.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\nr.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\nz.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\om.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pa.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pg.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ph.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pk.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pl.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pr.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ps.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pt.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pw.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\py.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\qa.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\re.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ro.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\rs.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ru.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\rw.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sa.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sb.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sc.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sd.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\se.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sg.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\si.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sk.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sl.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sm.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sn.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\so.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sr.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\st.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sv.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sy.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sz.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tc.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\td.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tg.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\th.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tj.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tm.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tn.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\to.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tr.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tt.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tv.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tw.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tz.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ua.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ug.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\us.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\uy.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\uz.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\va.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ve.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\vn.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\vu.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ws.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\xk.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ye.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\za.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\zm.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\zw.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\layout\tabbar.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\layout\toolbar.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\values\styles.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\profile_generic.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\profile_generic.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\profile_generic.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\profile_generic.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\profile_generic.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\allprobe.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\logo.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\values\strings.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\values\colors.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ie.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ec.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ee.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\eg.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\eh.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\er.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\es.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\et.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\fi.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\fj.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\fm.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\fo.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\fr.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ga.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gb.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gd.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ge.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gg.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gh.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gi.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gl.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gm.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gn.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gq.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gr.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gt.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gu.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gw.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gy.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\hk.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\hn.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\hr.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ht.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\hu.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\id.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bw.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\am.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\an.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ao.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\aq.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ar.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\as.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\at.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\au.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\aw.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\az.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ba.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bb.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bd.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\be.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bf.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bg.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bh.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bi.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bj.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bm.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bn.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bo.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\br.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bs.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bt.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\by.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bz.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ca.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cf.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ch.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ci.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ck.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cl.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cm.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cn.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\co.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cr.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\de.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cu.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cv.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cy.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cz.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\dk.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\dm.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\dj.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\dz.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\settings.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\back.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\logout.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\close.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\R.cs.flag
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\uploadflags.txt
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.EventsAndWebsites.xaml.g.cs
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.CustomTabs.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Android.csproj.CoreCompileInputs.cache
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Android.csprojResolveAssemblyReference.cache
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Auth.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Auth.pdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PCLCrypto.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.BCrypt.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.Kernel32.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.NCrypt.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.Windows.Core.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Validation.dll
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PCLCrypto.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.BCrypt.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.Kernel32.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.NCrypt.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.Windows.Core.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Validation.xml
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Auth.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\loginwithfacebook.png
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\FormsViewGroup.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\AllProbe.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Badge.Plugin.Abstractions.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Badge.Plugin.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Auth.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\oren\Documents\Visual Studio 2017\Projects\AllProbe1\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.pdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\com.adcd.AllProbe.apk
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\com.adcd.AllProbe-Signed.apk
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\FormsViewGroup.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Newtonsoft.Json.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\PCLCrypto.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.BCrypt.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.Kernel32.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.NCrypt.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.Windows.Core.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Rg.Plugins.Popup.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Rg.Plugins.Popup.Droid.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Rg.Plugins.Popup.Platform.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Validation.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.CustomTabs.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.Design.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v4.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Auth.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.pdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.pdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Badge.Plugin.Abstractions.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\FormsViewGroup.pdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\FormsViewGroup.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Newtonsoft.Json.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\PCLCrypto.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.BCrypt.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.Kernel32.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.NCrypt.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.Windows.Core.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Validation.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Auth.pdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Auth.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.pdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Android.csprojResolveAssemblyReference.cache
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Android.csproj.CoreCompileInputs.cache
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.App.xaml.g.cs
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.LoginPage.xaml.g.cs
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.EventsViewPage.xaml.g.cs
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.MainPage.xaml.g.cs
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.WebPages.xaml.g.cs
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.WebSiteInfo.xaml.g.cs
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.EmailPopup.xaml.g.cs
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.Settings.xaml.g.cs
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.CodeAnalyze.xaml.g.cs
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe.dll
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe.pdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\android\bin\com.adcd.AllProbe.apk
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ad.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ae.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\af.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ag.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ai.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\al.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\il.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\in.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\iq.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ir.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\is.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\it.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\je.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\jm.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\jo.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\jp.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ke.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kg.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kh.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ki.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\km.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kp.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kr.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kw.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ky.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\kz.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\la.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lb.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lc.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\li.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lk.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lr.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ls.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lt.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lu.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\lv.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ly.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ma.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mc.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\md.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\me.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mg.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mh.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mk.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ml.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mm.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mn.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mo.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mr.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ms.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mt.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mu.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mv.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mw.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mx.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\my.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\mz.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\na.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\nc.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ne.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ng.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ni.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\nl.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\no.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\np.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\nr.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\nz.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\om.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pa.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pe.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pg.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ph.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pk.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pl.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pr.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ps.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pt.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\pw.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\py.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\qa.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\re.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ro.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\rs.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ru.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\rw.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sa.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sb.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sc.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sd.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\se.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sg.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\si.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sk.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sl.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sm.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sn.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\so.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sr.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\st.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sv.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sy.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\sz.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tc.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\td.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tg.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\th.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tj.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tm.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tn.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\to.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tr.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tt.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tv.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tw.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\tz.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ua.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ug.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\us.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\uy.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\uz.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\va.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ve.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\vn.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\vu.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ws.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\xk.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ye.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\za.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\zm.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\zw.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\layout\tabbar.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\layout\toolbar.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\values\styles.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\profile_generic.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\profile_generic.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\profile_generic.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\profile_generic.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\profile_generic.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\allprobe.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\allprobe.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\allprobe.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\allprobe.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\allprobe.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\allprobe.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\logo.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\values\strings.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\values\colors.xml
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ie.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ec.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ee.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\eg.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\eh.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\er.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\es.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\et.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\fi.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\fj.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\fm.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\fo.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\fr.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ga.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gb.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gd.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ge.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gg.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gh.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gi.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gl.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gm.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gn.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gq.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gr.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gt.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gu.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gw.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\gy.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\hk.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\hn.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\hr.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ht.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\hu.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\id.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bw.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\am.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\an.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ao.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\aq.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ar.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\as.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\at.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\au.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\aw.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\az.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ba.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bb.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bd.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\be.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bf.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bg.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bh.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bi.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bj.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bm.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bn.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bo.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\br.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bs.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bt.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\by.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\bz.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ca.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cf.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ch.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ci.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\ck.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cl.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cm.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cn.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\co.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cr.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\de.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cu.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cv.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cy.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\cz.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\dk.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\dm.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\dj.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\dz.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\settings.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\back.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\logout.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\close.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\loginwithfacebook.png
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\R.cs.flag
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\uploadflags.txt
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\AllProbe.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Badge.Plugin.Abstractions.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Badge.Plugin.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Auth.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.oldSLA.xaml.g.cs
-D:\AllProbe backups\AllProbe1 WebSite Page up&running 11.11.17 - copy\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.SLA.xaml.g.cs
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.dll.config
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.dll
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.pdb
@@ -747,9 +12,6 @@ C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.Kernel32.dll
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.NCrypt.dll
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\PInvoke.Windows.Core.dll
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Rg.Plugins.Popup.dll
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Rg.Plugins.Popup.Droid.dll
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Rg.Plugins.Popup.Platform.dll
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Validation.dll
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Arch.Core.Common.dll
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\Xamarin.Android.Arch.Lifecycle.Common.dll
@@ -808,7 +70,7 @@ C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.MainPage.xaml.g.cs
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.WebPages.xaml.g.cs
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.WebSiteInfo.xaml.g.cs
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.EmailPopup.xaml.g.cs
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.EmailReport.xaml.g.cs
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.More.xaml.g.cs
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.CodeAnalyze.xaml.g.cs
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Droid.Views.SLA.xaml.g.cs
@@ -1049,22 +311,27 @@ C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\logout.png
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\close.png
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable\loginwithfacebook.png
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\icon_events.png
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\icon_events.png
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\icon_events.png
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\icon_events.png
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\icon_events.png
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\icon_more.png
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\icon_more.png
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\icon_more.png
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\icon_more.png
-C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\icon_more.png
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\icon_websites.png
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\icon_websites.png
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\icon_websites.png
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\icon_websites.png
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\icon_websites.png
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\color\tabiconscolors.xml
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\icon_website.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\icon_events.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\icon_events.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\icon_events.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\icon_events.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\icon_events.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\icon_website.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\icon_website.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\icon_website.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\icon_website.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\icon_more.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\icon_more.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\icon_more.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\icon_more.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\icon_more.png
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\R.cs.flag
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\uploadflags.txt
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\AllProbe1.Android.csprojResolveAssemblyReference.cache
@@ -1077,3 +344,47 @@ C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-hdpi\icon_feedback.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-mdpi\icon_feedback.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xhdpi\icon_feedback.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxhdpi\icon_feedback.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\obj\Debug\res\drawable-xxxhdpi\icon_feedback.png
+C:\Users\Magshimim\Documents\AllProbe\AllProbe1\AllProbe1\AllProbe1.Android\bin\Debug\AllProbe.dll
+bin\Debug\Microsoft.CSharp.pdb
+bin\Debug\Mono.Android.pdb
+bin\Debug\mscorlib.pdb
+bin\Debug\System.Core.pdb
+bin\Debug\System.pdb
+bin\Debug\System.IO.Compression.pdb
+bin\Debug\System.Json.pdb
+bin\Debug\System.Net.Http.pdb
+bin\Debug\System.Xml.pdb
+bin\Debug\System.Runtime.Serialization.pdb
+bin\Debug\System.ServiceModel.Internals.pdb
+bin\Debug\System.Numerics.pdb
+bin\Debug\System.Xml.Linq.pdb
+bin\Debug\Mono.Security.pdb
+bin\Debug\System.ComponentModel.Composition.pdb
+obj\Debug\linksrc\AllProbe.dll.mdb
+obj\Debug\linksrc\Badge.Plugin.Abstractions.dll.mdb
+obj\Debug\linksrc\Badge.Plugin.dll.mdb
+obj\Debug\linksrc\FormsViewGroup.dll.mdb
+obj\Debug\linksrc\Xamarin.Auth.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
+obj\Debug\linksrc\Microsoft.CSharp.pdb
+obj\Debug\linksrc\Mono.Android.pdb
+obj\Debug\linksrc\mscorlib.pdb
+obj\Debug\linksrc\System.Core.pdb
+obj\Debug\linksrc\System.pdb
+obj\Debug\linksrc\System.IO.Compression.pdb
+obj\Debug\linksrc\System.Json.pdb
+obj\Debug\linksrc\System.Net.Http.pdb
+obj\Debug\linksrc\System.Xml.pdb
+obj\Debug\linksrc\System.Runtime.Serialization.pdb
+obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+obj\Debug\linksrc\System.Numerics.pdb
+obj\Debug\linksrc\System.Xml.Linq.pdb
+obj\Debug\linksrc\Mono.Security.pdb
+obj\Debug\linksrc\System.ComponentModel.Composition.pdb
